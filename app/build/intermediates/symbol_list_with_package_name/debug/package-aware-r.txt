@@ -3258,8 +3258,10 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id svDonasi
+id tDaftar
 id tDonasiRekomendasi
 id tKategori
+id tMasuk
 id tRekomendasi
 id tRiwayat
 id tUser

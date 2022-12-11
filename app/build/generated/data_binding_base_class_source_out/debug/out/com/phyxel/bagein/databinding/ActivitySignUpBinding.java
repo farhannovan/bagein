@@ -52,6 +52,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final LinearLayout namaPengaju;
 
   @NonNull
+  public final TextView tDaftar;
+
+  @NonNull
   public final RelativeLayout titleBarAktivitasMisi;
 
   @NonNull
@@ -73,9 +76,10 @@ public final class ActivitySignUpBinding implements ViewBinding {
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
       @NonNull LinearLayout ceritaDonasi, @NonNull EditText etCerita,
       @NonNull EditText etNamaDonasi, @NonNull EditText etPengaju, @NonNull LinearLayout namaDonasi,
-      @NonNull LinearLayout namaPengaju, @NonNull RelativeLayout titleBarAktivitasMisi,
-      @NonNull TextView tvCerita, @NonNull TextView tvH1, @NonNull TextView tvH2,
-      @NonNull TextView tvNamaDonasi, @NonNull TextView tvPengaju) {
+      @NonNull LinearLayout namaPengaju, @NonNull TextView tDaftar,
+      @NonNull RelativeLayout titleBarAktivitasMisi, @NonNull TextView tvCerita,
+      @NonNull TextView tvH1, @NonNull TextView tvH2, @NonNull TextView tvNamaDonasi,
+      @NonNull TextView tvPengaju) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnLogin = btnLogin;
@@ -86,6 +90,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.etPengaju = etPengaju;
     this.namaDonasi = namaDonasi;
     this.namaPengaju = namaPengaju;
+    this.tDaftar = tDaftar;
     this.titleBarAktivitasMisi = titleBarAktivitasMisi;
     this.tvCerita = tvCerita;
     this.tvH1 = tvH1;
@@ -175,6 +180,12 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tDaftar;
+      TextView tDaftar = ViewBindings.findChildViewById(rootView, id);
+      if (tDaftar == null) {
+        break missingId;
+      }
+
       id = R.id.titleBarAktivitasMisi;
       RelativeLayout titleBarAktivitasMisi = ViewBindings.findChildViewById(rootView, id);
       if (titleBarAktivitasMisi == null) {
@@ -212,7 +223,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, btnBack, btnLogin, btnRegis,
-          ceritaDonasi, etCerita, etNamaDonasi, etPengaju, namaDonasi, namaPengaju,
+          ceritaDonasi, etCerita, etNamaDonasi, etPengaju, namaDonasi, namaPengaju, tDaftar,
           titleBarAktivitasMisi, tvCerita, tvH1, tvH2, tvNamaDonasi, tvPengaju);
     }
     String missingId = rootView.getResources().getResourceName(id);

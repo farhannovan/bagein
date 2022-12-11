@@ -178,8 +178,10 @@ id rbrumahibadah
 id riwayatDua
 id riwayatSatu
 id svDonasi
+id tDaftar
 id tDonasiRekomendasi
 id tKategori
+id tMasuk
 id tRekomendasi
 id tRiwayat
 id tUser

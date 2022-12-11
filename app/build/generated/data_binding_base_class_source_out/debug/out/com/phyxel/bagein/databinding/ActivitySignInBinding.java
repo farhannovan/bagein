@@ -46,6 +46,9 @@ public final class ActivitySignInBinding implements ViewBinding {
   public final LinearLayout namaPengaju;
 
   @NonNull
+  public final TextView tMasuk;
+
+  @NonNull
   public final RelativeLayout titleBarAktivitasMisi;
 
   @NonNull
@@ -63,9 +66,9 @@ public final class ActivitySignInBinding implements ViewBinding {
   private ActivitySignInBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
       @NonNull LinearLayout ceritaDonasi, @NonNull EditText etCerita, @NonNull EditText etPengaju,
-      @NonNull LinearLayout namaPengaju, @NonNull RelativeLayout titleBarAktivitasMisi,
-      @NonNull TextView tvCerita, @NonNull TextView tvH1, @NonNull TextView tvH2,
-      @NonNull TextView tvPengaju) {
+      @NonNull LinearLayout namaPengaju, @NonNull TextView tMasuk,
+      @NonNull RelativeLayout titleBarAktivitasMisi, @NonNull TextView tvCerita,
+      @NonNull TextView tvH1, @NonNull TextView tvH2, @NonNull TextView tvPengaju) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnLogin = btnLogin;
@@ -74,6 +77,7 @@ public final class ActivitySignInBinding implements ViewBinding {
     this.etCerita = etCerita;
     this.etPengaju = etPengaju;
     this.namaPengaju = namaPengaju;
+    this.tMasuk = tMasuk;
     this.titleBarAktivitasMisi = titleBarAktivitasMisi;
     this.tvCerita = tvCerita;
     this.tvH1 = tvH1;
@@ -150,6 +154,12 @@ public final class ActivitySignInBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tMasuk;
+      TextView tMasuk = ViewBindings.findChildViewById(rootView, id);
+      if (tMasuk == null) {
+        break missingId;
+      }
+
       id = R.id.titleBarAktivitasMisi;
       RelativeLayout titleBarAktivitasMisi = ViewBindings.findChildViewById(rootView, id);
       if (titleBarAktivitasMisi == null) {
@@ -181,8 +191,8 @@ public final class ActivitySignInBinding implements ViewBinding {
       }
 
       return new ActivitySignInBinding((ConstraintLayout) rootView, btnBack, btnLogin, btnRegis,
-          ceritaDonasi, etCerita, etPengaju, namaPengaju, titleBarAktivitasMisi, tvCerita, tvH1,
-          tvH2, tvPengaju);
+          ceritaDonasi, etCerita, etPengaju, namaPengaju, tMasuk, titleBarAktivitasMisi, tvCerita,
+          tvH1, tvH2, tvPengaju);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
