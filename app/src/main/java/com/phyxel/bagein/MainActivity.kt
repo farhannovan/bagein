@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.phyxel.bagein.aktivitas.AktivitasFragment
+import com.phyxel.bagein.buatdonasi.BuatDonasiFragment
 import com.phyxel.bagein.databinding.ActivityMainBinding
 import com.phyxel.bagein.donasi.DonasiDetailFragment
 import com.phyxel.bagein.donasi.DonasiFragment
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
 
                 R.id.nav_donasi -> replaceFragment(DonasiFragment())
-                R.id.nav_buatdonasi -> replaceFragment(DonasiDetailFragment())
+                R.id.nav_buatdonasi -> replaceFragment(BuatDonasiFragment())
                 R.id.nav_aktivitas -> replaceFragment(AktivitasFragment())
                 R.id.nav_akun -> replaceFragment(AkunFragment())
 

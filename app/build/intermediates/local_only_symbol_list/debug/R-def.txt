@@ -161,13 +161,8 @@ id etUsername
 id fbtnRegis
 id frameLayout
 id ibTambah
-id iv_menu1
-id iv_menu2
-id iv_menu3
 id kategori
 id kategoriPilihan
-id layoutFrame
-id linearLayout
 id mainframe
 id misiHarian
 id misiKolektif
@@ -228,7 +223,6 @@ layout activity_buat_donasi
 layout activity_buat_donasi_form
 layout activity_donasi
 layout activity_donasi_detail
-layout activity_home
 layout activity_main
 layout activity_onboarding
 layout activity_sign_in

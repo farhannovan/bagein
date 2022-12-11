@@ -156,10 +156,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable/donasi2.jpg"
     },
     {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_activity_buat_donasi.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/activity_buat_donasi.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -174,10 +170,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_activity_akun.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/activity_akun.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable_ic_logout.xml.flat",
@@ -230,10 +222,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable_ic_buatdonasi.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable/ic_buatdonasi.xml"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_activity_donasi.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/activity_donasi.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -358,10 +346,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable_ic_notifications.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable/ic_notifications.xml"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_activity_aktivitas.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/activity_aktivitas.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/layout_activity_sign_up.xml.flat",
