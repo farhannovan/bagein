@@ -31,20 +31,21 @@ public final class ActivityOnboardingBinding implements ViewBinding {
   public final ImageView onboardImage;
 
   @NonNull
-  public final TextView tvH2;
+  public final TextView tvOnboardH1;
 
   @NonNull
-  public final TextView tvSelamatDatang;
+  public final TextView tvOnboardH2;
 
   private ActivityOnboardingBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
-      @NonNull ImageView onboardImage, @NonNull TextView tvH2, @NonNull TextView tvSelamatDatang) {
+      @NonNull ImageView onboardImage, @NonNull TextView tvOnboardH1,
+      @NonNull TextView tvOnboardH2) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegis = btnRegis;
     this.onboardImage = onboardImage;
-    this.tvH2 = tvH2;
-    this.tvSelamatDatang = tvSelamatDatang;
+    this.tvOnboardH1 = tvOnboardH1;
+    this.tvOnboardH2 = tvOnboardH2;
   }
 
   @Override
@@ -92,20 +93,20 @@ public final class ActivityOnboardingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvH2;
-      TextView tvH2 = ViewBindings.findChildViewById(rootView, id);
-      if (tvH2 == null) {
+      id = R.id.tvOnboardH1;
+      TextView tvOnboardH1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvOnboardH1 == null) {
         break missingId;
       }
 
-      id = R.id.tvSelamatDatang;
-      TextView tvSelamatDatang = ViewBindings.findChildViewById(rootView, id);
-      if (tvSelamatDatang == null) {
+      id = R.id.tvOnboardH2;
+      TextView tvOnboardH2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvOnboardH2 == null) {
         break missingId;
       }
 
       return new ActivityOnboardingBinding((ConstraintLayout) rootView, btnLogin, btnRegis,
-          onboardImage, tvH2, tvSelamatDatang);
+          onboardImage, tvOnboardH1, tvOnboardH2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

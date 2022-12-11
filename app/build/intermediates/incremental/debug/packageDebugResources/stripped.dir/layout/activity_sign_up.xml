@@ -46,7 +46,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tvSelamatDatang"
+        android:id="@+id/tvSignUpH1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titleBarAktivitasMisi" />
 
     <TextView
-        android:id="@+id/tvH2"
+        android:id="@+id/tvSignUpH2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -73,7 +73,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSelamatDatang" />
+        app:layout_constraintTop_toBottomOf="@id/tvSignUpH1" />
 
     <LinearLayout
         android:id="@+id/email"
@@ -86,7 +86,7 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH2">
+        app:layout_constraintTop_toBottomOf="@id/tvSignUpH2">
 
         <TextView
             android:id="@+id/tvEmail"
@@ -189,24 +189,44 @@
         android:text="Daftar akun"
         android:textAllCaps="false"
         android:textColor="@color/neutral_25"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintBottom_toTopOf="@+id/fbtnRegis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogin"
+    <LinearLayout
+        android:id="@+id/fbtnRegis"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="48dp"
-        android:background="@drawable/btn_secondary_default"
-        android:fontFamily="@font/gsans_medium"
-        android:text="Masuk akun"
-        android:textAllCaps="false"
-        android:textColor="@color/primary_500"
+        android:gravity="center|center_horizontal|center_vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gsanstext_regular"
+            android:text="Sudah punya akun?"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="5dp"
+            android:text="Masuk akun"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_500"
+            android:textSize="14sp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

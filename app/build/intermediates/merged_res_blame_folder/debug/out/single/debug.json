@@ -320,10 +320,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/layout/activity_aktivitas.xml"
     },
     {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_fragment_onboarding.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/fragment_onboarding.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable_btn_chip_active_background.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable/btn_chip_active_background.xml"
     },
@@ -338,10 +334,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/drawable_rbtn_text_selector.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-35:/drawable/rbtn_text_selector.xml"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-33:/layout_activity_onboarding.xml.flat",
-        "source": "com.phyxel.bagein.app-main-35:/layout/activity_onboarding.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-33:/layout_activity_onboarding.xml.flat",
