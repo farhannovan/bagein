@@ -53,7 +53,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
   public final LinearLayout donasiRekomendasi;
 
   @NonNull
-  public final ImageButton ibNotifikasi;
+  public final ImageButton ibTambah;
 
   @NonNull
   public final HorizontalScrollView kategoriPilihan;
@@ -110,7 +110,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
       @NonNull LinearLayout cariDonasi, @NonNull ImageView critical1,
       @NonNull ConstraintLayout donasi, @NonNull LinearLayout donasi1,
       @NonNull LinearLayout donasi2, @NonNull HorizontalScrollView donasiPilihan,
-      @NonNull LinearLayout donasiRekomendasi, @NonNull ImageButton ibNotifikasi,
+      @NonNull LinearLayout donasiRekomendasi, @NonNull ImageButton ibTambah,
       @NonNull HorizontalScrollView kategoriPilihan, @NonNull ScrollView mainframe,
       @NonNull ProgressBar progressBar, @NonNull RadioButton rbkemanusiaan,
       @NonNull RadioButton rbkesehatan, @NonNull RadioButton rblingkungan,
@@ -129,7 +129,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
     this.donasi2 = donasi2;
     this.donasiPilihan = donasiPilihan;
     this.donasiRekomendasi = donasiRekomendasi;
-    this.ibNotifikasi = ibNotifikasi;
+    this.ibTambah = ibTambah;
     this.kategoriPilihan = kategoriPilihan;
     this.mainframe = mainframe;
     this.progressBar = progressBar;
@@ -220,9 +220,9 @@ public final class FragmentDonasiBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ibNotifikasi;
-      ImageButton ibNotifikasi = ViewBindings.findChildViewById(rootView, id);
-      if (ibNotifikasi == null) {
+      id = R.id.ibTambah;
+      ImageButton ibTambah = ViewBindings.findChildViewById(rootView, id);
+      if (ibTambah == null) {
         break missingId;
       }
 
@@ -329,7 +329,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
       }
 
       return new FragmentDonasiBinding((ConstraintLayout) rootView, boost1, cariDonasi, critical1,
-          donasi, donasi1, donasi2, donasiPilihan, donasiRekomendasi, ibNotifikasi, kategoriPilihan,
+          donasi, donasi1, donasi2, donasiPilihan, donasiRekomendasi, ibTambah, kategoriPilihan,
           mainframe, progressBar, rbkemanusiaan, rbkesehatan, rblingkungan, rbmisi, rbpantiasuhan,
           rbrumahibadah, svDonasi, tDonasiRekomendasi, tKategori, tRekomendasi, tUser,
           titleBarDonasi, titleKategori, topUp);

@@ -10,171 +10,260 @@
 9        android:targetSdkVersion="33" />
 9-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-80:19
-12        android:allowBackup="true"
-12-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /Users/farhannovan/.gradle/caches/transforms-3/f6a12936ecbbfb86057ffa1eb980a294/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:extractNativeLibs="false"
-17        android:fullBackupContent="@xml/backup_rules"
-17-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:8:9-54
-18        android:icon="@mipmap/ic_launcher"
-18-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:9:9-43
-19        android:label="@string/app_name"
-19-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:10:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:11:9-54
-21        android:supportsRtl="true"
-21-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:12:9-35
-22        android:theme="@style/Theme.Bagein" >
-22-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
-23        <activity
-23-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
-24            android:name="com.phyxel.bagein.sign.signin.SignUpActivity"
-24-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-55
-25            android:exported="false" >
-25-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
-31            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
-31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-58
-32            android:exported="false" >
-32-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
-33            <meta-data
-33-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-34                android:name="android.app.lib_name"
-34-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-35                android:value="" />
-35-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-36        </activity>
-37        <activity
-37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-35:20
-38            android:name="com.phyxel.bagein.donasi.DonasiActivity"
-38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-50
-39            android:exported="false" >
-39-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-37
-40            <meta-data
-40-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-41                android:name="android.app.lib_name"
-41-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-42                android:value="" />
-42-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-43        </activity>
-44        <activity
-44-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:9-42:20
-45            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
-45-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:37:13-56
-46            android:exported="false" >
-46-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:13-37
-47            <meta-data
-47-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-48                android:name="android.app.lib_name"
-48-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-49                android:value="" />
-49-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-50        </activity>
-51        <activity
-51-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:43:9-49:20
-52            android:name="com.phyxel.bagein.donasi.BuatDonasiActivity"
-52-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:44:13-54
-53            android:exported="false" >
-53-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:45:13-37
-54            <meta-data
-54-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-55                android:name="android.app.lib_name"
-55-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-56                android:value="" />
-56-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-57        </activity>
-58        <activity
-58-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:50:9-56:20
-59            android:name="com.phyxel.bagein.AkunActivity"
-59-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:51:13-41
-60            android:exported="false" >
-60-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:52:13-37
-61            <meta-data
-61-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-62                android:name="android.app.lib_name"
-62-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-63                android:value="" />
-63-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-64        </activity>
-65        <activity
-65-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:57:9-63:20
-66            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
-66-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:58:13-60
-67            android:exported="false" >
-67-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:59:13-37
-68            <meta-data
-68-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-69                android:name="android.app.lib_name"
-69-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-70                android:value="" />
-70-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-71        </activity>
-72        <activity
-72-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:64:9-70:20
-73            android:name="com.phyxel.bagein.aktivitas.AktivitasActivity"
-73-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:13-56
-74            android:exported="false" >
-74-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:66:13-37
-75            <meta-data
-75-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-76                android:name="android.app.lib_name"
-76-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-77                android:value="" />
-77-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-78        </activity>
-79        <activity
-79-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:71:9-79:20
-80            android:name="com.phyxel.bagein.MainActivity"
-80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:72:13-41
-81            android:exported="true" >
-81-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:73:13-36
-82            <intent-filter>
-82-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:74:13-78:29
-83                <action android:name="android.intent.action.MAIN" />
-83-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:75:17-69
-83-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:75:25-66
-84
-85                <category android:name="android.intent.category.LAUNCHER" />
-85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:77:17-77
-85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:77:27-74
-86            </intent-filter>
-87        </activity>
-88
-89        <provider
-89-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-90            android:name="androidx.startup.InitializationProvider"
-90-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-91            android:authorities="com.phyxel.bagein.androidx-startup"
-91-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-92            android:exported="false" >
-92-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-93            <meta-data
-93-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-94-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-95                android:value="androidx.startup" />
-95-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/2b006b17c57462b16e2cc8a306c88464/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-96            <meta-data
-96-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/3d5c8fbfcc275128c3054a6e0262d94c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-97-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/3d5c8fbfcc275128c3054a6e0262d94c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-98                android:value="androidx.startup" />
-98-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/3d5c8fbfcc275128c3054a6e0262d94c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-99        </provider>
-100    </application>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:22-64
+15
+16    <application
+16-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-105:19
+17        android:allowBackup="true"
+17-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] /Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Bagein" >
+28-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
+29        <activity
+29-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
+30            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
+30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-60
+31            android:exported="false" >
+31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
+32            <meta-data
+32-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+33                android:name="android.app.lib_name"
+33-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+34                android:value="" />
+34-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+35        </activity>
+36        <activity
+36-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
+37            android:name="com.phyxel.bagein.aktivitas.AktivitasActivity"
+37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-56
+38            android:exported="false" >
+38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
+39            <meta-data
+39-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:9-37:20
+44            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiActivity"
+44-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:32:13-58
+45            android:exported="false" >
+45-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:33:13-37
+46            <meta-data
+46-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+47                android:name="android.app.lib_name"
+47-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+48                android:value="" />
+48-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+49        </activity>
+50        <activity
+50-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:9-44:20
+51            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiFormActivity"
+51-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:39:13-62
+52            android:exported="false" >
+52-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:40:13-37
+53            <meta-data
+53-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+54                android:name="android.app.lib_name"
+54-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+55                android:value="" />
+55-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+56        </activity>
+57        <activity
+57-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:46:9-52:20
+58            android:name="com.phyxel.bagein.donasi.DonasiActivity"
+58-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:47:13-50
+59            android:exported="false" >
+59-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:48:13-37
+60            <meta-data
+60-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+61                android:name="android.app.lib_name"
+61-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+62                android:value="" />
+62-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+63        </activity>
+64        <activity
+64-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:53:9-59:20
+65            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
+65-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:54:13-56
+66            android:exported="false" >
+66-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:55:13-37
+67            <meta-data
+67-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+68                android:name="android.app.lib_name"
+68-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+69                android:value="" />
+69-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+70        </activity>
+71        <activity
+71-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:61:9-67:20
+72            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
+72-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:62:13-55
+73            android:exported="false" >
+73-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:63:13-37
+74            <meta-data
+74-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+75                android:name="android.app.lib_name"
+75-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+76                android:value="" />
+76-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+77        </activity>
+78        <activity
+78-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:68:9-74:20
+79            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
+79-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:69:13-55
+80            android:exported="false" >
+80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:70:13-37
+81            <meta-data
+81-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+82                android:name="android.app.lib_name"
+82-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+83                android:value="" />
+83-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+84        </activity>
+85        <activity
+85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:76:9-82:20
+86            android:name="com.phyxel.bagein.AkunActivity"
+86-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:77:13-41
+87            android:exported="false" >
+87-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:78:13-37
+88            <meta-data
+88-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+89                android:name="android.app.lib_name"
+89-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+90                android:value="" />
+90-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+91        </activity>
+92        <activity
+92-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:84:9-94:20
+93            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
+93-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:85:13-58
+94            android:exported="true" >
+94-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:86:13-36
+95            <meta-data
+95-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+96                android:name="android.app.lib_name"
+96-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+97                android:value="" />
+97-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+98
+99            <intent-filter>
+99-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:90:13-93:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:91:17-69
+100-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:91:25-66
 101
-102</manifest>
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:92:17-77
+102-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:92:27-74
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:96:9-104:20
+106            android:name="com.phyxel.bagein.MainActivity"
+106-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:97:13-41
+107            android:exported="false" >
+107-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:98:13-37
+108
+109            <!-- <intent-filter> -->
+110            <!-- <action android:name="android.intent.action.MAIN" /> -->
+111
+112
+113            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+114            <!-- </intent-filter> -->
+115        </activity>
+116
+117        <service
+117-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+118            android:name="com.google.firebase.components.ComponentDiscoveryService"
+118-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:29:13-84
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:30:13-37
+121            <meta-data
+121-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+122                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+122-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+124        </service>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+130
+131        <provider
+131-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+132            android:name="com.google.firebase.provider.FirebaseInitProvider"
+132-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+133            android:authorities="com.phyxel.bagein.firebaseinitprovider"
+133-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+134            android:directBootAware="true"
+134-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+135            android:exported="false"
+135-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+136            android:initOrder="100" />
+136-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+141
+142        <provider
+142-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+143            android:name="androidx.startup.InitializationProvider"
+143-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+144            android:authorities="com.phyxel.bagein.androidx-startup"
+144-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+145            android:exported="false" >
+145-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+146            <meta-data
+146-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+147-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+148                android:value="androidx.startup" />
+148-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+149            <meta-data
+149-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+150-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+151                android:value="androidx.startup" />
+151-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+152        </provider>
+153    </application>
+154
+155</manifest>

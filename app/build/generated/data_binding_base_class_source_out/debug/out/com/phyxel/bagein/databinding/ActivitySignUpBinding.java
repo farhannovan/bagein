@@ -34,31 +34,28 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final AppCompatButton btnRegis;
 
   @NonNull
-  public final LinearLayout email;
+  public final LinearLayout ceritaDonasi;
 
   @NonNull
-  public final EditText etEmail;
+  public final EditText etCerita;
 
   @NonNull
-  public final EditText etNama;
+  public final EditText etNamaDonasi;
 
   @NonNull
-  public final EditText etPass;
+  public final EditText etPengaju;
 
   @NonNull
-  public final EditText etUsername;
+  public final LinearLayout namaDonasi;
 
   @NonNull
-  public final LinearLayout nama;
-
-  @NonNull
-  public final LinearLayout password;
+  public final LinearLayout namaPengaju;
 
   @NonNull
   public final RelativeLayout titleBarAktivitasMisi;
 
   @NonNull
-  public final TextView tvEmail;
+  public final TextView tvCerita;
 
   @NonNull
   public final TextView tvH1;
@@ -67,44 +64,34 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final TextView tvH2;
 
   @NonNull
-  public final TextView tvNama;
+  public final TextView tvNamaDonasi;
 
   @NonNull
-  public final TextView tvPass;
-
-  @NonNull
-  public final TextView tvUsername;
-
-  @NonNull
-  public final LinearLayout username;
+  public final TextView tvPengaju;
 
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
-      @NonNull LinearLayout email, @NonNull EditText etEmail, @NonNull EditText etNama,
-      @NonNull EditText etPass, @NonNull EditText etUsername, @NonNull LinearLayout nama,
-      @NonNull LinearLayout password, @NonNull RelativeLayout titleBarAktivitasMisi,
-      @NonNull TextView tvEmail, @NonNull TextView tvH1, @NonNull TextView tvH2,
-      @NonNull TextView tvNama, @NonNull TextView tvPass, @NonNull TextView tvUsername,
-      @NonNull LinearLayout username) {
+      @NonNull LinearLayout ceritaDonasi, @NonNull EditText etCerita,
+      @NonNull EditText etNamaDonasi, @NonNull EditText etPengaju, @NonNull LinearLayout namaDonasi,
+      @NonNull LinearLayout namaPengaju, @NonNull RelativeLayout titleBarAktivitasMisi,
+      @NonNull TextView tvCerita, @NonNull TextView tvH1, @NonNull TextView tvH2,
+      @NonNull TextView tvNamaDonasi, @NonNull TextView tvPengaju) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnLogin = btnLogin;
     this.btnRegis = btnRegis;
-    this.email = email;
-    this.etEmail = etEmail;
-    this.etNama = etNama;
-    this.etPass = etPass;
-    this.etUsername = etUsername;
-    this.nama = nama;
-    this.password = password;
+    this.ceritaDonasi = ceritaDonasi;
+    this.etCerita = etCerita;
+    this.etNamaDonasi = etNamaDonasi;
+    this.etPengaju = etPengaju;
+    this.namaDonasi = namaDonasi;
+    this.namaPengaju = namaPengaju;
     this.titleBarAktivitasMisi = titleBarAktivitasMisi;
-    this.tvEmail = tvEmail;
+    this.tvCerita = tvCerita;
     this.tvH1 = tvH1;
     this.tvH2 = tvH2;
-    this.tvNama = tvNama;
-    this.tvPass = tvPass;
-    this.tvUsername = tvUsername;
-    this.username = username;
+    this.tvNamaDonasi = tvNamaDonasi;
+    this.tvPengaju = tvPengaju;
   }
 
   @Override
@@ -152,45 +139,39 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.email;
-      LinearLayout email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
+      id = R.id.ceritaDonasi;
+      LinearLayout ceritaDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (ceritaDonasi == null) {
         break missingId;
       }
 
-      id = R.id.etEmail;
-      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
-      if (etEmail == null) {
+      id = R.id.etCerita;
+      EditText etCerita = ViewBindings.findChildViewById(rootView, id);
+      if (etCerita == null) {
         break missingId;
       }
 
-      id = R.id.etNama;
-      EditText etNama = ViewBindings.findChildViewById(rootView, id);
-      if (etNama == null) {
+      id = R.id.etNamaDonasi;
+      EditText etNamaDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (etNamaDonasi == null) {
         break missingId;
       }
 
-      id = R.id.etPass;
-      EditText etPass = ViewBindings.findChildViewById(rootView, id);
-      if (etPass == null) {
+      id = R.id.etPengaju;
+      EditText etPengaju = ViewBindings.findChildViewById(rootView, id);
+      if (etPengaju == null) {
         break missingId;
       }
 
-      id = R.id.etUsername;
-      EditText etUsername = ViewBindings.findChildViewById(rootView, id);
-      if (etUsername == null) {
+      id = R.id.namaDonasi;
+      LinearLayout namaDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (namaDonasi == null) {
         break missingId;
       }
 
-      id = R.id.nama;
-      LinearLayout nama = ViewBindings.findChildViewById(rootView, id);
-      if (nama == null) {
-        break missingId;
-      }
-
-      id = R.id.password;
-      LinearLayout password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
+      id = R.id.namaPengaju;
+      LinearLayout namaPengaju = ViewBindings.findChildViewById(rootView, id);
+      if (namaPengaju == null) {
         break missingId;
       }
 
@@ -200,9 +181,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvEmail;
-      TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tvEmail == null) {
+      id = R.id.tvCerita;
+      TextView tvCerita = ViewBindings.findChildViewById(rootView, id);
+      if (tvCerita == null) {
         break missingId;
       }
 
@@ -218,33 +199,21 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvNama;
-      TextView tvNama = ViewBindings.findChildViewById(rootView, id);
-      if (tvNama == null) {
+      id = R.id.tvNamaDonasi;
+      TextView tvNamaDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (tvNamaDonasi == null) {
         break missingId;
       }
 
-      id = R.id.tvPass;
-      TextView tvPass = ViewBindings.findChildViewById(rootView, id);
-      if (tvPass == null) {
-        break missingId;
-      }
-
-      id = R.id.tvUsername;
-      TextView tvUsername = ViewBindings.findChildViewById(rootView, id);
-      if (tvUsername == null) {
-        break missingId;
-      }
-
-      id = R.id.username;
-      LinearLayout username = ViewBindings.findChildViewById(rootView, id);
-      if (username == null) {
+      id = R.id.tvPengaju;
+      TextView tvPengaju = ViewBindings.findChildViewById(rootView, id);
+      if (tvPengaju == null) {
         break missingId;
       }
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, btnBack, btnLogin, btnRegis,
-          email, etEmail, etNama, etPass, etUsername, nama, password, titleBarAktivitasMisi,
-          tvEmail, tvH1, tvH2, tvNama, tvPass, tvUsername, username);
+          ceritaDonasi, etCerita, etNamaDonasi, etPengaju, namaDonasi, namaPengaju,
+          titleBarAktivitasMisi, tvCerita, tvH1, tvH2, tvNamaDonasi, tvPengaju);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

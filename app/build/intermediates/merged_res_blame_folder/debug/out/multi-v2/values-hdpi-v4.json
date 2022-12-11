@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-27:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/dcc135d6c361b8fd204b4fe4785895ad/transformed/appcompat-1.5.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

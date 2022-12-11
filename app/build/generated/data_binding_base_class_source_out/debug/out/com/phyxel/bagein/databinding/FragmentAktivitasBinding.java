@@ -112,7 +112,7 @@ public final class FragmentAktivitasBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btn_misi;
+      id = R.id.btnMisi;
       Button btnMisi = ViewBindings.findChildViewById(rootView, id);
       if (btnMisi == null) {
         break missingId;

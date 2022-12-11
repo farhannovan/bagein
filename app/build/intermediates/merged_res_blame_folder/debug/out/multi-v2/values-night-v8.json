@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/eeae34cf4c0d63dea3f4740b0edc6586/transformed/material-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/b4591f1a0bd3001f8ac083969e19d28d/transformed/material-1.7.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/dcc135d6c361b8fd204b4fe4785895ad/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
