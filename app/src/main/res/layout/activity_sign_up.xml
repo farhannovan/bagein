@@ -75,7 +75,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvH1" />
 
     <LinearLayout
-        android:id="@+id/email"
+        android:id="@+id/namaDonasi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -88,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvH2">
 
         <TextView
-            android:id="@+id/tvEmail"
+            android:id="@+id/tvNamaDonasi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ALAMAT EMAIL"
@@ -96,7 +96,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etNamaDonasi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -109,7 +109,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/username"
+        android:id="@+id/namaPengaju"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -119,10 +119,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email">
+        app:layout_constraintTop_toBottomOf="@id/namaDonasi">
 
         <TextView
-            android:id="@+id/tvUsername"
+            android:id="@+id/tvPengaju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="USERNAME"
@@ -130,7 +130,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etUsername"
+            android:id="@+id/etPengaju"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -143,7 +143,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/password"
+        android:id="@+id/ceritaDonasi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -153,10 +153,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username">
+        app:layout_constraintTop_toBottomOf="@id/namaPengaju">
 
         <TextView
-            android:id="@+id/tvPass"
+            android:id="@+id/tvCerita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="KATA SANDI"
@@ -164,7 +164,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etPass"
+            android:id="@+id/etCerita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
