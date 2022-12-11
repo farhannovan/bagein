@@ -4,12 +4,13 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -19,10 +20,10 @@ import java.lang.String;
 
 public final class FragmentAktivitasBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout aktivitas;
+  public final ConstraintLayout aktivitas;
 
   @NonNull
   public final LinearLayout aktivitasMisi;
@@ -31,13 +32,13 @@ public final class FragmentAktivitasBinding implements ViewBinding {
   public final LinearLayout aktivitasRiwayat;
 
   @NonNull
+  public final Button btnMisi;
+
+  @NonNull
   public final LinearLayout riwayatDua;
 
   @NonNull
   public final LinearLayout riwayatSatu;
-
-  @NonNull
-  public final TextView tKategori;
 
   @NonNull
   public final TextView tRiwayat;
@@ -45,25 +46,34 @@ public final class FragmentAktivitasBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout titleBarAktivitas;
 
-  private FragmentAktivitasBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout aktivitas,
-      @NonNull LinearLayout aktivitasMisi, @NonNull LinearLayout aktivitasRiwayat,
+  @NonNull
+  public final TextView tvAktivitas;
+
+  @NonNull
+  public final TextView tvKebiasaan;
+
+  private FragmentAktivitasBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout aktivitas, @NonNull LinearLayout aktivitasMisi,
+      @NonNull LinearLayout aktivitasRiwayat, @NonNull Button btnMisi,
       @NonNull LinearLayout riwayatDua, @NonNull LinearLayout riwayatSatu,
-      @NonNull TextView tKategori, @NonNull TextView tRiwayat,
-      @NonNull RelativeLayout titleBarAktivitas) {
+      @NonNull TextView tRiwayat, @NonNull RelativeLayout titleBarAktivitas,
+      @NonNull TextView tvAktivitas, @NonNull TextView tvKebiasaan) {
     this.rootView = rootView;
     this.aktivitas = aktivitas;
     this.aktivitasMisi = aktivitasMisi;
     this.aktivitasRiwayat = aktivitasRiwayat;
+    this.btnMisi = btnMisi;
     this.riwayatDua = riwayatDua;
     this.riwayatSatu = riwayatSatu;
-    this.tKategori = tKategori;
     this.tRiwayat = tRiwayat;
     this.titleBarAktivitas = titleBarAktivitas;
+    this.tvAktivitas = tvAktivitas;
+    this.tvKebiasaan = tvKebiasaan;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -88,7 +98,7 @@ public final class FragmentAktivitasBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      FrameLayout aktivitas = (FrameLayout) rootView;
+      ConstraintLayout aktivitas = (ConstraintLayout) rootView;
 
       id = R.id.aktivitasMisi;
       LinearLayout aktivitasMisi = ViewBindings.findChildViewById(rootView, id);
@@ -99,6 +109,12 @@ public final class FragmentAktivitasBinding implements ViewBinding {
       id = R.id.aktivitasRiwayat;
       LinearLayout aktivitasRiwayat = ViewBindings.findChildViewById(rootView, id);
       if (aktivitasRiwayat == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_misi;
+      Button btnMisi = ViewBindings.findChildViewById(rootView, id);
+      if (btnMisi == null) {
         break missingId;
       }
 
@@ -114,12 +130,6 @@ public final class FragmentAktivitasBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tKategori;
-      TextView tKategori = ViewBindings.findChildViewById(rootView, id);
-      if (tKategori == null) {
-        break missingId;
-      }
-
       id = R.id.tRiwayat;
       TextView tRiwayat = ViewBindings.findChildViewById(rootView, id);
       if (tRiwayat == null) {
@@ -132,8 +142,21 @@ public final class FragmentAktivitasBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAktivitasBinding((FrameLayout) rootView, aktivitas, aktivitasMisi,
-          aktivitasRiwayat, riwayatDua, riwayatSatu, tKategori, tRiwayat, titleBarAktivitas);
+      id = R.id.tvAktivitas;
+      TextView tvAktivitas = ViewBindings.findChildViewById(rootView, id);
+      if (tvAktivitas == null) {
+        break missingId;
+      }
+
+      id = R.id.tvKebiasaan;
+      TextView tvKebiasaan = ViewBindings.findChildViewById(rootView, id);
+      if (tvKebiasaan == null) {
+        break missingId;
+      }
+
+      return new FragmentAktivitasBinding((ConstraintLayout) rootView, aktivitas, aktivitasMisi,
+          aktivitasRiwayat, btnMisi, riwayatDua, riwayatSatu, tRiwayat, titleBarAktivitas,
+          tvAktivitas, tvKebiasaan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

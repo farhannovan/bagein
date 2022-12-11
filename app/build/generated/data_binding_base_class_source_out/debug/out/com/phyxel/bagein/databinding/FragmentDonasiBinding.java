@@ -4,7 +4,6 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -17,6 +16,7 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -26,7 +26,7 @@ import java.lang.String;
 
 public final class FragmentDonasiBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final ImageView boost1;
@@ -38,7 +38,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
   public final ImageView critical1;
 
   @NonNull
-  public final FrameLayout donasi;
+  public final ConstraintLayout donasi;
 
   @NonNull
   public final LinearLayout donasi1;
@@ -106,17 +106,18 @@ public final class FragmentDonasiBinding implements ViewBinding {
   @NonNull
   public final LinearLayout topUp;
 
-  private FragmentDonasiBinding(@NonNull FrameLayout rootView, @NonNull ImageView boost1,
-      @NonNull LinearLayout cariDonasi, @NonNull ImageView critical1, @NonNull FrameLayout donasi,
-      @NonNull LinearLayout donasi1, @NonNull LinearLayout donasi2,
-      @NonNull HorizontalScrollView donasiPilihan, @NonNull LinearLayout donasiRekomendasi,
-      @NonNull ImageButton ibNotifikasi, @NonNull HorizontalScrollView kategoriPilihan,
-      @NonNull ScrollView mainframe, @NonNull ProgressBar progressBar,
-      @NonNull RadioButton rbkemanusiaan, @NonNull RadioButton rbkesehatan,
-      @NonNull RadioButton rblingkungan, @NonNull RadioButton rbmisi,
-      @NonNull RadioButton rbpantiasuhan, @NonNull RadioButton rbrumahibadah,
-      @NonNull SearchView svDonasi, @NonNull RelativeLayout tDonasiRekomendasi,
-      @NonNull TextView tKategori, @NonNull TextView tRekomendasi, @NonNull TextView tUser,
+  private FragmentDonasiBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView boost1,
+      @NonNull LinearLayout cariDonasi, @NonNull ImageView critical1,
+      @NonNull ConstraintLayout donasi, @NonNull LinearLayout donasi1,
+      @NonNull LinearLayout donasi2, @NonNull HorizontalScrollView donasiPilihan,
+      @NonNull LinearLayout donasiRekomendasi, @NonNull ImageButton ibNotifikasi,
+      @NonNull HorizontalScrollView kategoriPilihan, @NonNull ScrollView mainframe,
+      @NonNull ProgressBar progressBar, @NonNull RadioButton rbkemanusiaan,
+      @NonNull RadioButton rbkesehatan, @NonNull RadioButton rblingkungan,
+      @NonNull RadioButton rbmisi, @NonNull RadioButton rbpantiasuhan,
+      @NonNull RadioButton rbrumahibadah, @NonNull SearchView svDonasi,
+      @NonNull RelativeLayout tDonasiRekomendasi, @NonNull TextView tKategori,
+      @NonNull TextView tRekomendasi, @NonNull TextView tUser,
       @NonNull RelativeLayout titleBarDonasi, @NonNull RelativeLayout titleKategori,
       @NonNull LinearLayout topUp) {
     this.rootView = rootView;
@@ -150,7 +151,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -193,7 +194,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
         break missingId;
       }
 
-      FrameLayout donasi = (FrameLayout) rootView;
+      ConstraintLayout donasi = (ConstraintLayout) rootView;
 
       id = R.id.donasi1;
       LinearLayout donasi1 = ViewBindings.findChildViewById(rootView, id);
@@ -327,7 +328,7 @@ public final class FragmentDonasiBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDonasiBinding((FrameLayout) rootView, boost1, cariDonasi, critical1,
+      return new FragmentDonasiBinding((ConstraintLayout) rootView, boost1, cariDonasi, critical1,
           donasi, donasi1, donasi2, donasiPilihan, donasiRekomendasi, ibNotifikasi, kategoriPilihan,
           mainframe, progressBar, rbkemanusiaan, rbkesehatan, rblingkungan, rbmisi, rbpantiasuhan,
           rbrumahibadah, svDonasi, tDonasiRekomendasi, tKategori, tRekomendasi, tUser,

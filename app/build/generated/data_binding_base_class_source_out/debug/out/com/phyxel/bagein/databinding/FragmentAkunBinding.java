@@ -4,9 +4,9 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.phyxel.bagein.R;
 import java.lang.NullPointerException;
@@ -14,19 +14,19 @@ import java.lang.Override;
 
 public final class FragmentAkunBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout akun;
+  public final ConstraintLayout akun;
 
-  private FragmentAkunBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout akun) {
+  private FragmentAkunBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout akun) {
     this.rootView = rootView;
     this.akun = akun;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -51,8 +51,8 @@ public final class FragmentAkunBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    FrameLayout akun = (FrameLayout) rootView;
+    ConstraintLayout akun = (ConstraintLayout) rootView;
 
-    return new FragmentAkunBinding((FrameLayout) rootView, akun);
+    return new FragmentAkunBinding((ConstraintLayout) rootView, akun);
   }
 }

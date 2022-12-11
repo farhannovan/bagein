@@ -4,7 +4,6 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -14,6 +13,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -23,10 +23,13 @@ import java.lang.String;
 
 public final class FragmentDonasiDetailBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout donasiDetail;
+  public final ImageButton btnBack;
+
+  @NonNull
+  public final ConstraintLayout donasiDetail;
 
   @NonNull
   public final LinearLayout donasiDetailButton;
@@ -44,9 +47,6 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
   public final LinearLayout donasiDetailMain;
 
   @NonNull
-  public final ImageButton ibBack;
-
-  @NonNull
   public final ScrollView mainframe;
 
   @NonNull
@@ -58,20 +58,21 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout titleBarDonasiDetail;
 
-  private FragmentDonasiDetailBinding(@NonNull FrameLayout rootView,
-      @NonNull FrameLayout donasiDetail, @NonNull LinearLayout donasiDetailButton,
-      @NonNull LinearLayout donasiDetailCerita, @NonNull ImageView donasiDetailImage,
-      @NonNull LinearLayout donasiDetailJumlah, @NonNull LinearLayout donasiDetailMain,
-      @NonNull ImageButton ibBack, @NonNull ScrollView mainframe, @NonNull ProgressBar progressBar,
-      @NonNull TextView tUser, @NonNull RelativeLayout titleBarDonasiDetail) {
+  private FragmentDonasiDetailBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton btnBack, @NonNull ConstraintLayout donasiDetail,
+      @NonNull LinearLayout donasiDetailButton, @NonNull LinearLayout donasiDetailCerita,
+      @NonNull ImageView donasiDetailImage, @NonNull LinearLayout donasiDetailJumlah,
+      @NonNull LinearLayout donasiDetailMain, @NonNull ScrollView mainframe,
+      @NonNull ProgressBar progressBar, @NonNull TextView tUser,
+      @NonNull RelativeLayout titleBarDonasiDetail) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
     this.donasiDetail = donasiDetail;
     this.donasiDetailButton = donasiDetailButton;
     this.donasiDetailCerita = donasiDetailCerita;
     this.donasiDetailImage = donasiDetailImage;
     this.donasiDetailJumlah = donasiDetailJumlah;
     this.donasiDetailMain = donasiDetailMain;
-    this.ibBack = ibBack;
     this.mainframe = mainframe;
     this.progressBar = progressBar;
     this.tUser = tUser;
@@ -80,7 +81,7 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -105,7 +106,13 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      FrameLayout donasiDetail = (FrameLayout) rootView;
+      id = R.id.btnBack;
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
+      ConstraintLayout donasiDetail = (ConstraintLayout) rootView;
 
       id = R.id.donasiDetailButton;
       LinearLayout donasiDetailButton = ViewBindings.findChildViewById(rootView, id);
@@ -137,12 +144,6 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ibBack;
-      ImageButton ibBack = ViewBindings.findChildViewById(rootView, id);
-      if (ibBack == null) {
-        break missingId;
-      }
-
       id = R.id.mainframe;
       ScrollView mainframe = ViewBindings.findChildViewById(rootView, id);
       if (mainframe == null) {
@@ -167,9 +168,9 @@ public final class FragmentDonasiDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDonasiDetailBinding((FrameLayout) rootView, donasiDetail,
+      return new FragmentDonasiDetailBinding((ConstraintLayout) rootView, btnBack, donasiDetail,
           donasiDetailButton, donasiDetailCerita, donasiDetailImage, donasiDetailJumlah,
-          donasiDetailMain, ibBack, mainframe, progressBar, tUser, titleBarDonasiDetail);
+          donasiDetailMain, mainframe, progressBar, tUser, titleBarDonasiDetail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

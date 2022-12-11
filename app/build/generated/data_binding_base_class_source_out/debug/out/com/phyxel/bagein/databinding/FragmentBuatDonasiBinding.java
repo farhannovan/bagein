@@ -4,9 +4,9 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.phyxel.bagein.R;
 import java.lang.NullPointerException;
@@ -14,20 +14,20 @@ import java.lang.Override;
 
 public final class FragmentBuatDonasiBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout buatDonasi;
+  public final ConstraintLayout buatDonasi;
 
-  private FragmentBuatDonasiBinding(@NonNull FrameLayout rootView,
-      @NonNull FrameLayout buatDonasi) {
+  private FragmentBuatDonasiBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout buatDonasi) {
     this.rootView = rootView;
     this.buatDonasi = buatDonasi;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -52,8 +52,8 @@ public final class FragmentBuatDonasiBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    FrameLayout buatDonasi = (FrameLayout) rootView;
+    ConstraintLayout buatDonasi = (ConstraintLayout) rootView;
 
-    return new FragmentBuatDonasiBinding((FrameLayout) rootView, buatDonasi);
+    return new FragmentBuatDonasiBinding((ConstraintLayout) rootView, buatDonasi);
   }
 }

@@ -4,12 +4,12 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -19,7 +19,7 @@ import java.lang.String;
 
 public final class FragmentOnboardingBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final AppCompatButton btnLogin;
@@ -31,26 +31,25 @@ public final class FragmentOnboardingBinding implements ViewBinding {
   public final ImageView onboardImage;
 
   @NonNull
-  public final TextView onboardParagraph;
+  public final TextView tvH1;
 
   @NonNull
-  public final TextView onboardTitle;
+  public final TextView tvH2;
 
-  private FragmentOnboardingBinding(@NonNull FrameLayout rootView,
+  private FragmentOnboardingBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
-      @NonNull ImageView onboardImage, @NonNull TextView onboardParagraph,
-      @NonNull TextView onboardTitle) {
+      @NonNull ImageView onboardImage, @NonNull TextView tvH1, @NonNull TextView tvH2) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegis = btnRegis;
     this.onboardImage = onboardImage;
-    this.onboardParagraph = onboardParagraph;
-    this.onboardTitle = onboardTitle;
+    this.tvH1 = tvH1;
+    this.tvH2 = tvH2;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -93,20 +92,20 @@ public final class FragmentOnboardingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.onboardParagraph;
-      TextView onboardParagraph = ViewBindings.findChildViewById(rootView, id);
-      if (onboardParagraph == null) {
+      id = R.id.tvH1;
+      TextView tvH1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvH1 == null) {
         break missingId;
       }
 
-      id = R.id.onboardTitle;
-      TextView onboardTitle = ViewBindings.findChildViewById(rootView, id);
-      if (onboardTitle == null) {
+      id = R.id.tvH2;
+      TextView tvH2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvH2 == null) {
         break missingId;
       }
 
-      return new FragmentOnboardingBinding((FrameLayout) rootView, btnLogin, btnRegis, onboardImage,
-          onboardParagraph, onboardTitle);
+      return new FragmentOnboardingBinding((ConstraintLayout) rootView, btnLogin, btnRegis,
+          onboardImage, tvH1, tvH2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

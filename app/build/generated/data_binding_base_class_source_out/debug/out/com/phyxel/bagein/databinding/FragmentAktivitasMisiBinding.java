@@ -4,13 +4,13 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -20,13 +20,13 @@ import java.lang.String;
 
 public final class FragmentAktivitasMisiBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout aktivitasMisi;
+  public final ConstraintLayout aktivitasSignin;
 
   @NonNull
-  public final ImageButton ibBack;
+  public final ImageButton btnBack;
 
   @NonNull
   public final LinearLayout misiHarian;
@@ -40,13 +40,13 @@ public final class FragmentAktivitasMisiBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout titleBarAktivitasMisi;
 
-  private FragmentAktivitasMisiBinding(@NonNull FrameLayout rootView,
-      @NonNull FrameLayout aktivitasMisi, @NonNull ImageButton ibBack,
+  private FragmentAktivitasMisiBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout aktivitasSignin, @NonNull ImageButton btnBack,
       @NonNull LinearLayout misiHarian, @NonNull LinearLayout misiKolektif,
       @NonNull TextView textView2, @NonNull RelativeLayout titleBarAktivitasMisi) {
     this.rootView = rootView;
-    this.aktivitasMisi = aktivitasMisi;
-    this.ibBack = ibBack;
+    this.aktivitasSignin = aktivitasSignin;
+    this.btnBack = btnBack;
     this.misiHarian = misiHarian;
     this.misiKolektif = misiKolektif;
     this.textView2 = textView2;
@@ -55,7 +55,7 @@ public final class FragmentAktivitasMisiBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -80,11 +80,11 @@ public final class FragmentAktivitasMisiBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      FrameLayout aktivitasMisi = (FrameLayout) rootView;
+      ConstraintLayout aktivitasSignin = (ConstraintLayout) rootView;
 
-      id = R.id.ibBack;
-      ImageButton ibBack = ViewBindings.findChildViewById(rootView, id);
-      if (ibBack == null) {
+      id = R.id.btnBack;
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
         break missingId;
       }
 
@@ -112,7 +112,7 @@ public final class FragmentAktivitasMisiBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAktivitasMisiBinding((FrameLayout) rootView, aktivitasMisi, ibBack,
+      return new FragmentAktivitasMisiBinding((ConstraintLayout) rootView, aktivitasSignin, btnBack,
           misiHarian, misiKolektif, textView2, titleBarAktivitasMisi);
     }
     String missingId = rootView.getResources().getResourceName(id);

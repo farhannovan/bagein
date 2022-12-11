@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/farhannovan/.gradle/caches/transforms-3/0238c00e03c3465ff25bd9f42904399f/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gradle/caches/transforms-3/eeae34cf4c0d63dea3f4740b0edc6586/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/farhannovan/.gradle/caches/transforms-3/0a2ad1614023eb30ae220263e6d4ab15/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -45,27 +45,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/farhannovan/.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/804627df385a6fb0371e22edf1a6b00c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/b33f46ec6a7fd8c2f7bf7faa9110adda/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/601b00035553dc5cd715343410d12688/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-80:19
 MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gradle/caches/transforms-3/eeae34cf4c0d63dea3f4740b0edc6586/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gradle/caches/transforms-3/eeae34cf4c0d63dea3f4740b0edc6586/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/farhannovan/.gradle/caches/transforms-3/0a2ad1614023eb30ae220263e6d4ab15/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -100,28 +100,76 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/farhannovan/.gradle/
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.phyxel.bagein.DetailDonasiActivity
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-17:40
+activity#com.phyxel.bagein.sign.signin.SignUpActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-49
-activity#com.phyxel.bagein.MainActivity
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:9-26:20
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-55
+meta-data#android.app.lib_name
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+	android:value
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+activity#com.phyxel.bagein.onboarding.OnboardingActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:exported
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-58
+activity#com.phyxel.bagein.donasi.DonasiActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-35:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-50
+activity#com.phyxel.bagein.donasi.DonasiDetailActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:9-42:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:37:13-56
+activity#com.phyxel.bagein.donasi.BuatDonasiActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:43:9-49:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:44:13-54
+activity#com.phyxel.bagein.AkunActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:50:9-56:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:51:13-41
+activity#com.phyxel.bagein.aktivitas.AktivitasMisiActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:57:9-63:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:58:13-60
+activity#com.phyxel.bagein.aktivitas.AktivitasActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:64:9-70:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:13-56
+activity#com.phyxel.bagein.MainActivity
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:71:9-79:20
+	android:exported
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:72:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:74:13-78:29
 action#android.intent.action.MAIN
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:75:17-69
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:75:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:77:17-77
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:77:27-74
 uses-sdk
 INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
