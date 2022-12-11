@@ -18,7 +18,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <TextView
+            android:id="@+id/tvAktivitas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -41,8 +43,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center">
+
             <TextView
-                android:id="@+id/tKategori"
+                android:id="@+id/tvKebiasaan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -51,7 +54,9 @@
                 android:text="Bangun kebiasaan baikmu"
                 android:textColor="@color/neutral_900"
                 android:textSize="16sp" />
+
             <Button
+                android:id="@+id/btn_misi"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
