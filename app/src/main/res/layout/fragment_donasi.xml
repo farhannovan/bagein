@@ -7,7 +7,7 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:id="@+id/donasi"
-    tools:context=".DonasiFragment">
+    tools:context=".donasi.DonasiFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

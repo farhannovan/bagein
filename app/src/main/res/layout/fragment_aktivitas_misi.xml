@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/neutral_200"
     android:id="@+id/aktivitas_misi"
-    tools:context=".AktivitasMisiFragment">
+    tools:context=".aktivitas.AktivitasMisiFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
