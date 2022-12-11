@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_donasi"
+        android:icon="@drawable/navbar_donasi_selector"
+        android:title="Donasi" />
+
+    <item
+        android:id="@+id/nav_buatdonasi"
+        android:icon="@drawable/navbar_buat_selector"
+        android:title="Buat Donasi" />
+
+    <item
+        android:id="@+id/nav_aktivitas"
+        android:icon="@drawable/navbar_aktivitas_selector"
+        android:title="Aktivitas" />
+
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/navbar_akun_selector"
+        android:title="Akun" />
+</menu>
