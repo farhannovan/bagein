@@ -3059,12 +3059,16 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_menu1
+id iv_menu2
+id iv_menu3
 id jumpToEnd
 id jumpToStart
 id kategori
 id kategoriPilihan
 id labeled
 id layout
+id layoutFrame
 id left
 id leftToRight
 id legacy
@@ -3072,6 +3076,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id mainframe
@@ -3496,6 +3501,7 @@ layout activity_buat_donasi
 layout activity_buat_donasi_form
 layout activity_donasi
 layout activity_donasi_detail
+layout activity_home
 layout activity_main
 layout activity_onboarding
 layout activity_sign_in
