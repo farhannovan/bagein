@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/onboarding" />
 
     <TextView
-        android:id="@+id/onboardTitle"
+        android:id="@+id/tvH1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -27,12 +27,12 @@
         android:text="Donasi Cepat dan Tepat Sasaran"
         android:textColor="@color/neutral_900"
         android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/onboardParagraph"
+        app:layout_constraintBottom_toTopOf="@+id/tvH2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/onboardParagraph"
+        android:id="@+id/tvH2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

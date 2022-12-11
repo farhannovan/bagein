@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1036535227818",
+    "project_id": "bagein-3240b",
+    "storage_bucket": "bagein-3240b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036535227818:android:00d17da1ebf364fe87f7d3",
+        "android_client_info": {
+          "package_name": "com.phyxel.bagein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036535227818-sh7blbfnr0st7opfj729aslq895qhibn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5J-7F7kQJhQSioUAhrH0JBCet0RLfFEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036535227818-sh7blbfnr0st7opfj729aslq895qhibn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

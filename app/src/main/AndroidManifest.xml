@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Bagein"
         tools:targetApi="31">
         <activity
-            android:name=".sign.signin.SignInActivity"
+            android:name=".sign.signin.SignUpActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

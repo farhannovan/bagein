@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sign.signin.SignInActivity">
+    tools:context=".sign.signup.SignUpActivity">
 
     <RelativeLayout
         android:id="@+id/titleBarAktivitasMisi"
@@ -75,6 +75,74 @@
         app:layout_constraintTop_toBottomOf="@+id/tvH1" />
 
     <LinearLayout
+        android:id="@+id/nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvH2">
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMA LENGKAP"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="password"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nama">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT EMAIL"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="alamatemail@gmail.com"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -85,7 +153,7 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH2">
+        app:layout_constraintTop_toBottomOf="@id/email">
 
         <TextView
             android:id="@+id/tvUsername"
@@ -151,7 +219,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/btn_primary_default"
         android:fontFamily="@font/gsans_medium"
-        android:text="Masuk akun"
+        android:text="Daftar akun"
         android:textAllCaps="false"
         android:textColor="@color/neutral_25"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
@@ -167,7 +235,7 @@
         android:layout_marginBottom="48dp"
         android:background="@drawable/btn_secondary_default"
         android:fontFamily="@font/gsans_medium"
-        android:text="Daftar akun"
+        android:text="Masuk akun"
         android:textAllCaps="false"
         android:textColor="@color/primary_500"
         app:layout_constraintBottom_toBottomOf="parent"
