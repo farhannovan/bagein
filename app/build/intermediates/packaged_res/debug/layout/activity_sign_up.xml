@@ -46,14 +46,14 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tvH1"
+        android:id="@+id/tvSelamatDatang"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/gsans_medium"
-        android:text="Selamat datang kembali!"
+        android:text="Selamat datang!"
         android:textColor="@color/neutral_900"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,15 +68,15 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/gsanstext_regular"
-        android:text="Masuk ke akun Anda menggunakan email dan kata sandi yang telah dibuat"
+        android:text="Buat akun Anda dengan memasukkan informasi yang ada di bawah"
         android:textAlignment="textStart"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH1" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSelamatDatang" />
 
     <LinearLayout
-        android:id="@+id/namaDonasi"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -89,7 +89,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvH2">
 
         <TextView
-            android:id="@+id/tvNamaDonasi"
+            android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ALAMAT EMAIL"
@@ -97,7 +97,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etNamaDonasi"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -110,7 +110,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/namaPengaju"
+        android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -120,10 +120,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/namaDonasi">
+        app:layout_constraintTop_toBottomOf="@id/email">
 
         <TextView
-            android:id="@+id/tvPengaju"
+            android:id="@+id/tvUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="USERNAME"
@@ -131,7 +131,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etPengaju"
+            android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -144,7 +144,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ceritaDonasi"
+        android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -154,10 +154,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/namaPengaju">
+        app:layout_constraintTop_toBottomOf="@id/username">
 
         <TextView
-            android:id="@+id/tvCerita"
+            android:id="@+id/tvPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="KATA SANDI"
@@ -165,7 +165,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etCerita"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"

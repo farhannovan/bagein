@@ -17,7 +17,7 @@
             app:srcCompat="@drawable/onboarding" />
 
         <TextView
-            android:id="@+id/tvH1"
+            android:id="@+id/tvSelamatDatang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"

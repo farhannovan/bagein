@@ -46,7 +46,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tvSelamatDatang"
+        android:id="@+id/tvSignUpH1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titleBarAktivitasMisi" />
 
     <TextView
-        android:id="@+id/tvH2"
+        android:id="@+id/tvSignUpH2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -73,7 +73,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSelamatDatang" />
+        app:layout_constraintTop_toBottomOf="@id/tvSignUpH1" />
 
     <LinearLayout
         android:id="@+id/email"
@@ -86,7 +86,7 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH2">
+        app:layout_constraintTop_toBottomOf="@id/tvSignUpH2">
 
         <TextView
             android:id="@+id/tvEmail"

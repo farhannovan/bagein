@@ -46,7 +46,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tvH1"
+        android:id="@+id/tvHeading1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titleBarAktivitasMisi" />
 
     <TextView
-        android:id="@+id/tvH2"
+        android:id="@+id/tvHeading2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -73,10 +73,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH1" />
+        app:layout_constraintTop_toBottomOf="@id/tvHeading1" />
 
     <LinearLayout
-        android:id="@+id/namaPengaju"
+        android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -86,10 +86,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvH2">
+        app:layout_constraintTop_toBottomOf="@id/tvHeading2">
 
         <TextView
-            android:id="@+id/tvPengaju"
+            android:id="@+id/tvUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="USERNAME"
@@ -97,7 +97,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etPengaju"
+            android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -110,7 +110,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ceritaDonasi"
+        android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -120,10 +120,10 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/namaPengaju">
+        app:layout_constraintTop_toBottomOf="@id/username">
 
         <TextView
-            android:id="@+id/tvCerita"
+            android:id="@+id/tvPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="KATA SANDI"
@@ -131,7 +131,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etCerita"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
@@ -144,7 +144,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnRegis"
+        android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -155,12 +155,12 @@
         android:text="Masuk akun"
         android:textAllCaps="false"
         android:textColor="@color/neutral_25"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintBottom_toTopOf="@id/btnRegis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegis"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

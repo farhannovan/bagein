@@ -31,20 +31,20 @@ public final class ActivityOnboardingBinding implements ViewBinding {
   public final ImageView onboardImage;
 
   @NonNull
-  public final TextView tvH1;
+  public final TextView tvH2;
 
   @NonNull
-  public final TextView tvH2;
+  public final TextView tvSelamatDatang;
 
   private ActivityOnboardingBinding(@NonNull ConstraintLayout rootView,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
-      @NonNull ImageView onboardImage, @NonNull TextView tvH1, @NonNull TextView tvH2) {
+      @NonNull ImageView onboardImage, @NonNull TextView tvH2, @NonNull TextView tvSelamatDatang) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegis = btnRegis;
     this.onboardImage = onboardImage;
-    this.tvH1 = tvH1;
     this.tvH2 = tvH2;
+    this.tvSelamatDatang = tvSelamatDatang;
   }
 
   @Override
@@ -92,20 +92,20 @@ public final class ActivityOnboardingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvH1;
-      TextView tvH1 = ViewBindings.findChildViewById(rootView, id);
-      if (tvH1 == null) {
-        break missingId;
-      }
-
       id = R.id.tvH2;
       TextView tvH2 = ViewBindings.findChildViewById(rootView, id);
       if (tvH2 == null) {
         break missingId;
       }
 
+      id = R.id.tvSelamatDatang;
+      TextView tvSelamatDatang = ViewBindings.findChildViewById(rootView, id);
+      if (tvSelamatDatang == null) {
+        break missingId;
+      }
+
       return new ActivityOnboardingBinding((ConstraintLayout) rootView, btnLogin, btnRegis,
-          onboardImage, tvH1, tvH2);
+          onboardImage, tvH2, tvSelamatDatang);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
