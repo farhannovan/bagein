@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,335 +9,275 @@
     android:focusableInTouchMode="true"
     android:id="@+id/donasi_detail"
     tools:context=".donasi.DonasiDetailFragment">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/neutral_200">
-
-
-        <!--Nama & Notif-->
-        <RelativeLayout
-            android:id="@+id/titleBarDonasiDetail"
-            android:layout_width="0dp"
+    <!--Nama & Notif-->
+    <RelativeLayout
+        android:id="@+id/titleBarDonasiDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/neutral_25"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageButton
+            android:id="@+id/ibBack"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@color/neutral_25"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageButton
-                android:id="@+id/ibBack"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:minWidth="30dp"
-                android:minHeight="30dp"
-                android:scaleType="center"
-                app:srcCompat="@drawable/ic_chevron_backward" />
-
-            <TextView
-                android:id="@+id/tUser"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
-                android:text="Detail"
-                android:textAlignment="center"
-                android:textColor="@color/neutral_900"
-                android:textSize="16sp" />
-
-        </RelativeLayout>
-
-        <!--main frame-->
-        <ScrollView
-            android:id="@+id/mainframe"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:overScrollMode="never"
-            android:scrollbars="none"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titleBarDonasiDetail"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:minWidth="30dp"
+            android:minHeight="30dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_chevron_backward" />
+        <TextView
+            android:id="@+id/tUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Detail"
+            android:textAlignment="center"
+            android:textColor="@color/neutral_900"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <!--main frame-->
+    <ScrollView
+        android:id="@+id/mainframe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBarDonasiDetail"
+        android:background="@color/light_white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:background="@color/light_white">
-
+            <!--gambar-->
+            <ImageView
+                android:id="@+id/donasiDetailImage"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="@drawable/donasi2"
+                android:scaleType="centerCrop" />
             <LinearLayout
+                android:id="@+id/donasiDetailMain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
                 android:orientation="vertical"
-                android:background="@color/light_white">
-
-                <!--gambar-->
-                <ImageView
-                    android:id="@+id/donasiDetailImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="214dp"
-                    android:background="@drawable/donasi2"
-                    android:scaleType="centerCrop" />
-
-                <LinearLayout
-                    android:id="@+id/donasiDetailMain"
-                    android:layout_width="match_parent"
+                android:padding="20dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@color/white"
-                    android:orientation="vertical"
-                    android:padding="20dp">
-
+                    android:layout_marginBottom="20dp">
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp">
-
-                        <RelativeLayout
-                            android:layout_width="230dp"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentStart="true"
-                                android:text="Sedekah Subuh"
-                                android:textColor="@color/neutral_900"
-                                android:textSize="24sp" />
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentEnd="true"
-                                android:layout_centerVertical="true">
-
-                                <android.widget.ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/ic_critical" />
-
-                                <android.widget.ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginStart="4dp"
-                                    android:src="@drawable/ic_boost" />
-                            </LinearLayout>
-
-                        </RelativeLayout>
-
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:text="Sedekah Subuh"
+                            android:textColor="@color/neutral_900"
+                            android:textSize="24sp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:background="@drawable/btn_chip_active_background"
-                            android:paddingLeft="12dp"
-                            android:paddingTop="4dp"
-                            android:paddingRight="12dp"
-                            android:paddingBottom="4dp"
-                            android:text="Kegiatan Sosial"
-                            android:textColor="@color/primary_500"
-                            android:textSize="12sp" />
-
+                            android:layout_centerVertical="true">
+                            <android.widget.ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_critical" />
+                            <android.widget.ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:src="@drawable/ic_boost" />
+                        </LinearLayout>
                     </RelativeLayout>
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_chip_active_background"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="4dp"
+                        android:text="Kegiatan Sosial"
+                        android:textColor="@color/primary_500"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="50dp"
+                        android:height="50dp"
+                        android:background="@color/neutral_600"
+                        android:gravity="center"
+                        android:text="INI GAMBAR"
+                        android:textColor="@color/neutral_900" />
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center_vertical">
-
+                        android:layout_marginStart="20dp"
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:width="50dp"
-                            android:height="50dp"
-                            android:background="@color/neutral_600"
-                            android:gravity="center"
-                            android:text="INI GAMBAR"
-                            android:textColor="@color/neutral_900" />
-
-                        <LinearLayout
+                            android:fontFamily="@font/gsanstext_regular"
+                            android:text="Penggalang Dana"
+                            android:textColor="@color/neutral_600"
+                            android:textSize="14sp" />
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:orientation="vertical">
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/gsanstext_regular"
-                                android:text="Penggalang Dana"
-                                android:textColor="@color/neutral_600"
-                                android:textSize="14sp" />
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/gsanstext_medium"
-                                android:text="Yayasan XYZ"
-                                android:textColor="@color/neutral_900"
-                                android:textSize="18sp" />
-
-                        </LinearLayout>
-
+                            android:fontFamily="@font/gsanstext_medium"
+                            android:text="Yayasan XYZ"
+                            android:textColor="@color/neutral_900"
+                            android:textSize="18sp" />
                     </LinearLayout>
-
                 </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/donasiDetailCerita"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@color/white"
-                    android:orientation="vertical"
-                    android:padding="20dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="15dp"
-                        android:fontFamily="@font/gsanstext_medium"
-                        android:text="Sedekah Subuh"
-                        android:textColor="@color/neutral_900"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/gsanstext_regular"
-                        android:text="Halo #OrangBaik! \n \nSemoga selalu dalam keadaan sehat dan dipenuhi berkah. Temen-teman sudah makan hari ini? Apa makan siang kamu? Asik banget ya kalau kita bisa merasakan makanan yang lezat, pasti kita jadi makin semangat! \n\nNamun tahukah kamu, kalau hal ini belum tentu bisa dirasakan oleh anak-anak yang kurang beruntung. Sebab hidup mereka penuh dengan kesederhanaan, siapa lagi yang peduli kalo bukan #OrangBaik seperti kalian."
-                        android:textColor="@color/neutral_600"
-                        android:textSize="16sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/donasiDetailJumlah"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@color/white"
-                    android:orientation="vertical"
-                    android:padding="20dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Jumlah"
-                        android:textColor="@color/neutral_900"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/gsans_medium"
-                        android:text="Rp158.722.016"
-                        android:textColor="@color/neutral_900"
-                        android:textSize="24sp" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:fontFamily="@font/gsanstext_regular"
-                            android:text="Terkumpul dari Rp500.000.000"
-                            android:textColor="@color/neutral_600"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-
-                    <ProgressBar
-                        android:id="@+id/progressBar"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:progress="60"
-                        android:progressDrawable="@drawable/progressbar_background" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="2dp"
-                                android:text="4.432"
-                                android:textColor="@color/neutral_900"
-                                android:textSize="20sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/gsanstext_regular"
-                                android:text="Donasi"
-                                android:textColor="@color/neutral_600"
-                                android:textSize="12sp" />
-
-                        </LinearLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:fontFamily="@font/gsanstext_regular"
-                            android:gravity="start"
-                            android:text="5 hari lagi"
-                            android:textColor="@color/neutral_600"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/donasiDetailButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp">
-
-                    <android.widget.Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/btn_primary_default"
-                        android:minHeight="48dp"
-                        android:stateListAnimator="@null"
-                        android:text="Donasi Sekarang"
-                        android:textAllCaps="false"
-                        android:textColor="@color/neutral_25"
-                        android:textSize="16sp" />
-                </LinearLayout>
-
             </LinearLayout>
-
-        </ScrollView>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</FrameLayout>
+            <LinearLayout
+                android:id="@+id/donasiDetailCerita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/gsanstext_medium"
+                    android:text="Sedekah Subuh"
+                    android:textColor="@color/neutral_900"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gsanstext_regular"
+                    android:text="Halo #OrangBaik! \n \nSemoga selalu dalam keadaan sehat dan dipenuhi berkah. Temen-teman sudah makan hari ini? Apa makan siang kamu? Asik banget ya kalau kita bisa merasakan makanan yang lezat, pasti kita jadi makin semangat! \n\nNamun tahukah kamu, kalau hal ini belum tentu bisa dirasakan oleh anak-anak yang kurang beruntung. Sebab hidup mereka penuh dengan kesederhanaan, siapa lagi yang peduli kalo bukan #OrangBaik seperti kalian."
+                    android:textColor="@color/neutral_600"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/donasiDetailJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Jumlah"
+                    android:textColor="@color/neutral_900"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gsans_medium"
+                    android:text="Rp158.722.016"
+                    android:textColor="@color/neutral_900"
+                    android:textSize="24sp" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:fontFamily="@font/gsanstext_regular"
+                        android:text="Terkumpul dari Rp500.000.000"
+                        android:textColor="@color/neutral_600"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="60"
+                    android:progressDrawable="@drawable/progressbar_background" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
+                            android:text="4.432"
+                            android:textColor="@color/neutral_900"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gsanstext_regular"
+                            android:text="Donasi"
+                            android:textColor="@color/neutral_600"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/gsanstext_regular"
+                        android:gravity="start"
+                        android:text="5 hari lagi"
+                        android:textColor="@color/neutral_600"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/donasiDetailButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+                <android.widget.Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_primary_default"
+                    android:minHeight="48dp"
+                    android:stateListAnimator="@null"
+                    android:text="Donasi Sekarang"
+                    android:textAllCaps="false"
+                    android:textColor="@color/neutral_25"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
