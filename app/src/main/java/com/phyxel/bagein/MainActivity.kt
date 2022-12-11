@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_donasi -> replaceFragment(DonasiFragment())
                 R.id.nav_buatdonasi -> replaceFragment(DonasiDetailFragment())
                 R.id.nav_aktivitas -> replaceFragment(AktivitasFragment())
-                R.id.nav_akun -> replaceFragment(OnboardingFragment())
+                R.id.nav_akun -> replaceFragment(AkunFragment())
 
                 else ->{
 
