@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/buat_donasi"
-    tools:context=".donasi.BuatDonasiFragment">
+    tools:context=".buatdonasi.BuatDonasiFragment">
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
