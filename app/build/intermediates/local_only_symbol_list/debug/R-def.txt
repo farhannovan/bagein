@@ -220,6 +220,7 @@ id tvTarget
 id tvUsername
 id username
 layout activity_aktivitas_misi
+layout activity_akun_detail
 layout activity_buat_donasi_form
 layout activity_donasi_detail
 layout activity_main

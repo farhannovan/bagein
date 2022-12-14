@@ -3493,6 +3493,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_aktivitas_misi
+layout activity_akun_detail
 layout activity_buat_donasi_form
 layout activity_donasi_detail
 layout activity_main

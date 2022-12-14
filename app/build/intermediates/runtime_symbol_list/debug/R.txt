@@ -3492,6 +3492,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_aktivitas_misi 0x7f0c001d
+int layout activity_akun_detail 0x7f0c007a
 int layout activity_buat_donasi_form 0x7f0c0020
 int layout activity_donasi_detail 0x7f0c0022
 int layout activity_main 0x7f0c0023
