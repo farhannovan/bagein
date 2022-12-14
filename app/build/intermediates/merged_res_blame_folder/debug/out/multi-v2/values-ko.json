@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-ko/values-ko.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-35:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/res/values-ko/values.xml",

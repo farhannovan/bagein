@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-te/values-te.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-35:/values-te/values-te.xml",
             "map": [
                 {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/res/values-te/values-te.xml",
