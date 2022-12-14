@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buatdonasi.BuatDonasiFormActivity">
+
+    <RelativeLayout
+        android:id="@+id/tBuatDonasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/neutral_25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:minWidth="30dp"
+            android:minHeight="30dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_chevron_backward" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Buat Donasi"
+            android:textAlignment="center"
+            android:textColor="@color/neutral_900"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/namaDonasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tBuatDonasi">
+
+        <TextView
+            android:id="@+id/tvNamaDonasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMA DONASI"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etNamaDonasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Buat judul postingan Anda"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/namaPengaju"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/namaDonasi">
+
+        <TextView
+            android:id="@+id/tvPengaju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMA PENGAJU DONASI"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etPengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Siapa pengaju donasi"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ceritaDonasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/namaPengaju">
+
+        <TextView
+            android:id="@+id/tvCerita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESKRIPSI DONASI"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etCerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Jelaskan lebih lanjut tentang donasi Anda"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/targetDonasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ceritaDonasi">
+
+        <TextView
+            android:id="@+id/tvTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TARGET NOMINAL"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Berapa jumlah yang dibutuhkan"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kategori"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/targetDonasi">
+
+        <TextView
+            android:id="@+id/tvKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KATEGORI"
+            android:textColor="@color/neutral_700"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etKategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pilih kategori"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnBuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_primary_default"
+        android:minHeight="48dp"
+        android:stateListAnimator="@null"
+        android:text="Buat Donasi"
+        android:textAllCaps="false"
+        android:textColor="@color/neutral_25"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-35:/values-si/values-si.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/res/values-si/values-si.xml",
