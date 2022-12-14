@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/neutral_200"
     android:id="@+id/aktivitas_signin"
-    tools:context=".aktivitas.AktivitasMisiActivity">
+    tools:context=".AktivitasMisiActivity">
     <RelativeLayout
         android:id="@+id/titleBarAktivitasMisi"
         android:layout_width="0dp"

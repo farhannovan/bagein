@@ -27,77 +27,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.Bagein" >
         <activity
-            android:name="com.phyxel.bagein.HomeActivity"
+            android:name="com.phyxel.bagein.SignInActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
+            android:name="com.phyxel.bagein.SignUpActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.phyxel.bagein.aktivitas.AktivitasActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiFormActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.donasi.DonasiActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.AkunActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
+            android:name="com.phyxel.bagein.OnboardingActivity"
             android:exported="true" >
             <meta-data
                 android:name="android.app.lib_name"

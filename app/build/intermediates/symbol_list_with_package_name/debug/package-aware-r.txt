@@ -2899,8 +2899,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnBack
-id btnBuat
-id btnEditAkun
 id btnLogin
 id btnMisi
 id btnRegis
@@ -3268,7 +3266,6 @@ id submit_area
 id supportScrollUp
 id svDonasi
 id tAkun
-id tBuatDonasi
 id tDaftar
 id tDonasiRekomendasi
 id tKategori
@@ -3291,7 +3288,6 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id targetDonasi
-id tbEditAkun
 id text
 id text2
 id textEnd
@@ -3496,12 +3492,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_aktivitas
 layout activity_aktivitas_misi
-layout activity_akun
-layout activity_buat_donasi
 layout activity_buat_donasi_form
-layout activity_donasi
 layout activity_donasi_detail
 layout activity_main
 layout activity_onboarding
@@ -3524,14 +3516,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_aktivitas
-layout fragment_aktivitas_misi
 layout fragment_akun
-layout fragment_akun_detail
 layout fragment_buat_donasi
-layout fragment_buat_donasi_form
 layout fragment_donasi
-layout fragment_donasi_detail
-layout fragment_onboarding
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

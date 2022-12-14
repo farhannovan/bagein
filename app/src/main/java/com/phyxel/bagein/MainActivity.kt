@@ -4,12 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
-import com.phyxel.bagein.aktivitas.AktivitasFragment
-import com.phyxel.bagein.buatdonasi.BuatDonasiFragment
 import com.phyxel.bagein.databinding.ActivityMainBinding
-import com.phyxel.bagein.donasi.DonasiDetailFragment
-import com.phyxel.bagein.donasi.DonasiFragment
-import com.phyxel.bagein.onboarding.OnboardingFragment
 
 class MainActivity : AppCompatActivity() {
 

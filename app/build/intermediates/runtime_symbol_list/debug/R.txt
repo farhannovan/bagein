@@ -2898,8 +2898,6 @@ int id bounceBoth 0x7f090068
 int id bounceEnd 0x7f090069
 int id bounceStart 0x7f09006a
 int id btnBack 0x7f09006b
-int id btnBuat 0x7f09006c
-int id btnEditAkun 0x7f09006d
 int id btnLogin 0x7f09006e
 int id btnMisi 0x7f09006f
 int id btnRegis 0x7f090070
@@ -3267,7 +3265,6 @@ int id submit_area 0x7f0901d9
 int id supportScrollUp 0x7f0901da
 int id svDonasi 0x7f0901db
 int id tAkun 0x7f0901dc
-int id tBuatDonasi 0x7f0901dd
 int id tDaftar 0x7f0901de
 int id tDonasiRekomendasi 0x7f0901df
 int id tKategori 0x7f0901e0
@@ -3290,7 +3287,6 @@ int id tag_unhandled_key_event_manager 0x7f0901f0
 int id tag_unhandled_key_listeners 0x7f0901f1
 int id tag_window_insets_animation_callback 0x7f0901f2
 int id targetDonasi 0x7f0901f3
-int id tbEditAkun 0x7f0901f4
 int id text 0x7f0901f5
 int id text2 0x7f0901f6
 int id textEnd 0x7f0901f7
@@ -3495,12 +3491,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
-int layout activity_aktivitas 0x7f0c001c
 int layout activity_aktivitas_misi 0x7f0c001d
-int layout activity_akun 0x7f0c001e
-int layout activity_buat_donasi 0x7f0c001f
 int layout activity_buat_donasi_form 0x7f0c0020
-int layout activity_donasi 0x7f0c0021
 int layout activity_donasi_detail 0x7f0c0022
 int layout activity_main 0x7f0c0023
 int layout activity_onboarding 0x7f0c0024
@@ -3523,14 +3515,9 @@ int layout design_navigation_menu_item 0x7f0c0034
 int layout design_text_input_end_icon 0x7f0c0035
 int layout design_text_input_start_icon 0x7f0c0036
 int layout fragment_aktivitas 0x7f0c0037
-int layout fragment_aktivitas_misi 0x7f0c0038
 int layout fragment_akun 0x7f0c0039
-int layout fragment_akun_detail 0x7f0c003a
 int layout fragment_buat_donasi 0x7f0c003b
-int layout fragment_buat_donasi_form 0x7f0c003c
 int layout fragment_donasi 0x7f0c003d
-int layout fragment_donasi_detail 0x7f0c003e
-int layout fragment_onboarding 0x7f0c003f
 int layout m3_alert_dialog 0x7f0c0040
 int layout m3_alert_dialog_actions 0x7f0c0041
 int layout m3_alert_dialog_title 0x7f0c0042
