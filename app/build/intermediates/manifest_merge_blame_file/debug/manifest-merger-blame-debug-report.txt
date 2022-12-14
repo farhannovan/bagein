@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml
+8-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml
+9-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -20,188 +20,188 @@
 14-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:22-64
 15
 16    <application
-16-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:5:5-109:19
+16-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-109:19
 17        android:allowBackup="true"
-17-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:6:9-35
+17-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.8.0] /Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 19        android:dataExtractionRules="@xml/data_extraction_rules"
-19-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:7:9-65
+19-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:fullBackupContent="@xml/backup_rules"
-22-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:8:9-54
+22-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:8:9-54
 23        android:icon="@mipmap/ic_launcher"
-23-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:9:9-43
+23-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:9:9-43
 24        android:label="@string/app_name"
-24-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:10:9-41
+24-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:10:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:11:9-54
+25-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:11:9-54
 26        android:supportsRtl="true"
-26-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:12:9-35
+26-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:12:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.Bagein" >
-28-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:13:9-44
+28-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
 29        <activity
-29-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:15:9-21:20
+29-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
 30            android:name="com.phyxel.bagein.HomeActivity"
-30-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:16:13-41
+30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-41
 31            android:exported="false" >
-31-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:17:13-37
+31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
 32            <meta-data
-32-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+32-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 33                android:name="android.app.lib_name"
-33-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+33-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 34                android:value="" />
-34-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+34-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 35        </activity>
 36        <activity
-36-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:22:9-28:20
+36-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
 37            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
-37-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:23:13-60
+37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-60
 38            android:exported="false" >
-38-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:24:13-37
+38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
 39            <meta-data
-39-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+39-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 40                android:name="android.app.lib_name"
-40-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+40-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 41                android:value="" />
-41-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+41-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 42        </activity>
 43        <activity
-43-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:29:9-35:20
+43-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-35:20
 44            android:name="com.phyxel.bagein.aktivitas.AktivitasActivity"
-44-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:30:13-56
+44-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-56
 45            android:exported="false" >
-45-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:31:13-37
+45-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-37
 46            <meta-data
-46-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+46-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 47                android:name="android.app.lib_name"
-47-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+47-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 48                android:value="" />
-48-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+48-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 49        </activity>
 50        <activity
-50-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:36:9-42:20
+50-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:9-42:20
 51            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiActivity"
-51-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:37:13-58
+51-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:37:13-58
 52            android:exported="false" >
-52-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:38:13-37
+52-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:13-37
 53            <meta-data
-53-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+53-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 54                android:name="android.app.lib_name"
-54-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+54-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 55                android:value="" />
-55-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+55-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 56        </activity>
 57        <activity
-57-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:43:9-49:20
+57-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:43:9-49:20
 58            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiFormActivity"
-58-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:44:13-62
+58-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:44:13-62
 59            android:exported="false" >
-59-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:45:13-37
+59-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:45:13-37
 60            <meta-data
-60-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+60-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 61                android:name="android.app.lib_name"
-61-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+61-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 62                android:value="" />
-62-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+62-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 63        </activity>
 64        <activity
-64-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:50:9-56:20
+64-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:50:9-56:20
 65            android:name="com.phyxel.bagein.donasi.DonasiActivity"
-65-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:51:13-50
+65-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:51:13-50
 66            android:exported="false" >
-66-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:52:13-37
+66-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:52:13-37
 67            <meta-data
-67-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+67-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 68                android:name="android.app.lib_name"
-68-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+68-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 69                android:value="" />
-69-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+69-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 70        </activity>
 71        <activity
-71-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:57:9-63:20
+71-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:57:9-63:20
 72            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
-72-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:58:13-56
+72-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:58:13-56
 73            android:exported="false" >
-73-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:59:13-37
+73-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:59:13-37
 74            <meta-data
-74-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+74-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 75                android:name="android.app.lib_name"
-75-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+75-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 76                android:value="" />
-76-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+76-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 77        </activity>
 78        <activity
-78-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:64:9-70:20
+78-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:64:9-70:20
 79            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
-79-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:65:13-55
+79-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:13-55
 80            android:exported="false" >
-80-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:66:13-37
+80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:66:13-37
 81            <meta-data
-81-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+81-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 82                android:name="android.app.lib_name"
-82-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+82-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 83                android:value="" />
-83-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+83-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 84        </activity>
 85        <activity
-85-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:71:9-77:20
+85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:71:9-77:20
 86            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
-86-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:72:13-55
+86-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:72:13-55
 87            android:exported="false" >
-87-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:73:13-37
+87-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:73:13-37
 88            <meta-data
-88-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+88-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 89                android:name="android.app.lib_name"
-89-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+89-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 90                android:value="" />
-90-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+90-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 91        </activity>
 92        <activity
-92-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:78:9-84:20
+92-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:78:9-84:20
 93            android:name="com.phyxel.bagein.AkunActivity"
-93-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:79:13-41
+93-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:79:13-41
 94            android:exported="false" >
-94-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:80:13-37
+94-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:80:13-37
 95            <meta-data
-95-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+95-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 96                android:name="android.app.lib_name"
-96-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+96-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 97                android:value="" />
-97-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+97-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 98        </activity>
 99        <activity
-99-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:85:9-97:20
+99-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:85:9-97:20
 100            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
-100-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:86:13-58
+100-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:86:13-58
 101            android:exported="true" >
-101-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:87:13-36
+101-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:87:13-36
 102            <meta-data
-102-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:18:13-20:36
+102-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 103                android:name="android.app.lib_name"
-103-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:19:17-52
+103-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
 104                android:value="" />
-104-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:20:17-33
+104-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 105
 106            <intent-filter>
-106-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:92:13-96:29
+106-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:92:13-96:29
 107                <action android:name="android.intent.action.MAIN" />
-107-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:93:17-69
-107-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:93:25-66
+107-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:93:17-69
+107-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:93:25-66
 108
 109                <category android:name="android.intent.category.LAUNCHER" />
-109-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:95:17-77
-109-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:95:27-74
+109-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:95:17-77
+109-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:95:27-74
 110            </intent-filter>
 111        </activity>
 112        <activity
-112-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:98:9-108:20
+112-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:98:9-108:20
 113            android:name="com.phyxel.bagein.MainActivity"
-113-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:99:13-41
+113-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:99:13-41
 114            android:exported="false" >
-114-->/Users/farhannovan/Downloads/bagein-master 3/app/src/main/AndroidManifest.xml:100:13-37
+114-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:100:13-37
 115
 116            <!-- <intent-filter> -->
 117            <!-- <action android:name="android.intent.action.MAIN" /> -->

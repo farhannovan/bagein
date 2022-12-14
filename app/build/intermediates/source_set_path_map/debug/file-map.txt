@@ -25,12 +25,12 @@ com.phyxel.bagein.app-transition-1.2.0-23 /Users/farhannovan/.gradle/caches/tran
 com.phyxel.bagein.app-appcompat-1.5.1-24 /Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/res
 com.phyxel.bagein.app-core-1.8.0-25 /Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/res
 com.phyxel.bagein.app-firebase-common-20.2.0-26 /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/res
-com.phyxel.bagein.app-google-services-27 /Users/farhannovan/Downloads/bagein-master 3/app/build/generated/res/google-services/debug
-com.phyxel.bagein.app-pngs-28 /Users/farhannovan/Downloads/bagein-master 3/app/build/generated/res/pngs/debug
-com.phyxel.bagein.app-resValues-29 /Users/farhannovan/Downloads/bagein-master 3/app/build/generated/res/resValues/debug
-com.phyxel.bagein.app-rs-30 /Users/farhannovan/Downloads/bagein-master 3/app/build/generated/res/rs/debug
-com.phyxel.bagein.app-packageDebugResources-31 /Users/farhannovan/Downloads/bagein-master 3/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.phyxel.bagein.app-packageDebugResources-32 /Users/farhannovan/Downloads/bagein-master 3/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.phyxel.bagein.app-merged_res-33 /Users/farhannovan/Downloads/bagein-master 3/app/build/intermediates/merged_res/debug
-com.phyxel.bagein.app-debug-34 /Users/farhannovan/Downloads/bagein-master 3/app/src/debug/res
-com.phyxel.bagein.app-main-35 /Users/farhannovan/Downloads/bagein-master 3/app/src/main/res
+com.phyxel.bagein.app-google-services-27 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/generated/res/google-services/debug
+com.phyxel.bagein.app-pngs-28 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/generated/res/pngs/debug
+com.phyxel.bagein.app-resValues-29 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/generated/res/resValues/debug
+com.phyxel.bagein.app-rs-30 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/generated/res/rs/debug
+com.phyxel.bagein.app-packageDebugResources-31 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.phyxel.bagein.app-packageDebugResources-32 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.phyxel.bagein.app-merged_res-33 /Users/farhannovan/AndroidStudioProjects/Bagein/app/build/intermediates/merged_res/debug
+com.phyxel.bagein.app-debug-34 /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/debug/res
+com.phyxel.bagein.app-main-35 /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/res
