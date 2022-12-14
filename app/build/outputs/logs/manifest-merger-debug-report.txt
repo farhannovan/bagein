@@ -141,12 +141,12 @@ ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidM
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-55
-activity#com.phyxel.bagein.OnboardingActivity
+activity#com.phyxel.bagein.onboarding.OnboardingActivity
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-41:20
 	android:exported
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-47
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN

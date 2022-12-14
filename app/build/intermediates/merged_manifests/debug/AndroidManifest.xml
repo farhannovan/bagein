@@ -41,7 +41,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.phyxel.bagein.OnboardingActivity"
+            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
             android:exported="true" >
             <meta-data
                 android:name="android.app.lib_name"
