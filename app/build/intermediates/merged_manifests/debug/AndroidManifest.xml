@@ -27,14 +27,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Bagein" >
         <activity
-            android:name="com.phyxel.bagein.SignInActivity"
+            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.phyxel.bagein.SignUpActivity"
+            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

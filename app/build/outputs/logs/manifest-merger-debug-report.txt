@@ -123,24 +123,24 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/farhannovan/.gradle/
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.phyxel.bagein.SignInActivity
+activity#com.phyxel.bagein.sign.signin.SignInActivity
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-43
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-55
 meta-data#android.app.lib_name
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-activity#com.phyxel.bagein.SignUpActivity
+activity#com.phyxel.bagein.sign.signup.SignUpActivity
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-43
+		ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-55
 activity#com.phyxel.bagein.OnboardingActivity
 ADDED from /Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-41:20
 	android:exported

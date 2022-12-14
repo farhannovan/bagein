@@ -8,7 +8,7 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:id="@+id/donasi_detail"
-    tools:context=".DonasiDetailActivity">
+    tools:context=".donasi.DonasiDetailActivity">
     <!--Nama & Notif-->
     <RelativeLayout
         android:id="@+id/titleBarDonasiDetail"

@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.phyxel.bagein.sign.signin.SignInActivity
+import com.phyxel.bagein.sign.signup.SignUpActivity
 
 //class OnboardingActivity : AppCompatActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {

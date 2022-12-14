@@ -44,8 +44,8 @@
 28-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
 29        <activity
 29-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
-30            android:name="com.phyxel.bagein.SignInActivity"
-30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-43
+30            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
+30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-55
 31            android:exported="false" >
 31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
 32            <meta-data
@@ -57,8 +57,8 @@
 35        </activity>
 36        <activity
 36-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
-37            android:name="com.phyxel.bagein.SignUpActivity"
-37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-43
+37            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
+37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-55
 38            android:exported="false" >
 38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
 39            <meta-data
