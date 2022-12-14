@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/neutral_200"
     android:id="@+id/akun"
-    tools:context=".AkunFragment">
+    tools:context=".akun.AkunFragment">
 
     <RelativeLayout
         android:id="@+id/tAkun"
