@@ -20,13 +20,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".aktivitas.AktivitasMisiActivity"
             android:exported="false">
             <meta-data
@@ -34,14 +27,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".aktivitas.AktivitasActivity"
+            android:name=".aktivitas.AktivitasFragment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".buatdonasi.BuatDonasiActivity"
+            android:name=".buatdonasi.BuatDonasiFragment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -55,7 +48,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".donasi.DonasiActivity"
+            android:name=".donasi.DonasiFragment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -83,7 +76,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".AkunActivity"
+            android:name=".AkunFragment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
