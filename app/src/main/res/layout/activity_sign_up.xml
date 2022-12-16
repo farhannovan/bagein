@@ -96,20 +96,16 @@
             android:textColor="@color/neutral_700"
             android:textSize="12sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="@color/neutral_25"
-            app:boxBackgroundMode="outline">
-
-            <EditText
-                android:id="@+id/etEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="EMAIL"
-                android:inputType="textEmailAddress"
-                android:textSize="16sp" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/neutral_600"
+            android:inputType="textEmailAddress"
+            android:text="alamatemail@gmail.com"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -133,20 +129,17 @@
             android:textColor="@color/neutral_700"
             android:textSize="12sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="@color/neutral_25"
-            app:boxBackgroundMode="outline">
-
-            <EditText
-                android:id="@+id/etUsername"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:hint="USERNAME"
-                android:textSize="16sp" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="username"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -166,25 +159,21 @@
             android:id="@+id/tvPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="KATA SANDI"
+            android:text="KATA SANDI"
             android:textColor="@color/neutral_700"
             android:textSize="12sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="@color/neutral_25"
-            app:boxBackgroundMode="outline"
-            app:passwordToggleEnabled="true">
-
-            <EditText
-                android:id="@+id/etPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:hint="KATA SANDI"
-                android:textSize="16sp" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
