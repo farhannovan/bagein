@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-31:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-32:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/b4591f1a0bd3001f8ac083969e19d28d/transformed/material-1.7.0/res/values-small-v4/values-small-v4.xml",

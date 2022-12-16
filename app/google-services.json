@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "141633961667",
-    "project_id": "bagein-4f269",
-    "storage_bucket": "bagein-4f269.appspot.com"
+    "project_number": "896364356405",
+    "project_id": "bagein-b13d6",
+    "storage_bucket": "bagein-b13d6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141633961667:android:265848af9da06f394aac76",
+        "mobilesdk_app_id": "1:896364356405:android:99445614204a0a6816227c",
         "android_client_info": {
           "package_name": "com.phyxel.bagein"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141633961667-uha65n2d2s8b4racddami8ogjf9hjch1.apps.googleusercontent.com",
+          "client_id": "896364356405-vbl85lvn2ndht0c3cke6cqv5e753ahev.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAoiI-4A2Fu_AcXhx_GbHRfI6ZmRpQuYDQ"
+          "current_key": "AIzaSyCF5767eXonS4hL-5-vkfkO3J1RJn-uFfo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141633961667-uha65n2d2s8b4racddami8ogjf9hjch1.apps.googleusercontent.com",
+              "client_id": "896364356405-vbl85lvn2ndht0c3cke6cqv5e753ahev.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

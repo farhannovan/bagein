@@ -37,13 +37,10 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final LinearLayout email;
 
   @NonNull
-  public final EditText etEmail;
+  public final EditText etEmailRegis;
 
   @NonNull
-  public final EditText etPassword;
-
-  @NonNull
-  public final EditText etUsername;
+  public final EditText etPasswordRegis;
 
   @NonNull
   public final LinearLayout fbtnRegis;
@@ -69,27 +66,20 @@ public final class ActivitySignUpBinding implements ViewBinding {
   @NonNull
   public final TextView tvSignUpH2;
 
-  @NonNull
-  public final TextView tvUsername;
-
-  @NonNull
-  public final LinearLayout username;
-
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
       @NonNull AppCompatButton btnLogin, @NonNull AppCompatButton btnRegis,
-      @NonNull LinearLayout email, @NonNull EditText etEmail, @NonNull EditText etPassword,
-      @NonNull EditText etUsername, @NonNull LinearLayout fbtnRegis, @NonNull LinearLayout password,
-      @NonNull TextView tDaftar, @NonNull RelativeLayout titleBarAktivitasMisi,
-      @NonNull TextView tvEmail, @NonNull TextView tvPassword, @NonNull TextView tvSignUpH1,
-      @NonNull TextView tvSignUpH2, @NonNull TextView tvUsername, @NonNull LinearLayout username) {
+      @NonNull LinearLayout email, @NonNull EditText etEmailRegis,
+      @NonNull EditText etPasswordRegis, @NonNull LinearLayout fbtnRegis,
+      @NonNull LinearLayout password, @NonNull TextView tDaftar,
+      @NonNull RelativeLayout titleBarAktivitasMisi, @NonNull TextView tvEmail,
+      @NonNull TextView tvPassword, @NonNull TextView tvSignUpH1, @NonNull TextView tvSignUpH2) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnLogin = btnLogin;
     this.btnRegis = btnRegis;
     this.email = email;
-    this.etEmail = etEmail;
-    this.etPassword = etPassword;
-    this.etUsername = etUsername;
+    this.etEmailRegis = etEmailRegis;
+    this.etPasswordRegis = etPasswordRegis;
     this.fbtnRegis = fbtnRegis;
     this.password = password;
     this.tDaftar = tDaftar;
@@ -98,8 +88,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.tvPassword = tvPassword;
     this.tvSignUpH1 = tvSignUpH1;
     this.tvSignUpH2 = tvSignUpH2;
-    this.tvUsername = tvUsername;
-    this.username = username;
   }
 
   @Override
@@ -153,21 +141,15 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etEmail;
-      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
-      if (etEmail == null) {
+      id = R.id.etEmailRegis;
+      EditText etEmailRegis = ViewBindings.findChildViewById(rootView, id);
+      if (etEmailRegis == null) {
         break missingId;
       }
 
-      id = R.id.etPassword;
-      EditText etPassword = ViewBindings.findChildViewById(rootView, id);
-      if (etPassword == null) {
-        break missingId;
-      }
-
-      id = R.id.etUsername;
-      EditText etUsername = ViewBindings.findChildViewById(rootView, id);
-      if (etUsername == null) {
+      id = R.id.etPasswordRegis;
+      EditText etPasswordRegis = ViewBindings.findChildViewById(rootView, id);
+      if (etPasswordRegis == null) {
         break missingId;
       }
 
@@ -219,21 +201,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvUsername;
-      TextView tvUsername = ViewBindings.findChildViewById(rootView, id);
-      if (tvUsername == null) {
-        break missingId;
-      }
-
-      id = R.id.username;
-      LinearLayout username = ViewBindings.findChildViewById(rootView, id);
-      if (username == null) {
-        break missingId;
-      }
-
       return new ActivitySignUpBinding((ConstraintLayout) rootView, btnBack, btnLogin, btnRegis,
-          email, etEmail, etPassword, etUsername, fbtnRegis, password, tDaftar,
-          titleBarAktivitasMisi, tvEmail, tvPassword, tvSignUpH1, tvSignUpH2, tvUsername, username);
+          email, etEmailRegis, etPasswordRegis, fbtnRegis, password, tDaftar, titleBarAktivitasMisi,
+          tvEmail, tvPassword, tvSignUpH1, tvSignUpH2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

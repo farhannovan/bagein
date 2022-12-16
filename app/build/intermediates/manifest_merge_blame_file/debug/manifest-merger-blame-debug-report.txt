@@ -10,220 +10,363 @@
 9        android:targetSdkVersion="33" />
 9-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml
 10
-11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:5-79
-13-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:22-76
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:5-67
-14-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:22-64
-15
-16    <application
-16-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-81:19
-17        android:allowBackup="true"
-17-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:6:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.8.0] /Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-19        android:dataExtractionRules="@xml/data_extraction_rules"
-19-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:fullBackupContent="@xml/backup_rules"
-22-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:8:9-54
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:9:9-43
-24        android:label="@string/app_name"
-24-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:10:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:11:9-54
-26        android:supportsRtl="true"
-26-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:12:9-35
-27        android:theme="@style/Theme.Bagein" >
-27-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
-28        <activity
-28-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
-29            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
-29-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-60
-30            android:exported="false" >
-30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
-31            <meta-data
-31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-32                android:name="android.app.lib_name"
-32-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-33                android:value="" />
-33-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-34        </activity>
-35        <activity
-35-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
-36            android:name="com.phyxel.bagein.akun.AkunDetailActivity"
-36-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-52
-37            android:exported="false" >
-37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
-38            <meta-data
-38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-39                android:name="android.app.lib_name"
-39-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-40                android:value="" />
-40-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-41        </activity>
-42        <activity
-42-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-35:20
-43            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiFormActivity"
-43-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-62
-44            android:exported="false" >
-44-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-37
-45            <meta-data
-45-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-46                android:name="android.app.lib_name"
-46-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-47                android:value="" />
-47-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-48        </activity>
-49        <activity
-49-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:9-42:20
-50            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
-50-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:37:13-56
-51            android:exported="false" >
-51-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:13-37
-52            <meta-data
-52-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-53                android:name="android.app.lib_name"
-53-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-54                android:value="" />
-54-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-55        </activity>
-56        <activity
-56-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:43:9-49:20
-57            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
-57-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:44:13-55
-58            android:exported="false" >
-58-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:45:13-37
-59            <meta-data
-59-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-60                android:name="android.app.lib_name"
-60-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-61                android:value="" />
-61-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-62        </activity>
-63        <activity
-63-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:50:9-56:20
-64            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
-64-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:51:13-55
-65            android:exported="false" >
-65-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:52:13-37
-66            <meta-data
-66-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-67                android:name="android.app.lib_name"
-67-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-68                android:value="" />
-68-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-69        </activity>
-70        <activity
-70-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:57:9-69:20
-71            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
-71-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:58:13-58
-72            android:exported="true" >
-72-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:59:13-36
-73            <meta-data
-73-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
-74                android:name="android.app.lib_name"
-74-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
-75                android:value="" />
-75-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
-76
-77            <intent-filter>
-77-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:64:13-68:29
-78                <action android:name="android.intent.action.MAIN" />
-78-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:17-69
-78-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:25-66
-79
-80                <category android:name="android.intent.category.LAUNCHER" />
-80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:67:17-77
-80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:67:27-74
-81            </intent-filter>
-82        </activity>
-83        <activity
-83-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:70:9-80:20
-84            android:name="com.phyxel.bagein.MainActivity"
-84-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:71:13-41
-85            android:exported="false" >
-85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:72:13-37
-86
-87            <!-- <intent-filter> -->
-88            <!-- <action android:name="android.intent.action.MAIN" /> -->
-89
-90
-91            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-92            <!-- </intent-filter> -->
-93        </activity>
-94
-95        <service
-95-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
-96            android:name="com.google.firebase.components.ComponentDiscoveryService"
-96-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:29:13-84
-97            android:directBootAware="true"
-97-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
-98            android:exported="false" >
-98-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:30:13-37
-99            <meta-data
-99-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
-100                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-100-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
-102        </service>
-103
-104        <activity
-104-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-105-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-106            android:exported="false"
-106-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-107-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-108
-109        <provider
-109-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
-110            android:name="com.google.firebase.provider.FirebaseInitProvider"
-110-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-111            android:authorities="com.phyxel.bagein.firebaseinitprovider"
-111-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
-112            android:directBootAware="true"
-112-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
-113            android:exported="false"
-113-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
-114            android:initOrder="100" />
-114-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
-115
-116        <meta-data
-116-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-117            android:name="com.google.android.gms.version"
-117-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-118            android:value="@integer/google_play_services_version" />
-118-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-119
-120        <provider
-120-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-121            android:name="androidx.startup.InitializationProvider"
-121-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-122            android:authorities="com.phyxel.bagein.androidx-startup"
-122-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-123            android:exported="false" >
-123-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-124            <meta-data
-124-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-125-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-126                android:value="androidx.startup" />
-126-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-127            <meta-data
-127-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-128-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-129                android:value="androidx.startup" />
-129-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-130        </provider>
-131    </application>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:5:5-81:19
+18        android:allowBackup="true"
+18-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Bagein" >
+29-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:13:9-44
+30        <activity
+30-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:15:9-21:20
+31            android:name="com.phyxel.bagein.aktivitas.AktivitasMisiActivity"
+31-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:16:13-60
+32            android:exported="false" >
+32-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:17:13-37
+33            <meta-data
+33-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:22:9-28:20
+38            android:name="com.phyxel.bagein.akun.AkunDetailActivity"
+38-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:23:13-52
+39            android:exported="false" >
+39-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:24:13-37
+40            <meta-data
+40-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:29:9-35:20
+45            android:name="com.phyxel.bagein.buatdonasi.BuatDonasiFormActivity"
+45-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:30:13-62
+46            android:exported="false" >
+46-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:36:9-42:20
+52            android:name="com.phyxel.bagein.donasi.DonasiDetailActivity"
+52-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:37:13-56
+53            android:exported="false" >
+53-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:38:13-37
+54            <meta-data
+54-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:43:9-49:20
+59            android:name="com.phyxel.bagein.sign.signin.SignInActivity"
+59-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:44:13-55
+60            android:exported="false" >
+60-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:45:13-37
+61            <meta-data
+61-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+64        </activity>
+65        <activity
+65-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:50:9-56:20
+66            android:name="com.phyxel.bagein.sign.signup.SignUpActivity"
+66-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:51:13-55
+67            android:exported="false" >
+67-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:52:13-37
+68            <meta-data
+68-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+69                android:name="android.app.lib_name"
+69-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+70                android:value="" />
+70-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+71        </activity>
+72        <activity
+72-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:57:9-69:20
+73            android:name="com.phyxel.bagein.onboarding.OnboardingActivity"
+73-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:58:13-58
+74            android:exported="true" >
+74-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:59:13-36
+75            <meta-data
+75-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:18:13-20:36
+76                android:name="android.app.lib_name"
+76-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:19:17-52
+77                android:value="" />
+77-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:20:17-33
+78
+79            <intent-filter>
+79-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:64:13-68:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:17-69
+80-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:65:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:67:17-77
+82-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:67:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:70:9-80:20
+86            android:name="com.phyxel.bagein.MainActivity"
+86-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:71:13-41
+87            android:exported="false" >
+87-->/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/AndroidManifest.xml:72:13-37
+88
+89            <!-- <intent-filter> -->
+90            <!-- <action android:name="android.intent.action.MAIN" /> -->
+91
+92
+93            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+94            <!-- </intent-filter> -->
+95        </activity>
+96
+97        <service
+97-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:8:9-14:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:9:13-84
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:10:13-37
+101            <meta-data
+101-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+102                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+102-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:12:17-116
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-auth-ktx:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/ba004b27d2667b3343e47c0598f6e0be/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:13:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/21049c5945fb1d339262486dfb8e0e24/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+105                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+105-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/21049c5945fb1d339262486dfb8e0e24/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/21049c5945fb1d339262486dfb8e0e24/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c3237b6db2fe2b019703a101afc45f4/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+108                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+108-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c3237b6db2fe2b019703a101afc45f4/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c3237b6db2fe2b019703a101afc45f4/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+114                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+114-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+116            <meta-data
+116-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+117                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+117-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/125f1c1a77073bee863c97b865ae080c/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-installations:17.1.0] /Users/farhannovan/.gradle/caches/transforms-3/9b04311901837cd073dfcdaadf1cdc9c/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+120                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+120-->[com.google.firebase:firebase-installations:17.1.0] /Users/farhannovan/.gradle/caches/transforms-3/9b04311901837cd073dfcdaadf1cdc9c/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-installations:17.1.0] /Users/farhannovan/.gradle/caches/transforms-3/9b04311901837cd073dfcdaadf1cdc9c/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+122        </service>
+123
+124        <activity
+124-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+125            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
 132
-133</manifest>
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+135
+136                <data
+136-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+137                    android:host="firebase.auth"
+137-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+138                    android:path="/"
+138-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+139                    android:scheme="genericidp" />
+139-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+143            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+143-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+149-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+151-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+152-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+153
+154                <data
+154-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+155                    android:host="firebase.auth"
+155-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+156                    android:path="/"
+156-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+157                    android:scheme="recaptcha" />
+157-->[com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+161            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+161-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+163-->[com.google.android.gms:play-services-base:18.0.1] /Users/farhannovan/.gradle/caches/transforms-3/37891b7f593eebab446a9063ca59fb42/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+167            android:authorities="com.phyxel.bagein.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:20.2.0] /Users/farhannovan/.gradle/caches/transforms-3/fd80358fd369bc36b0cacc0ed4170573/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+171
+172        <receiver
+172-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+173            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+173-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+175            android:exported="false" >
+175-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+176        </receiver>
+177
+178        <service
+178-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+179            android:name="com.google.android.gms.measurement.AppMeasurementService"
+179-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+181            android:exported="false" />
+181-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+182        <service
+182-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+183            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+183-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/farhannovan/.gradle/caches/transforms-3/13e9a9bba9016f4ae1336c14d6b6418c/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+187
+188        <meta-data
+188-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+189            android:name="com.google.android.gms.version"
+189-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+190            android:value="@integer/google_play_services_version" />
+190-->[com.google.android.gms:play-services-basement:18.1.0] /Users/farhannovan/.gradle/caches/transforms-3/731234668381f94d0ca2f0205877f02b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+191
+192        <provider
+192-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+193            android:name="androidx.startup.InitializationProvider"
+193-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+194            android:authorities="com.phyxel.bagein.androidx-startup"
+194-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+195            android:exported="false" >
+195-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+196            <meta-data
+196-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+197                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+197-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+198                android:value="androidx.startup" />
+198-->[androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+199            <meta-data
+199-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+200                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+200-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+201                android:value="androidx.startup" />
+201-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+202        </provider>
+203    </application>
+204
+205</manifest>

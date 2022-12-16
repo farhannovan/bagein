@@ -97,47 +97,12 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etEmailRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
-            android:ems="10"
+            android:hint="alamatemail@gmail.com"
             android:inputType="textEmailAddress"
-            android:text="alamatemail@gmail.com"
-            android:textColor="@color/neutral_600"
-            android:textColorHint="@color/neutral_600"
-            android:textSize="16sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/username"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="vertical"
-        app:flow_verticalGap="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email">
-
-        <TextView
-            android:id="@+id/tvUsername"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="USERNAME"
-            android:textColor="@color/neutral_700"
-            android:textSize="12sp" />
-
-        <EditText
-            android:id="@+id/etUsername"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/neutral_600"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="username"
             android:textColor="@color/neutral_600"
             android:textColorHint="@color/neutral_600"
             android:textSize="16sp" />
@@ -154,7 +119,7 @@
         app:flow_verticalGap="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username">
+        app:layout_constraintTop_toBottomOf="@+id/email">
 
         <TextView
             android:id="@+id/tvPassword"
@@ -165,13 +130,13 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etPasswordRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/neutral_600"
             android:ems="10"
+            android:hint="password"
             android:inputType="textPassword"
-            android:text="password"
             android:textColor="@color/neutral_600"
             android:textColorHint="@color/neutral_600"
             android:textSize="16sp" />

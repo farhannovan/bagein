@@ -151,13 +151,14 @@ id donasiRekomendasi
 id donasi_detail
 id email
 id etCerita
-id etEmail
+id etEmailLogin
+id etEmailRegis
 id etKategori
 id etNamaDonasi
-id etPassword
+id etPasswordLogin
+id etPasswordRegis
 id etPengaju
 id etTarget
-id etUsername
 id fbtnRegis
 id frameLayout
 id ibTambah
@@ -218,7 +219,6 @@ id tvSignUpH1
 id tvSignUpH2
 id tvTarget
 id tvUsername
-id username
 layout activity_aktivitas_misi
 layout activity_akun_detail
 layout activity_buat_donasi_form
