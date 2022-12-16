@@ -265,6 +265,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -2672,6 +2676,7 @@ drawable donasi3
 drawable donasi4
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_account_circle
 drawable ic_aktivitas
 drawable ic_aktivitas_active
 drawable ic_akun
@@ -2700,10 +2705,12 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_not_verified
 drawable ic_notifications
 drawable ic_photo
 drawable ic_plus
 drawable ic_search
+drawable ic_verified
 drawable ic_voucher
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2910,10 +2917,17 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
+id btnChangePass
 id btnLogin
+id btnLogout
 id btnMisi
 id btnRegis
+id btn_cancel
+id btn_confirm
+id btn_newCancel
+id btn_newChange
 id buat_donasi
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2956,6 +2970,9 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv_currentPass
+id cv_updatePass
+id cvi_user
 id dark
 id date_picker_actions
 id decelerate
@@ -3002,6 +3019,11 @@ id easeInOut
 id easeOut
 id east
 id edit_query
+id edt_confirmPass
+id edt_currentPassword
+id edt_email
+id edt_name
+id edt_newPass
 id elastic
 id email
 id embed
@@ -3058,7 +3080,9 @@ id horizontal_only
 id ibTambah
 id icon
 id icon_group
+id icon_notVerify
 id icon_only
+id icon_verify
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3355,7 +3379,6 @@ id tvSignInH2
 id tvSignUpH1
 id tvSignUpH2
 id tvTarget
-id tvUsername
 id unchecked
 id uniform
 id unlabeled
@@ -4852,6 +4875,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

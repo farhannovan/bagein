@@ -4,15 +4,20 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,6 +30,57 @@ public final class FragmentAkunBinding implements ViewBinding {
   public final ConstraintLayout akun;
 
   @NonNull
+  public final Button btnCancel;
+
+  @NonNull
+  public final Button btnChangePass;
+
+  @NonNull
+  public final Button btnConfirm;
+
+  @NonNull
+  public final Button btnLogout;
+
+  @NonNull
+  public final Button btnNewCancel;
+
+  @NonNull
+  public final Button btnNewChange;
+
+  @NonNull
+  public final LinearLayout button;
+
+  @NonNull
+  public final CardView cvCurrentPass;
+
+  @NonNull
+  public final CardView cvUpdatePass;
+
+  @NonNull
+  public final CircleImageView cviUser;
+
+  @NonNull
+  public final EditText edtConfirmPass;
+
+  @NonNull
+  public final EditText edtCurrentPassword;
+
+  @NonNull
+  public final TextView edtEmail;
+
+  @NonNull
+  public final EditText edtName;
+
+  @NonNull
+  public final EditText edtNewPass;
+
+  @NonNull
+  public final ImageView iconNotVerify;
+
+  @NonNull
+  public final ImageView iconVerify;
+
+  @NonNull
   public final LinearLayout profile;
 
   @NonNull
@@ -33,22 +89,36 @@ public final class FragmentAkunBinding implements ViewBinding {
   @NonNull
   public final TextView tvAkun;
 
-  @NonNull
-  public final TextView tvEmail;
-
-  @NonNull
-  public final TextView tvUsername;
-
   private FragmentAkunBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout akun,
-      @NonNull LinearLayout profile, @NonNull RelativeLayout tAkun, @NonNull TextView tvAkun,
-      @NonNull TextView tvEmail, @NonNull TextView tvUsername) {
+      @NonNull Button btnCancel, @NonNull Button btnChangePass, @NonNull Button btnConfirm,
+      @NonNull Button btnLogout, @NonNull Button btnNewCancel, @NonNull Button btnNewChange,
+      @NonNull LinearLayout button, @NonNull CardView cvCurrentPass, @NonNull CardView cvUpdatePass,
+      @NonNull CircleImageView cviUser, @NonNull EditText edtConfirmPass,
+      @NonNull EditText edtCurrentPassword, @NonNull TextView edtEmail, @NonNull EditText edtName,
+      @NonNull EditText edtNewPass, @NonNull ImageView iconNotVerify, @NonNull ImageView iconVerify,
+      @NonNull LinearLayout profile, @NonNull RelativeLayout tAkun, @NonNull TextView tvAkun) {
     this.rootView = rootView;
     this.akun = akun;
+    this.btnCancel = btnCancel;
+    this.btnChangePass = btnChangePass;
+    this.btnConfirm = btnConfirm;
+    this.btnLogout = btnLogout;
+    this.btnNewCancel = btnNewCancel;
+    this.btnNewChange = btnNewChange;
+    this.button = button;
+    this.cvCurrentPass = cvCurrentPass;
+    this.cvUpdatePass = cvUpdatePass;
+    this.cviUser = cviUser;
+    this.edtConfirmPass = edtConfirmPass;
+    this.edtCurrentPassword = edtCurrentPassword;
+    this.edtEmail = edtEmail;
+    this.edtName = edtName;
+    this.edtNewPass = edtNewPass;
+    this.iconNotVerify = iconNotVerify;
+    this.iconVerify = iconVerify;
     this.profile = profile;
     this.tAkun = tAkun;
     this.tvAkun = tvAkun;
-    this.tvEmail = tvEmail;
-    this.tvUsername = tvUsername;
   }
 
   @Override
@@ -80,6 +150,108 @@ public final class FragmentAkunBinding implements ViewBinding {
     missingId: {
       ConstraintLayout akun = (ConstraintLayout) rootView;
 
+      id = R.id.btn_cancel;
+      Button btnCancel = ViewBindings.findChildViewById(rootView, id);
+      if (btnCancel == null) {
+        break missingId;
+      }
+
+      id = R.id.btnChangePass;
+      Button btnChangePass = ViewBindings.findChildViewById(rootView, id);
+      if (btnChangePass == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_confirm;
+      Button btnConfirm = ViewBindings.findChildViewById(rootView, id);
+      if (btnConfirm == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLogout;
+      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_newCancel;
+      Button btnNewCancel = ViewBindings.findChildViewById(rootView, id);
+      if (btnNewCancel == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_newChange;
+      Button btnNewChange = ViewBindings.findChildViewById(rootView, id);
+      if (btnNewChange == null) {
+        break missingId;
+      }
+
+      id = R.id.button;
+      LinearLayout button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
+      id = R.id.cv_currentPass;
+      CardView cvCurrentPass = ViewBindings.findChildViewById(rootView, id);
+      if (cvCurrentPass == null) {
+        break missingId;
+      }
+
+      id = R.id.cv_updatePass;
+      CardView cvUpdatePass = ViewBindings.findChildViewById(rootView, id);
+      if (cvUpdatePass == null) {
+        break missingId;
+      }
+
+      id = R.id.cvi_user;
+      CircleImageView cviUser = ViewBindings.findChildViewById(rootView, id);
+      if (cviUser == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_confirmPass;
+      EditText edtConfirmPass = ViewBindings.findChildViewById(rootView, id);
+      if (edtConfirmPass == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_currentPassword;
+      EditText edtCurrentPassword = ViewBindings.findChildViewById(rootView, id);
+      if (edtCurrentPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_email;
+      TextView edtEmail = ViewBindings.findChildViewById(rootView, id);
+      if (edtEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_name;
+      EditText edtName = ViewBindings.findChildViewById(rootView, id);
+      if (edtName == null) {
+        break missingId;
+      }
+
+      id = R.id.edt_newPass;
+      EditText edtNewPass = ViewBindings.findChildViewById(rootView, id);
+      if (edtNewPass == null) {
+        break missingId;
+      }
+
+      id = R.id.icon_notVerify;
+      ImageView iconNotVerify = ViewBindings.findChildViewById(rootView, id);
+      if (iconNotVerify == null) {
+        break missingId;
+      }
+
+      id = R.id.icon_verify;
+      ImageView iconVerify = ViewBindings.findChildViewById(rootView, id);
+      if (iconVerify == null) {
+        break missingId;
+      }
+
       id = R.id.profile;
       LinearLayout profile = ViewBindings.findChildViewById(rootView, id);
       if (profile == null) {
@@ -98,20 +270,10 @@ public final class FragmentAkunBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvEmail;
-      TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tvEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.tvUsername;
-      TextView tvUsername = ViewBindings.findChildViewById(rootView, id);
-      if (tvUsername == null) {
-        break missingId;
-      }
-
-      return new FragmentAkunBinding((ConstraintLayout) rootView, akun, profile, tAkun, tvAkun,
-          tvEmail, tvUsername);
+      return new FragmentAkunBinding((ConstraintLayout) rootView, akun, btnCancel, btnChangePass,
+          btnConfirm, btnLogout, btnNewCancel, btnNewChange, button, cvCurrentPass, cvUpdatePass,
+          cviUser, edtConfirmPass, edtCurrentPassword, edtEmail, edtName, edtNewPass, iconNotVerify,
+          iconVerify, profile, tAkun, tvAkun);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
