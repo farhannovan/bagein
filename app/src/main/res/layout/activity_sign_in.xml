@@ -25,6 +25,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
+            android:layout_weight="1"
             android:background="@android:color/transparent"
             android:minWidth="30dp"
             android:minHeight="30dp"
@@ -91,24 +92,20 @@
             android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="EMAIL"
+            android:text="ALAMAT EMAIL"
             android:textColor="@color/neutral_700"
             android:textSize="12sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="@color/neutral_25"
-            app:boxBackgroundMode="outline">
-
-            <EditText
-                android:id="@+id/etEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="EMAIL"
-                android:inputType="textPersonName"
-                android:textSize="16sp" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/neutral_600"
+            android:hint="alamatemail@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -132,21 +129,17 @@
             android:textColor="@color/neutral_700"
             android:textSize="12sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="@color/neutral_25"
-            app:boxBackgroundMode="outline"
-            app:passwordToggleEnabled="true">
-
-            <EditText
-                android:id="@+id/etPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="KATA SANDI"
-                android:inputType="textPersonName"
-                android:textSize="16sp" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/neutral_600"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="@color/neutral_600"
+            android:textColorHint="@color/neutral_600"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -202,20 +195,20 @@
     </LinearLayout>
 
     <!--        style="?android:attr/borderlessButtonStyle"-->
-<!--        android:id="@+id/btnRegis"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="24dp"-->
-<!--        android:layout_marginEnd="24dp"-->
-<!--        android:layout_marginBottom="48dp"-->
-<!--        android:background="@drawable/btn_secondary_default"-->
-<!--        android:fontFamily="@font/gsans_medium"-->
-<!--        android:text="Daftar akun"-->
-<!--        android:textAllCaps="false"-->
-<!--        android:textColor="@color/primary_500"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
+    <!--        android:id="@+id/btnRegis"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="24dp"-->
+    <!--        android:layout_marginEnd="24dp"-->
+    <!--        android:layout_marginBottom="48dp"-->
+    <!--        android:background="@drawable/btn_secondary_default"-->
+    <!--        android:fontFamily="@font/gsans_medium"-->
+    <!--        android:text="Daftar akun"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="@color/primary_500"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
