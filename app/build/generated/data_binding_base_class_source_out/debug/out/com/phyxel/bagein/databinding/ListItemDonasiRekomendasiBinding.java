@@ -4,6 +4,7 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,7 +25,13 @@ public final class ListItemDonasiRekomendasiBinding implements ViewBinding {
   public final ConstraintLayout clRekomendasiDonasi;
 
   @NonNull
+  public final CardView cvImage;
+
+  @NonNull
   public final CardView cvKategoriRekom;
+
+  @NonNull
+  public final ImageView ivBannerTopDonasi;
 
   @NonNull
   public final TextView tvDurasiRekomDonasi;
@@ -41,23 +48,22 @@ public final class ListItemDonasiRekomendasiBinding implements ViewBinding {
   @NonNull
   public final TextView tvNamaRekomPengaju;
 
-  @NonNull
-  public final View view1;
-
   private ListItemDonasiRekomendasiBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout clRekomendasiDonasi, @NonNull CardView cvKategoriRekom,
+      @NonNull ConstraintLayout clRekomendasiDonasi, @NonNull CardView cvImage,
+      @NonNull CardView cvKategoriRekom, @NonNull ImageView ivBannerTopDonasi,
       @NonNull TextView tvDurasiRekomDonasi, @NonNull TextView tvJumlahRekomDonasi,
       @NonNull TextView tvKategoriRekomDonasi, @NonNull TextView tvNamaRekomDonasi,
-      @NonNull TextView tvNamaRekomPengaju, @NonNull View view1) {
+      @NonNull TextView tvNamaRekomPengaju) {
     this.rootView = rootView;
     this.clRekomendasiDonasi = clRekomendasiDonasi;
+    this.cvImage = cvImage;
     this.cvKategoriRekom = cvKategoriRekom;
+    this.ivBannerTopDonasi = ivBannerTopDonasi;
     this.tvDurasiRekomDonasi = tvDurasiRekomDonasi;
     this.tvJumlahRekomDonasi = tvJumlahRekomDonasi;
     this.tvKategoriRekomDonasi = tvKategoriRekomDonasi;
     this.tvNamaRekomDonasi = tvNamaRekomDonasi;
     this.tvNamaRekomPengaju = tvNamaRekomPengaju;
-    this.view1 = view1;
   }
 
   @Override
@@ -89,9 +95,21 @@ public final class ListItemDonasiRekomendasiBinding implements ViewBinding {
     missingId: {
       ConstraintLayout clRekomendasiDonasi = (ConstraintLayout) rootView;
 
+      id = R.id.cvImage;
+      CardView cvImage = ViewBindings.findChildViewById(rootView, id);
+      if (cvImage == null) {
+        break missingId;
+      }
+
       id = R.id.cvKategoriRekom;
       CardView cvKategoriRekom = ViewBindings.findChildViewById(rootView, id);
       if (cvKategoriRekom == null) {
+        break missingId;
+      }
+
+      id = R.id.ivBannerTopDonasi;
+      ImageView ivBannerTopDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (ivBannerTopDonasi == null) {
         break missingId;
       }
 
@@ -125,15 +143,9 @@ public final class ListItemDonasiRekomendasiBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.view1;
-      View view1 = ViewBindings.findChildViewById(rootView, id);
-      if (view1 == null) {
-        break missingId;
-      }
-
       return new ListItemDonasiRekomendasiBinding((ConstraintLayout) rootView, clRekomendasiDonasi,
-          cvKategoriRekom, tvDurasiRekomDonasi, tvJumlahRekomDonasi, tvKategoriRekomDonasi,
-          tvNamaRekomDonasi, tvNamaRekomPengaju, view1);
+          cvImage, cvKategoriRekom, ivBannerTopDonasi, tvDurasiRekomDonasi, tvJumlahRekomDonasi,
+          tvKategoriRekomDonasi, tvNamaRekomDonasi, tvNamaRekomPengaju);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

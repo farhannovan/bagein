@@ -31,5 +31,8 @@
         <item name="android:windowLightStatusBar">true</item>
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/gsanstext_medium</item>
+        <item name="elevation">0dp</item>
+        <item name="cardElevation">0dp</item>
+
     </style>
 </resources>

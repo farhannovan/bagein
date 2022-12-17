@@ -3413,7 +3413,6 @@ int id unlabeled 0x7f0a025a
 int id up 0x7f0a025b
 int id useLogo 0x7f0a025c
 int id vertical_only 0x7f0a025d
-int id view1 0x7f0a025e
 int id view_offset_helper 0x7f0a025f
 int id view_transition 0x7f0a0260
 int id view_tree_lifecycle_owner 0x7f0a0261

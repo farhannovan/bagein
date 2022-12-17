@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/b4591f1a0bd3001f8ac083969e19d28d/transformed/material-1.7.0/res/values-night-v8/values-night-v8.xml",
@@ -54,6 +54,60 @@
                         "endLines": "23",
                         "endColumns": "12",
                         "endOffsets": "1410"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.phyxel.bagein.app-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/b4591f1a0bd3001f8ac083969e19d28d/transformed/material-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1503,1578,1689,1778,1879,1986,2093,2192,2295,2383,2507,2609,2711,2827,2929,3043,3171,3287,3409,3545,3665,3799,3919,4031,4246,4363,4487,4617,4739,4877,5011,5127",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1573,1684,1773,1874,1981,2088,2187,2290,2378,2502,2604,2706,2822,2924,3038,3166,3282,3404,3540,3660,3794,3914,4026,4152,4358,4482,4612,4734,4872,5006,5122,5242"
+                    }
+                },
+                {
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,50",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,4157",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,4241"
+                    }
+                },
+                {
+                    "source": "/Users/farhannovan/AndroidStudioProjects/Bagein/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "1032"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "25",
+                        "endColumns": "12",
+                        "endOffsets": "1498"
                     }
                 }
             ]

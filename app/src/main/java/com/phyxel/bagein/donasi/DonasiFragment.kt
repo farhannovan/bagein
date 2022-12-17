@@ -47,8 +47,8 @@ class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener,
         rvDonasiRekomendasi = binding.rvDonasiRekomendasi
         rvDonasiTop = binding.rvDonasiTop
 
-        initListDonasiRecyclerView()
         initListDonasiRekomendasiRecyclerView()
+        initListDonasiTopRecyclerView()
 
         val rekomendasi1 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
         val rekomendasi2 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
@@ -70,16 +70,16 @@ class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener,
         donasiAdapter.setData(topDonasi)
     }
 
-    private fun initListDonasiRekomendasiRecyclerView() {
+    private fun initListDonasiTopRecyclerView() {
         donasiAdapter = DonasiTopAdapter(requireActivity(), this)
         linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
         rvDonasiTop.layoutManager = linearLayoutManager
         rvDonasiTop.adapter = donasiAdapter
     }
 
-    private fun initListDonasiRecyclerView() {
+    private fun initListDonasiRekomendasiRecyclerView() {
         donasiRekomendasiAdapter = DonasiRekomendasiAdapter(requireActivity(), this)
-        linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
+        linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.VERTICAL, false)
         rvDonasiRekomendasi.layoutManager = linearLayoutManager
         rvDonasiRekomendasi.adapter = donasiRekomendasiAdapter
     }

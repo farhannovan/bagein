@@ -5,20 +5,19 @@
     android:id="@+id/clTopDonasi"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="10dp"
-    android:layout_marginBottom="10dp"
     android:background="@drawable/displaybox_background"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
     android:padding="20dp">
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cvImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -27,8 +26,8 @@
             android:id="@+id/ivBannerTopDonasi"
             android:layout_width="225dp"
             android:layout_height="225dp"
+            android:background="@color/neutral_600"
             android:scaleType="fitXY"
-            android:src="@drawable/donasi1"
             app:layout_constraintHeight_percent=".5" />
     </androidx.cardview.widget.CardView>
 

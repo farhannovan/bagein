@@ -255,7 +255,9 @@
                 android:id="@+id/rvDonasiTop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
                 android:orientation="horizontal"
+                android:padding="20dp"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -493,7 +495,10 @@
                 android:id="@+id/rvDonasiRekomendasi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
                 android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -504,7 +509,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:visibility="gone">
                 <!--Terpopuler Card 1-->
                 <LinearLayout
                     android:layout_width="match_parent"
