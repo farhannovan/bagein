@@ -4,10 +4,12 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,13 +29,13 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
   public final ImageButton btnBack;
 
   @NonNull
+  public final Button btnFormBuatDonasi;
+
+  @NonNull
   public final LinearLayout ceritaDonasi;
 
   @NonNull
   public final EditText etCerita;
-
-  @NonNull
-  public final EditText etKategori;
 
   @NonNull
   public final EditText etNamaDonasi;
@@ -52,6 +54,9 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
 
   @NonNull
   public final LinearLayout namaPengaju;
+
+  @NonNull
+  public final Spinner spKategori;
 
   @NonNull
   public final LinearLayout targetDonasi;
@@ -75,24 +80,26 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
   public final TextView tvTarget;
 
   private ActivityBuatDonasiFormBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnBack, @NonNull LinearLayout ceritaDonasi, @NonNull EditText etCerita,
-      @NonNull EditText etKategori, @NonNull EditText etNamaDonasi, @NonNull EditText etPengaju,
-      @NonNull EditText etTarget, @NonNull LinearLayout kategori, @NonNull LinearLayout namaDonasi,
-      @NonNull LinearLayout namaPengaju, @NonNull LinearLayout targetDonasi,
-      @NonNull RelativeLayout titleBarAktivitasMisi, @NonNull TextView tvCerita,
-      @NonNull TextView tvKategori, @NonNull TextView tvNamaDonasi, @NonNull TextView tvPengaju,
-      @NonNull TextView tvTarget) {
+      @NonNull ImageButton btnBack, @NonNull Button btnFormBuatDonasi,
+      @NonNull LinearLayout ceritaDonasi, @NonNull EditText etCerita,
+      @NonNull EditText etNamaDonasi, @NonNull EditText etPengaju, @NonNull EditText etTarget,
+      @NonNull LinearLayout kategori, @NonNull LinearLayout namaDonasi,
+      @NonNull LinearLayout namaPengaju, @NonNull Spinner spKategori,
+      @NonNull LinearLayout targetDonasi, @NonNull RelativeLayout titleBarAktivitasMisi,
+      @NonNull TextView tvCerita, @NonNull TextView tvKategori, @NonNull TextView tvNamaDonasi,
+      @NonNull TextView tvPengaju, @NonNull TextView tvTarget) {
     this.rootView = rootView;
     this.btnBack = btnBack;
+    this.btnFormBuatDonasi = btnFormBuatDonasi;
     this.ceritaDonasi = ceritaDonasi;
     this.etCerita = etCerita;
-    this.etKategori = etKategori;
     this.etNamaDonasi = etNamaDonasi;
     this.etPengaju = etPengaju;
     this.etTarget = etTarget;
     this.kategori = kategori;
     this.namaDonasi = namaDonasi;
     this.namaPengaju = namaPengaju;
+    this.spKategori = spKategori;
     this.targetDonasi = targetDonasi;
     this.titleBarAktivitasMisi = titleBarAktivitasMisi;
     this.tvCerita = tvCerita;
@@ -135,6 +142,12 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnFormBuatDonasi;
+      Button btnFormBuatDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (btnFormBuatDonasi == null) {
+        break missingId;
+      }
+
       id = R.id.ceritaDonasi;
       LinearLayout ceritaDonasi = ViewBindings.findChildViewById(rootView, id);
       if (ceritaDonasi == null) {
@@ -144,12 +157,6 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
       id = R.id.etCerita;
       EditText etCerita = ViewBindings.findChildViewById(rootView, id);
       if (etCerita == null) {
-        break missingId;
-      }
-
-      id = R.id.etKategori;
-      EditText etKategori = ViewBindings.findChildViewById(rootView, id);
-      if (etKategori == null) {
         break missingId;
       }
 
@@ -186,6 +193,12 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
       id = R.id.namaPengaju;
       LinearLayout namaPengaju = ViewBindings.findChildViewById(rootView, id);
       if (namaPengaju == null) {
+        break missingId;
+      }
+
+      id = R.id.spKategori;
+      Spinner spKategori = ViewBindings.findChildViewById(rootView, id);
+      if (spKategori == null) {
         break missingId;
       }
 
@@ -231,10 +244,10 @@ public final class ActivityBuatDonasiFormBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBuatDonasiFormBinding((ConstraintLayout) rootView, btnBack, ceritaDonasi,
-          etCerita, etKategori, etNamaDonasi, etPengaju, etTarget, kategori, namaDonasi,
-          namaPengaju, targetDonasi, titleBarAktivitasMisi, tvCerita, tvKategori, tvNamaDonasi,
-          tvPengaju, tvTarget);
+      return new ActivityBuatDonasiFormBinding((ConstraintLayout) rootView, btnBack,
+          btnFormBuatDonasi, ceritaDonasi, etCerita, etNamaDonasi, etPengaju, etTarget, kategori,
+          namaDonasi, namaPengaju, spKategori, targetDonasi, titleBarAktivitasMisi, tvCerita,
+          tvKategori, tvNamaDonasi, tvPengaju, tvTarget);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

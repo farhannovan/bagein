@@ -65,6 +65,7 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001b
 int animator mtrl_fab_show_motion_spec 0x7f02001c
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f02001d
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f02001e
+int array kategoriDonasi 0x7f160000
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr actionBarDivider 0x7f030002
@@ -2919,6 +2920,7 @@ int id browser_actions_menu_view 0x7f09006f
 int id btnBack 0x7f090070
 int id btnBayar 0x7f090257
 int id btnChangePass 0x7f090071
+int id btnFormBuatDonasi 0x7f09025b
 int id btnLogin 0x7f090072
 int id btnLogout 0x7f090073
 int id btnMisi 0x7f090074
@@ -3036,7 +3038,6 @@ int id enterAlwaysCollapsed 0x7f0900e2
 int id etCerita 0x7f0900e3
 int id etEmailLogin 0x7f0900e4
 int id etEmailRegis 0x7f0900e5
-int id etKategori 0x7f0900e6
 int id etNamaDonasi 0x7f0900e7
 int id etPasswordLogin 0x7f0900e8
 int id etPasswordRegis 0x7f0900e9
@@ -3279,6 +3280,7 @@ int id snackbar_text 0x7f0901d5
 int id snap 0x7f0901d6
 int id snapMargins 0x7f0901d7
 int id south 0x7f0901d8
+int id spKategori 0x7f09025c
 int id spacer 0x7f0901d9
 int id special_effects_controller_view_tag 0x7f0901da
 int id spline 0x7f0901db

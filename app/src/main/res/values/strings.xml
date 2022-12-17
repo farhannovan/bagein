@@ -2,4 +2,13 @@
     <string name="app_name">Bagein</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="kategoriDonasi">
+        <item>Sosial</item>
+        <item>Lingkungan</item>
+        <item>Kesehatan</item>
+        <item>Rumah Ibadah</item>
+        <item>Panti Asuhan</item>
+        <item>Pendidikan</item>
+    </string-array>
 </resources>

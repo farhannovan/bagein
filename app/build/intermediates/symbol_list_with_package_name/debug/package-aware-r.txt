@@ -66,6 +66,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array kategoriDonasi
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2920,6 +2921,7 @@ id browser_actions_menu_view
 id btnBack
 id btnBayar
 id btnChangePass
+id btnFormBuatDonasi
 id btnLogin
 id btnLogout
 id btnMisi
@@ -3037,7 +3039,6 @@ id enterAlwaysCollapsed
 id etCerita
 id etEmailLogin
 id etEmailRegis
-id etKategori
 id etNamaDonasi
 id etPasswordLogin
 id etPasswordRegis
@@ -3280,6 +3281,7 @@ id snackbar_text
 id snap
 id snapMargins
 id south
+id spKategori
 id spacer
 id special_effects_controller_view_tag
 id spline

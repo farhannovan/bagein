@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array kategoriDonasi
 color black
 color danger_100
 color danger_200
@@ -137,6 +138,7 @@ id bottomNavbar
 id btnBack
 id btnBayar
 id btnChangePass
+id btnFormBuatDonasi
 id btnLogin
 id btnLogout
 id btnMisi
@@ -174,7 +176,6 @@ id email
 id etCerita
 id etEmailLogin
 id etEmailRegis
-id etKategori
 id etNamaDonasi
 id etPasswordLogin
 id etPasswordRegis
@@ -208,6 +209,7 @@ id rbpantiasuhan
 id rbrumahibadah
 id riwayatDua
 id riwayatSatu
+id spKategori
 id svDonasi
 id tAkun
 id tDaftar
