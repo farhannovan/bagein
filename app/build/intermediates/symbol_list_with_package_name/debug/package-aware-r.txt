@@ -2712,6 +2712,7 @@ drawable ic_plus
 drawable ic_search
 drawable ic_verified
 drawable ic_voucher
+drawable input_primary_default
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2917,6 +2918,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
+id btnBayar
 id btnChangePass
 id btnLogin
 id btnLogout
@@ -3005,6 +3007,7 @@ id donasiDetailMain
 id donasiPilihan
 id donasiRekomendasi
 id donasi_detail
+id donasi_pembayaran
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3346,6 +3349,7 @@ id title
 id titleBarAktivitas
 id titleBarAktivitasMisi
 id titleBarDonasi
+id titleBarDonasiBayar
 id titleBarDonasiDetail
 id titleDividerNoCustom
 id titleKategori
@@ -3367,6 +3371,7 @@ id tvAktivitas
 id tvAkun
 id tvCerita
 id tvEmail
+id tvJumlahDonasi
 id tvKategori
 id tvKebiasaan
 id tvNamaDonasi
@@ -3530,6 +3535,7 @@ layout activity_aktivitas_misi
 layout activity_akun_detail
 layout activity_buat_donasi_form
 layout activity_donasi_detail
+layout activity_donasi_pembayaran
 layout activity_main
 layout activity_onboarding
 layout activity_sign_in

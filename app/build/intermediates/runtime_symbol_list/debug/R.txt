@@ -2711,6 +2711,7 @@ int drawable ic_plus 0x7f0700c0
 int drawable ic_search 0x7f0700c1
 int drawable ic_verified 0x7f0700c2
 int drawable ic_voucher 0x7f0700c3
+int drawable input_primary_default 0x7f070119
 int drawable m3_appbar_background 0x7f0700c4
 int drawable m3_popupmenu_background_overlay 0x7f0700c5
 int drawable m3_radiobutton_ripple 0x7f0700c6
@@ -2916,6 +2917,7 @@ int id browser_actions_menu_item_text 0x7f09006d
 int id browser_actions_menu_items 0x7f09006e
 int id browser_actions_menu_view 0x7f09006f
 int id btnBack 0x7f090070
+int id btnBayar 0x7f090257
 int id btnChangePass 0x7f090071
 int id btnLogin 0x7f090072
 int id btnLogout 0x7f090073
@@ -3004,6 +3006,7 @@ int id donasiDetailMain 0x7f0900c5
 int id donasiPilihan 0x7f0900c6
 int id donasiRekomendasi 0x7f0900c7
 int id donasi_detail 0x7f0900c8
+int id donasi_pembayaran 0x7f090258
 int id dragAnticlockwise 0x7f0900c9
 int id dragClockwise 0x7f0900ca
 int id dragDown 0x7f0900cb
@@ -3345,6 +3348,7 @@ int id title 0x7f09021a
 int id titleBarAktivitas 0x7f09021b
 int id titleBarAktivitasMisi 0x7f09021c
 int id titleBarDonasi 0x7f09021d
+int id titleBarDonasiBayar 0x7f090259
 int id titleBarDonasiDetail 0x7f09021e
 int id titleDividerNoCustom 0x7f09021f
 int id titleKategori 0x7f090220
@@ -3366,6 +3370,7 @@ int id tvAktivitas 0x7f09022f
 int id tvAkun 0x7f090230
 int id tvCerita 0x7f090231
 int id tvEmail 0x7f090232
+int id tvJumlahDonasi 0x7f09025a
 int id tvKategori 0x7f090233
 int id tvKebiasaan 0x7f090234
 int id tvNamaDonasi 0x7f090235
@@ -3529,6 +3534,7 @@ int layout activity_aktivitas_misi 0x7f0c001c
 int layout activity_akun_detail 0x7f0c001d
 int layout activity_buat_donasi_form 0x7f0c001e
 int layout activity_donasi_detail 0x7f0c001f
+int layout activity_donasi_pembayaran 0x7f0c0074
 int layout activity_main 0x7f0c0020
 int layout activity_onboarding 0x7f0c0021
 int layout activity_sign_in 0x7f0c0022
