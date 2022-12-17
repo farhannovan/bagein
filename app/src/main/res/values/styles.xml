@@ -26,4 +26,6 @@
         <!--        <item name="android:onClick">rbkategori</item>-->
     </style>
 
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
 </resources>

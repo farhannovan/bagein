@@ -304,7 +304,7 @@
             android:drawableLeft="@drawable/ic_lock"
             android:text="Ganti Password"
             android:textAlignment="textStart"
-            android:textColor="@color/neutral_900" />
+            android:textColor="@color/neutral_800" />
 
         <Button
             android:id="@+id/btnLogout"
@@ -316,7 +316,7 @@
             android:drawableLeft="@drawable/ic_logout"
             android:text="Keluar"
             android:textAlignment="textStart"
-            android:textColor="@color/neutral_900"
+            android:textColor="@color/neutral_800"
             app:iconGravity="end" />
     </LinearLayout>
 
