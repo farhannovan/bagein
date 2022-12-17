@@ -2976,6 +2976,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvImage
 id cvKategoriRekom
 id cvKategoriTop
 id cv_currentPass
@@ -3249,8 +3250,8 @@ id riwayatDua
 id riwayatSatu
 id rounded
 id row_index_key
-id rvDonasi
-id rvRekomendasi
+id rvDonasiRekomendasi
+id rvDonasiTop
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3405,6 +3406,7 @@ id tvSignInH2
 id tvSignUpH1
 id tvSignUpH2
 id tvTarget
+id tvTerkumpul
 id tv_spesial
 id unchecked
 id uniform

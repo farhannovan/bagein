@@ -1,4 +1,4 @@
-package com.phyxel.bagein.data
+package com.phyxel.bagein.donasi
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.phyxel.bagein.adapter.DonasiTopAdapter
 import com.phyxel.bagein.adapter.DonasiRekomendasiAdapter
+import com.phyxel.bagein.data.TopDonasi
+import com.phyxel.bagein.data.rekomendasi
 import com.phyxel.bagein.databinding.FragmentDonasiBinding
 
 class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener, DonasiTopAdapter.OnItemClickListener{
@@ -18,12 +20,12 @@ class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener,
 
     private lateinit var donasiAdapter: DonasiTopAdapter
     private lateinit var donasiRekomendasiAdapter: DonasiRekomendasiAdapter
-    private lateinit var rvRekomendasi: RecyclerView
-    private lateinit var rvDonasi: RecyclerView
+    private lateinit var rvDonasiRekomendasi: RecyclerView
+    private lateinit var rvDonasiTop: RecyclerView
     private lateinit var linearLayoutManager: LinearLayoutManager
 
     private var rekomendasiList : MutableList<rekomendasi> = ArrayList()
-    private var homeList : MutableList<TopDonasi> = ArrayList()
+    private var topDonasi : MutableList<TopDonasi> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,8 +44,8 @@ class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener,
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        rvRekomendasi = binding.rvRekomendasi
-        rvDonasi = binding.rvDonasi
+        rvDonasiRekomendasi = binding.rvDonasiRekomendasi
+        rvDonasiTop = binding.rvDonasiTop
 
         initListDonasiRecyclerView()
         initListDonasiRekomendasiRecyclerView()
@@ -61,25 +63,25 @@ class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener,
 
         donasiRekomendasiAdapter.setData(rekomendasiList)
 
-        val home1 = TopDonasi(1)
-        val home2 = TopDonasi(2)
-        homeList.add(home1)
-        homeList.add(home2)
-        donasiAdapter.setData(homeList)
+        val topDonasi1 = TopDonasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        val topDonasi2 = TopDonasi(2, "Sedekah Subuh")
+        topDonasi.add(topDonasi1)
+        topDonasi.add(topDonasi2)
+        donasiAdapter.setData(topDonasi)
     }
 
     private fun initListDonasiRekomendasiRecyclerView() {
         donasiAdapter = DonasiTopAdapter(requireActivity(), this)
         linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
-        rvDonasi.layoutManager = linearLayoutManager
-        rvDonasi.adapter = donasiAdapter
+        rvDonasiTop.layoutManager = linearLayoutManager
+        rvDonasiTop.adapter = donasiAdapter
     }
 
     private fun initListDonasiRecyclerView() {
         donasiRekomendasiAdapter = DonasiRekomendasiAdapter(requireActivity(), this)
         linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
-        rvRekomendasi.layoutManager = linearLayoutManager
-        rvRekomendasi.adapter = donasiRekomendasiAdapter
+        rvDonasiRekomendasi.layoutManager = linearLayoutManager
+        rvDonasiRekomendasi.adapter = donasiRekomendasiAdapter
     }
 
     override fun onItemClicked(v: View, position: Int) {

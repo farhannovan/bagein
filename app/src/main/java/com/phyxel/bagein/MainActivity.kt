@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment
 import com.phyxel.bagein.aktivitas.AktivitasFragment
 import com.phyxel.bagein.onboarding.AkunFragment
 import com.phyxel.bagein.buatdonasi.BuatDonasiFragment
-import com.phyxel.bagein.data.DonasiFragment
 import com.phyxel.bagein.databinding.ActivityMainBinding
+import com.phyxel.bagein.donasi.DonasiFragment
 
 class MainActivity : AppCompatActivity() {
 

@@ -154,6 +154,7 @@ id ceritaDonasi
 id clRekomendasiDonasi
 id clTopDonasi
 id critical1
+id cvImage
 id cvKategoriRekom
 id cvKategoriTop
 id cv_currentPass
@@ -214,8 +215,8 @@ id rbpantiasuhan
 id rbrumahibadah
 id riwayatDua
 id riwayatSatu
-id rvDonasi
-id rvRekomendasi
+id rvDonasiRekomendasi
+id rvDonasiTop
 id spKategori
 id svDonasi
 id tAkun
@@ -263,6 +264,7 @@ id tvSignInH2
 id tvSignUpH1
 id tvSignUpH2
 id tvTarget
+id tvTerkumpul
 id tv_spesial
 id view1
 layout activity_aktivitas_misi

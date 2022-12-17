@@ -198,13 +198,14 @@
                 android:layout_gravity="center"
                 android:overScrollMode="never"
                 android:scrollbars="none">
+
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:paddingStart="20dp"
-                    android:paddingTop="4dp"
-                    android:paddingBottom="16dp">
+                    android:paddingTop="4dp">
+
                     <RadioButton
                         android:id="@+id/rbmisi"
                         style="@style/rbStyle"
@@ -212,30 +213,35 @@
                         android:background="@drawable/rbtn_background"
                         android:checked="true"
                         android:text="Kegiatan Sosial" />
+
                     <RadioButton
                         android:id="@+id/rbkesehatan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Kesehatan" />
+
                     <RadioButton
                         android:id="@+id/rblingkungan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Lingkungan" />
+
                     <RadioButton
                         android:id="@+id/rbkemanusiaan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Kemanusiaan" />
+
                     <RadioButton
                         android:id="@+id/rbrumahibadah"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Rumah Ibadah" />
+
                     <RadioButton
                         android:id="@+id/rbpantiasuhan"
                         style="@style/rbStyle"
@@ -246,14 +252,12 @@
             </HorizontalScrollView>
             <!--Rekomendasi-->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvDonasi"
+                android:id="@+id/rvDonasiTop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="18dp"
                 android:orientation="horizontal"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.542"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_spesial" />
 
@@ -324,6 +328,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -464,10 +469,9 @@
             <!--Terpopuler-->
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvRekomendasi"
+                android:id="@+id/rvDonasiRekomendasi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="18dp"
                 android:orientation="horizontal"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"

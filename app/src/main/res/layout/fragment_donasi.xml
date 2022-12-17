@@ -198,13 +198,14 @@
                 android:layout_gravity="center"
                 android:overScrollMode="never"
                 android:scrollbars="none">
+
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:paddingStart="20dp"
-                    android:paddingTop="4dp"
-                    android:paddingBottom="16dp">
+                    android:paddingTop="4dp">
+
                     <RadioButton
                         android:id="@+id/rbmisi"
                         style="@style/rbStyle"
@@ -212,30 +213,35 @@
                         android:background="@drawable/rbtn_background"
                         android:checked="true"
                         android:text="Kegiatan Sosial" />
+
                     <RadioButton
                         android:id="@+id/rbkesehatan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Kesehatan" />
+
                     <RadioButton
                         android:id="@+id/rblingkungan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Lingkungan" />
+
                     <RadioButton
                         android:id="@+id/rbkemanusiaan"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Kemanusiaan" />
+
                     <RadioButton
                         android:id="@+id/rbrumahibadah"
                         style="@style/rbStyle"
                         android:layout_weight="1"
                         android:background="@drawable/rbtn_background"
                         android:text="Rumah Ibadah" />
+
                     <RadioButton
                         android:id="@+id/rbpantiasuhan"
                         style="@style/rbStyle"
@@ -246,14 +252,12 @@
             </HorizontalScrollView>
             <!--Rekomendasi-->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvDonasi"
+                android:id="@+id/rvDonasiTop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="18dp"
                 android:orientation="horizontal"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.542"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_spesial" />
 
@@ -263,7 +267,9 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:overScrollMode="never"
-                android:scrollbars="none">
+                android:scrollbars="none"
+                android:visibility="gone">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -279,11 +285,13 @@
                         android:background="@drawable/displaybox_background"
                         android:orientation="vertical"
                         android:padding="20dp">
+
                         <androidx.cardview.widget.CardView
                             android:layout_width="225dp"
                             android:layout_height="225dp"
                             app:cardCornerRadius="12dp"
                             app:cardElevation="0dp">
+
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -291,6 +299,7 @@
                                 android:background="@color/neutral_600"
                                 android:scaleType="centerCrop" />
                         </androidx.cardview.widget.CardView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -300,6 +309,7 @@
                             android:text="Sedekah Subuh"
                             android:textColor="@color/neutral_900"
                             android:textSize="20sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -311,6 +321,7 @@
                             android:text="Yayasan XYZ"
                             android:textColor="@color/neutral_600"
                             android:textSize="14sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -321,9 +332,11 @@
                             android:text="Terkumpul"
                             android:textColor="@color/neutral_900"
                             android:textSize="12sp" />
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -331,15 +344,18 @@
                                 android:text="Rp149.754.500"
                                 android:textColor="@color/neutral_900"
                                 android:textSize="16sp" />
+
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true">
+
                                 <android.widget.ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/ic_critical" />
+
                                 <android.widget.ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -357,11 +373,13 @@
                         android:background="@drawable/displaybox_background"
                         android:orientation="vertical"
                         android:padding="20dp">
+
                         <androidx.cardview.widget.CardView
                             android:layout_width="225dp"
                             android:layout_height="225dp"
                             app:cardCornerRadius="12dp"
                             app:cardElevation="0dp">
+
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -369,6 +387,7 @@
                                 android:background="@color/neutral_600"
                                 android:scaleType="centerCrop" />
                         </androidx.cardview.widget.CardView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -378,6 +397,7 @@
                             android:text="Bahagia itu Angga"
                             android:textColor="@color/neutral_900"
                             android:textSize="20sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -389,6 +409,7 @@
                             android:text="Pirates"
                             android:textColor="@color/neutral_600"
                             android:textSize="14sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -399,9 +420,11 @@
                             android:text="Terkumpul"
                             android:textColor="@color/neutral_900"
                             android:textSize="12sp" />
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -409,15 +432,18 @@
                                 android:text="Rp149.754.500"
                                 android:textColor="@color/neutral_900"
                                 android:textSize="16sp" />
+
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true">
+
                                 <android.widget.ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/ic_critical" />
+
                                 <android.widget.ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -464,10 +490,9 @@
             <!--Terpopuler-->
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvRekomendasi"
+                android:id="@+id/rvDonasiRekomendasi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="18dp"
                 android:orientation="horizontal"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"

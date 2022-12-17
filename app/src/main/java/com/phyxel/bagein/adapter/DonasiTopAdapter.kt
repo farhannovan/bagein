@@ -34,7 +34,7 @@ class DonasiTopAdapter(
         val clTop: ConstraintLayout = itemView.findViewById(R.id.clTopDonasi)
 
 
-        fun bind(mcontext: Context, homeList: TopDonasi, itemClickListener: OnItemClickListener)
+        fun bind(mcontext: Context, donasiTop: TopDonasi, itemClickListener: OnItemClickListener)
         {
             val myIndonesianLocale = Locale("in", "ID")
             val numberFormat = NumberFormat.getCurrencyInstance(myIndonesianLocale)
@@ -56,7 +56,11 @@ class DonasiTopAdapter(
                 .load(R.drawable.donasi1)
                 .into(ivBanner)
 
-            tvNamaDonasi.text = homeList.namaDonasi
+            tvNamaDonasi.text = donasiTop.namaDonasi
+            tvNamaPengaju.text = donasiTop.namaPengaju
+            tvKategoriDonasi.text = donasiTop.kategoriDonasi
+            tvJumlahDonasi.text = "${numberFormat.format(donasiTop.jumlahDonasi)}"
+            tvDurasiDonasi.text = "${donasiTop.durasiDonasi} Hari"
 
         }
     }

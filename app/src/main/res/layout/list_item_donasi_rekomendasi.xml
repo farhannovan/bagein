@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clRekomendasiDonasi"
     android:layout_width="250dp"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
     android:layout_marginRight="10dp"
     android:layout_marginBottom="10dp"
+    android:background="@drawable/displaybox_background"
     android:clickable="true"
     android:focusable="true"
-    android:elevation="2dp"
-    android:id="@+id/clRekomendasiDonasi"
-    android:foreground="?selectableItemBackground"
-    android:background="@drawable/displaybox_background">
+    android:foreground="?selectableItemBackground">
 
     <TextView
         android:id="@+id/tvNamaRekomDonasi"
@@ -45,10 +43,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="18dp"
         android:text="Rp 30.000"
         android:textColor="@color/neutral_900"
         android:textStyle="bold"
-        android:layout_marginBottom="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvNamaRekomDonasi"
         app:layout_constraintTop_toBottomOf="@+id/tvNamaRekomPengaju" />
@@ -57,9 +55,9 @@
         android:id="@+id/view1"
         android:layout_width="1dp"
         android:layout_height="18dp"
+        android:layout_marginLeft="8dp"
         android:background="@color/grey"
         android:orientation="vertical"
-        android:layout_marginLeft="8dp"
         app:layout_constraintBottom_toBottomOf="@id/tvNamaRekomPengaju"
         app:layout_constraintStart_toEndOf="@+id/tvNamaRekomPengaju"
         app:layout_constraintTop_toTopOf="@id/tvNamaRekomPengaju" />
@@ -68,8 +66,8 @@
         android:id="@+id/tvDurasiRekomDonasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="30 Hari"
         android:layout_marginLeft="8dp"
+        android:text="30 Hari"
         android:textColor="@color/neutral_900"
         app:layout_constraintBottom_toBottomOf="@+id/tvNamaRekomPengaju"
         app:layout_constraintStart_toEndOf="@+id/view1"

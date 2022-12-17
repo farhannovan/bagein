@@ -25,6 +25,9 @@ public final class ListItemDonasiTopBinding implements ViewBinding {
   public final ConstraintLayout clTopDonasi;
 
   @NonNull
+  public final CardView cvImage;
+
+  @NonNull
   public final CardView cvKategoriTop;
 
   @NonNull
@@ -45,13 +48,18 @@ public final class ListItemDonasiTopBinding implements ViewBinding {
   @NonNull
   public final TextView tvNamaTopPengaju;
 
+  @NonNull
+  public final TextView tvTerkumpul;
+
   private ListItemDonasiTopBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout clTopDonasi, @NonNull CardView cvKategoriTop,
-      @NonNull ImageView ivBannerTopDonasi, @NonNull TextView tvDurasiTopDonasi,
-      @NonNull TextView tvJumlahTopDonasi, @NonNull TextView tvKategoriTopDonasi,
-      @NonNull TextView tvNamaTopDonasi, @NonNull TextView tvNamaTopPengaju) {
+      @NonNull ConstraintLayout clTopDonasi, @NonNull CardView cvImage,
+      @NonNull CardView cvKategoriTop, @NonNull ImageView ivBannerTopDonasi,
+      @NonNull TextView tvDurasiTopDonasi, @NonNull TextView tvJumlahTopDonasi,
+      @NonNull TextView tvKategoriTopDonasi, @NonNull TextView tvNamaTopDonasi,
+      @NonNull TextView tvNamaTopPengaju, @NonNull TextView tvTerkumpul) {
     this.rootView = rootView;
     this.clTopDonasi = clTopDonasi;
+    this.cvImage = cvImage;
     this.cvKategoriTop = cvKategoriTop;
     this.ivBannerTopDonasi = ivBannerTopDonasi;
     this.tvDurasiTopDonasi = tvDurasiTopDonasi;
@@ -59,6 +67,7 @@ public final class ListItemDonasiTopBinding implements ViewBinding {
     this.tvKategoriTopDonasi = tvKategoriTopDonasi;
     this.tvNamaTopDonasi = tvNamaTopDonasi;
     this.tvNamaTopPengaju = tvNamaTopPengaju;
+    this.tvTerkumpul = tvTerkumpul;
   }
 
   @Override
@@ -89,6 +98,12 @@ public final class ListItemDonasiTopBinding implements ViewBinding {
     int id;
     missingId: {
       ConstraintLayout clTopDonasi = (ConstraintLayout) rootView;
+
+      id = R.id.cvImage;
+      CardView cvImage = ViewBindings.findChildViewById(rootView, id);
+      if (cvImage == null) {
+        break missingId;
+      }
 
       id = R.id.cvKategoriTop;
       CardView cvKategoriTop = ViewBindings.findChildViewById(rootView, id);
@@ -132,9 +147,15 @@ public final class ListItemDonasiTopBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ListItemDonasiTopBinding((ConstraintLayout) rootView, clTopDonasi, cvKategoriTop,
-          ivBannerTopDonasi, tvDurasiTopDonasi, tvJumlahTopDonasi, tvKategoriTopDonasi,
-          tvNamaTopDonasi, tvNamaTopPengaju);
+      id = R.id.tvTerkumpul;
+      TextView tvTerkumpul = ViewBindings.findChildViewById(rootView, id);
+      if (tvTerkumpul == null) {
+        break missingId;
+      }
+
+      return new ListItemDonasiTopBinding((ConstraintLayout) rootView, clTopDonasi, cvImage,
+          cvKategoriTop, ivBannerTopDonasi, tvDurasiTopDonasi, tvJumlahTopDonasi,
+          tvKategoriTopDonasi, tvNamaTopDonasi, tvNamaTopPengaju, tvTerkumpul);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

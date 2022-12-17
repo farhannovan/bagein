@@ -2975,6 +2975,7 @@ int id currentState 0x7f0a00a6
 int id custom 0x7f0a00a7
 int id customPanel 0x7f0a00a8
 int id cut 0x7f0a00a9
+int id cvImage 0x7f0a0273
 int id cvKategoriRekom 0x7f0a00aa
 int id cvKategoriTop 0x7f0a00ab
 int id cv_currentPass 0x7f0a00ac
@@ -3248,8 +3249,8 @@ int id riwayatDua 0x7f0a01b7
 int id riwayatSatu 0x7f0a01b8
 int id rounded 0x7f0a01b9
 int id row_index_key 0x7f0a01ba
-int id rvDonasi 0x7f0a01bb
-int id rvRekomendasi 0x7f0a01bc
+int id rvDonasiRekomendasi 0x7f0a0274
+int id rvDonasiTop 0x7f0a0275
 int id save_non_transition_alpha 0x7f0a01bd
 int id save_overlay_view 0x7f0a01be
 int id sawtooth 0x7f0a01bf
@@ -3404,6 +3405,7 @@ int id tvSignInH2 0x7f0a0253
 int id tvSignUpH1 0x7f0a0254
 int id tvSignUpH2 0x7f0a0255
 int id tvTarget 0x7f0a0256
+int id tvTerkumpul 0x7f0a0271
 int id tv_spesial 0x7f0a0257
 int id unchecked 0x7f0a0258
 int id uniform 0x7f0a0259
