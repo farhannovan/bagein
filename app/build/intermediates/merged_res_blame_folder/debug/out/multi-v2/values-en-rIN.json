@@ -4,6 +4,23 @@
             "outputFile": "com.phyxel.bagein.app-mergeDebugResources-33:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
+                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/6e10f86dba14239ed67a9a375a2d0d72/transformed/core-1.9.0/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3248",
+                        "endColumns": "100",
+                        "endOffsets": "3344"
+                    }
+                },
+                {
                     "source": "/Users/farhannovan/.gradle/caches/transforms-3/6666fd4b4d0948c3c38e5f3ab0f19c6a/transformed/browser-1.4.0/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -18,23 +35,6 @@
                         "startOffsets": "2762,2860,2957,3066",
                         "endColumns": "97,96,108,98",
                         "endOffsets": "2855,2952,3061,3160"
-                    }
-                },
-                {
-                    "source": "/Users/farhannovan/.gradle/caches/transforms-3/f3e1e65d7d4aa682d784590066561b0d/transformed/core-1.8.0/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3248",
-                        "endColumns": "100",
-                        "endOffsets": "3344"
                     }
                 },
                 {

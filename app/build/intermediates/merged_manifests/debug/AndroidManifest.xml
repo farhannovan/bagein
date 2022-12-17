@@ -14,6 +14,12 @@
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
+    <permission
+        android:name="com.phyxel.bagein.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.phyxel.bagein.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -196,10 +202,6 @@
             android:value="@integer/google_play_services_version" />
 
         <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.phyxel.bagein.com.squareup.picasso"
-            android:exported="false" />
-        <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.phyxel.bagein.androidx-startup"
             android:exported="false" >
@@ -210,6 +212,10 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.phyxel.bagein.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>
