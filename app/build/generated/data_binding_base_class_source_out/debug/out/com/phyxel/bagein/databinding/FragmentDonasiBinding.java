@@ -17,6 +17,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
@@ -83,6 +84,12 @@ public final class FragmentDonasiBinding implements ViewBinding {
   public final RadioButton rbrumahibadah;
 
   @NonNull
+  public final RecyclerView rvDonasi;
+
+  @NonNull
+  public final RecyclerView rvRekomendasi;
+
+  @NonNull
   public final SearchView svDonasi;
 
   @NonNull
@@ -115,7 +122,8 @@ public final class FragmentDonasiBinding implements ViewBinding {
       @NonNull ProgressBar progressBar, @NonNull RadioButton rbkemanusiaan,
       @NonNull RadioButton rbkesehatan, @NonNull RadioButton rblingkungan,
       @NonNull RadioButton rbmisi, @NonNull RadioButton rbpantiasuhan,
-      @NonNull RadioButton rbrumahibadah, @NonNull SearchView svDonasi,
+      @NonNull RadioButton rbrumahibadah, @NonNull RecyclerView rvDonasi,
+      @NonNull RecyclerView rvRekomendasi, @NonNull SearchView svDonasi,
       @NonNull RelativeLayout tDonasiRekomendasi, @NonNull TextView tKategori,
       @NonNull TextView tRekomendasi, @NonNull TextView tUser,
       @NonNull RelativeLayout titleBarDonasi, @NonNull RelativeLayout titleKategori,
@@ -139,6 +147,8 @@ public final class FragmentDonasiBinding implements ViewBinding {
     this.rbmisi = rbmisi;
     this.rbpantiasuhan = rbpantiasuhan;
     this.rbrumahibadah = rbrumahibadah;
+    this.rvDonasi = rvDonasi;
+    this.rvRekomendasi = rvRekomendasi;
     this.svDonasi = svDonasi;
     this.tDonasiRekomendasi = tDonasiRekomendasi;
     this.tKategori = tKategori;
@@ -280,6 +290,18 @@ public final class FragmentDonasiBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.rvDonasi;
+      RecyclerView rvDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (rvDonasi == null) {
+        break missingId;
+      }
+
+      id = R.id.rvRekomendasi;
+      RecyclerView rvRekomendasi = ViewBindings.findChildViewById(rootView, id);
+      if (rvRekomendasi == null) {
+        break missingId;
+      }
+
       id = R.id.svDonasi;
       SearchView svDonasi = ViewBindings.findChildViewById(rootView, id);
       if (svDonasi == null) {
@@ -331,8 +353,8 @@ public final class FragmentDonasiBinding implements ViewBinding {
       return new FragmentDonasiBinding((ConstraintLayout) rootView, boost1, cariDonasi, critical1,
           donasi, donasi1, donasi2, donasiPilihan, donasiRekomendasi, ibTambah, kategoriPilihan,
           mainframe, progressBar, rbkemanusiaan, rbkesehatan, rblingkungan, rbmisi, rbpantiasuhan,
-          rbrumahibadah, svDonasi, tDonasiRekomendasi, tKategori, tRekomendasi, tUser,
-          titleBarDonasi, titleKategori, topUp);
+          rbrumahibadah, rvDonasi, rvRekomendasi, svDonasi, tDonasiRekomendasi, tKategori,
+          tRekomendasi, tUser, titleBarDonasi, titleKategori, topUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

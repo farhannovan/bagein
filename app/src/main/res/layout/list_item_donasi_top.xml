@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/clTopDonasi"
+    android:foreground="?selectableItemBackground"
+    android:background="@drawable/displaybox_background">
+
+    <ImageView
+        android:id="@+id/ivBannerTopDonasi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/donasi1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvKategoriTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@color/neutral_600"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBannerTopDonasi">
+
+        <TextView
+            android:id="@+id/tvKategoriTopDonasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="Sekali Beli"
+            android:textColor="@color/neutral_900"
+            android:textSize="10sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvNamaTopDonasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="#SurpriseDeal Nonton"
+        android:textColor="@color/neutral_900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvKategoriTop" />
+
+    <TextView
+        android:id="@+id/tvNamaTopPengaju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Yayasan XYZ"
+        android:textColor="@color/neutral_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvNamaRekomDonasi"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaTopDonasi" />
+
+    <TextView
+        android:id="@+id/tvJumlahTopDonasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="18dp"
+        android:text="Rp 30.000"
+        android:textColor="@color/neutral_900"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvNamaRekomDonasi"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaRekomPengaju" />
+
+    <TextView
+        android:id="@+id/tvDurasiTopDonasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="30 Hari"
+        android:textColor="@color/neutral_900"
+        app:layout_constraintStart_toEndOf="@+id/tvJumlahTopDonasi"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaTopPengaju" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

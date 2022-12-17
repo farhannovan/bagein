@@ -2951,6 +2951,8 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id clRekomendasiDonasi
+id clTopDonasi
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -2974,6 +2976,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvKategoriRekom
+id cvKategoriTop
 id cv_currentPass
 id cv_updatePass
 id cvi_user
@@ -3068,6 +3072,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3099,6 +3104,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivBannerTopDonasi
 id jumpToEnd
 id jumpToStart
 id kategori
@@ -3243,6 +3249,8 @@ id riwayatDua
 id riwayatSatu
 id rounded
 id row_index_key
+id rvDonasi
+id rvRekomendasi
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3337,6 +3345,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView2
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3372,11 +3381,21 @@ id triangle
 id tvAktivitas
 id tvAkun
 id tvCerita
+id tvDurasiRekomDonasi
+id tvDurasiTopDonasi
 id tvEmail
 id tvJumlahDonasi
+id tvJumlahRekomDonasi
+id tvJumlahTopDonasi
 id tvKategori
+id tvKategoriRekomDonasi
+id tvKategoriTopDonasi
 id tvKebiasaan
 id tvNamaDonasi
+id tvNamaRekomDonasi
+id tvNamaRekomPengaju
+id tvNamaTopDonasi
+id tvNamaTopPengaju
 id tvOnboardH1
 id tvOnboardH2
 id tvPassword
@@ -3386,12 +3405,14 @@ id tvSignInH2
 id tvSignUpH1
 id tvSignUpH2
 id tvTarget
+id tv_spesial
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
 id vertical_only
+id view1
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3564,6 +3585,8 @@ layout fragment_aktivitas
 layout fragment_akun
 layout fragment_buat_donasi
 layout fragment_donasi
+layout list_item_donasi_rekomendasi
+layout list_item_donasi_top
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -151,7 +151,11 @@ id buat_donasi
 id button
 id cariDonasi
 id ceritaDonasi
+id clRekomendasiDonasi
+id clTopDonasi
 id critical1
+id cvKategoriRekom
+id cvKategoriTop
 id cv_currentPass
 id cv_updatePass
 id cvi_user
@@ -186,6 +190,7 @@ id frameLayout
 id ibTambah
 id icon_notVerify
 id icon_verify
+id ivBannerTopDonasi
 id kategori
 id kategoriPilihan
 id mainframe
@@ -209,6 +214,8 @@ id rbpantiasuhan
 id rbrumahibadah
 id riwayatDua
 id riwayatSatu
+id rvDonasi
+id rvRekomendasi
 id spKategori
 id svDonasi
 id tAkun
@@ -221,6 +228,7 @@ id tRiwayat
 id tUser
 id targetDonasi
 id textView2
+id textView6
 id titleBarAktivitas
 id titleBarAktivitasMisi
 id titleBarDonasi
@@ -231,11 +239,21 @@ id topUp
 id tvAktivitas
 id tvAkun
 id tvCerita
+id tvDurasiRekomDonasi
+id tvDurasiTopDonasi
 id tvEmail
 id tvJumlahDonasi
+id tvJumlahRekomDonasi
+id tvJumlahTopDonasi
 id tvKategori
+id tvKategoriRekomDonasi
+id tvKategoriTopDonasi
 id tvKebiasaan
 id tvNamaDonasi
+id tvNamaRekomDonasi
+id tvNamaRekomPengaju
+id tvNamaTopDonasi
+id tvNamaTopPengaju
 id tvOnboardH1
 id tvOnboardH2
 id tvPassword
@@ -245,6 +263,8 @@ id tvSignInH2
 id tvSignUpH1
 id tvSignUpH2
 id tvTarget
+id tv_spesial
+id view1
 layout activity_aktivitas_misi
 layout activity_akun_detail
 layout activity_buat_donasi_form
@@ -258,6 +278,8 @@ layout fragment_aktivitas
 layout fragment_akun
 layout fragment_buat_donasi
 layout fragment_donasi
+layout list_item_donasi_rekomendasi
+layout list_item_donasi_top
 menu bottom_navbar
 mipmap ic_launcher
 mipmap ic_launcher_round

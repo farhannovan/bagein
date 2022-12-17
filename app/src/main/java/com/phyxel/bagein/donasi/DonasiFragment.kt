@@ -1,59 +1,92 @@
-package com.phyxel.bagein.donasi
+package com.phyxel.bagein.data
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.phyxel.bagein.R
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.phyxel.bagein.adapter.DonasiTopAdapter
+import com.phyxel.bagein.adapter.DonasiRekomendasiAdapter
+import com.phyxel.bagein.databinding.FragmentDonasiBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+class DonasiFragment : Fragment(), DonasiRekomendasiAdapter.OnItemClickListener, DonasiTopAdapter.OnItemClickListener{
 
-/**
- * A simple [Fragment] subclass.
- * Use the [DonasiFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class DonasiFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    private var _binding: FragmentDonasiBinding? = null
+    private val binding get() = _binding!!
+
+    private lateinit var donasiAdapter: DonasiTopAdapter
+    private lateinit var donasiRekomendasiAdapter: DonasiRekomendasiAdapter
+    private lateinit var rvRekomendasi: RecyclerView
+    private lateinit var rvDonasi: RecyclerView
+    private lateinit var linearLayoutManager: LinearLayoutManager
+
+    private var rekomendasiList : MutableList<rekomendasi> = ArrayList()
+    private var homeList : MutableList<TopDonasi> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_donasi, container, false)
+        _binding = FragmentDonasiBinding.inflate(layoutInflater, container, false)
+        val view = binding.root
+        return view
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment DonasiFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic fun newInstance(param1: String, param2: String) =
-                DonasiFragment().apply {
-                    arguments = Bundle().apply {
-                        putString(ARG_PARAM1, param1)
-                        putString(ARG_PARAM2, param2)
-                    }
-                }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        rvRekomendasi = binding.rvRekomendasi
+        rvDonasi = binding.rvDonasi
+
+        initListDonasiRecyclerView()
+        initListDonasiRekomendasiRecyclerView()
+
+        val rekomendasi1 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        val rekomendasi2 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        val rekomendasi3 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        val rekomendasi4 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        val rekomendasi5 = rekomendasi(1, "Sedekah Subuh", "XYZ", "Sosial", 30000, 15)
+        rekomendasiList.add(rekomendasi1)
+        rekomendasiList.add(rekomendasi2)
+        rekomendasiList.add(rekomendasi3)
+        rekomendasiList.add(rekomendasi4)
+        rekomendasiList.add(rekomendasi5)
+
+        donasiRekomendasiAdapter.setData(rekomendasiList)
+
+        val home1 = TopDonasi(1)
+        val home2 = TopDonasi(2)
+        homeList.add(home1)
+        homeList.add(home2)
+        donasiAdapter.setData(homeList)
     }
 
-    fun rbkategori(view: View) {}
+    private fun initListDonasiRekomendasiRecyclerView() {
+        donasiAdapter = DonasiTopAdapter(requireActivity(), this)
+        linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
+        rvDonasi.layoutManager = linearLayoutManager
+        rvDonasi.adapter = donasiAdapter
+    }
+
+    private fun initListDonasiRecyclerView() {
+        donasiRekomendasiAdapter = DonasiRekomendasiAdapter(requireActivity(), this)
+        linearLayoutManager = LinearLayoutManager(requireActivity(), LinearLayoutManager.HORIZONTAL, false)
+        rvRekomendasi.layoutManager = linearLayoutManager
+        rvRekomendasi.adapter = donasiRekomendasiAdapter
+    }
+
+    override fun onItemClicked(v: View, position: Int) {
+
+    }
+
+    override fun onItemHomeClicked(v: View, position: Int) {
+
+    }
 }

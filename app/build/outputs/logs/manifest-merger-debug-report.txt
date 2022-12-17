@@ -13,6 +13,7 @@ MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gra
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/farhannovan/.gradle/caches/transforms-3/889589ec92699449cc653bfbb31ee0ec/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/farhannovan/.gradle/caches/transforms-3/01c21e53ca00a182c19903e63fbb58df/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/073c56bc7b60db616743e369be2ae1a0/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/b6bb37cf7ccbbcea3a79c08de8ea02df/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
@@ -45,6 +46,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/farhannovan
 MERGED from [androidx.loader:loader:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/2598455458fdfe27b2e7092cd386f1ea/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/a3d2995413e1e4cb7aa44ee1f03fad8a/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/82d3c334b9d8c9b8bc7396a3baa50c98/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/farhannovan/.gradle/caches/transforms-3/71e43165c1d05af6931b072922da1d48/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/86a39a58da199679db53a5db8ce2e799/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/8643af997646ec517bbe229417b8311b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -54,7 +56,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/farha
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/386cb815e13270d6579e739fab577ffa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] /Users/farhannovan/.gradle/caches/transforms-3/6666fd4b4d0948c3c38e5f3ab0f19c6a/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/f3a149ac940b4647a75aa414f1a825ca/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/165d25f198694b06c0a783490da8e732/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/dbd2b0ba572112837d05ec67ac2d8282/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] /Users/farhannovan/.gradle/caches/transforms-3/6e10f86dba14239ed67a9a375a2d0d72/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/farhannovan/.gradle/caches/transforms-3/098ead4b47ce8771c227a2efbdfd4469/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
@@ -66,6 +67,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/farhannovan/.gra
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/d78445408774d0becf2501445a93b15b/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/59ef4441a541a9c6954cc7afef4d3846/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/bb86ede28134b8b527d800c2b078b4aa/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/b1f8975e95a85a7c0c928f89857c2dcc/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/4f7d816e15914ca1aa51fc20fb13db82/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/3f24c2bd3170a50fa30ca6ece65c5e33/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/65fa9e6943a2e10270685d247c16587b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -111,6 +114,8 @@ MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gra
 MERGED from [com.google.android.material:material:1.7.0] /Users/farhannovan/.gradle/caches/transforms-3/b4591f1a0bd3001f8ac083969e19d28d/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/farhannovan/.gradle/caches/transforms-3/889589ec92699449cc653bfbb31ee0ec/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/farhannovan/.gradle/caches/transforms-3/889589ec92699449cc653bfbb31ee0ec/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/073c56bc7b60db616743e369be2ae1a0/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/073c56bc7b60db616743e369be2ae1a0/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/farhannovan/.gradle/caches/transforms-3/4fc0bbd80152219a7987921e87331197/transformed/firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
@@ -161,6 +166,8 @@ MERGED from [com.squareup.picasso:picasso:2.71828] /Users/farhannovan/.gradle/ca
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/farhannovan/.gradle/caches/transforms-3/c0ad7ffd8205d545c2afc042ca62358c/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/farhannovan/.gradle/caches/transforms-3/639815e146fb5adb568736e2231fba0d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/bb86ede28134b8b527d800c2b078b4aa/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/bb86ede28134b8b527d800c2b078b4aa/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/4f7d816e15914ca1aa51fc20fb13db82/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/4f7d816e15914ca1aa51fc20fb13db82/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/65fa9e6943a2e10270685d247c16587b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
@@ -277,6 +284,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/farhannovan/.g
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/farhannovan/.gradle/caches/transforms-3/01c21e53ca00a182c19903e63fbb58df/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/farhannovan/.gradle/caches/transforms-3/ecfad016f045e482afaf01f5a8de54f0/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/073c56bc7b60db616743e369be2ae1a0/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/073c56bc7b60db616743e369be2ae1a0/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/farhannovan/.gradle/caches/transforms-3/c31f0552b79e5b20042367f6efd4bb6a/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/b6bb37cf7ccbbcea3a79c08de8ea02df/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -341,6 +350,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/farhannovan/.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/a3d2995413e1e4cb7aa44ee1f03fad8a/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/82d3c334b9d8c9b8bc7396a3baa50c98/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/82d3c334b9d8c9b8bc7396a3baa50c98/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/farhannovan/.gradle/caches/transforms-3/71e43165c1d05af6931b072922da1d48/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/farhannovan/.gradle/caches/transforms-3/71e43165c1d05af6931b072922da1d48/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/86a39a58da199679db53a5db8ce2e799/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/86a39a58da199679db53a5db8ce2e799/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/5c11eae635beea20b1146cf7e1fc75cb/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
@@ -359,8 +370,6 @@ MERGED from [androidx.browser:browser:1.4.0] /Users/farhannovan/.gradle/caches/t
 MERGED from [androidx.browser:browser:1.4.0] /Users/farhannovan/.gradle/caches/transforms-3/6666fd4b4d0948c3c38e5f3ab0f19c6a/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/f3a149ac940b4647a75aa414f1a825ca/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/f3a149ac940b4647a75aa414f1a825ca/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/165d25f198694b06c0a783490da8e732/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/165d25f198694b06c0a783490da8e732/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/dbd2b0ba572112837d05ec67ac2d8282/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/farhannovan/.gradle/caches/transforms-3/dbd2b0ba572112837d05ec67ac2d8282/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.9.0] /Users/farhannovan/.gradle/caches/transforms-3/6e10f86dba14239ed67a9a375a2d0d72/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
@@ -383,6 +392,10 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/farhannovan/.gra
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/farhannovan/.gradle/caches/transforms-3/d78445408774d0becf2501445a93b15b/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/59ef4441a541a9c6954cc7afef4d3846/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/59ef4441a541a9c6954cc7afef4d3846/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/bb86ede28134b8b527d800c2b078b4aa/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/farhannovan/.gradle/caches/transforms-3/bb86ede28134b8b527d800c2b078b4aa/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/b1f8975e95a85a7c0c928f89857c2dcc/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/farhannovan/.gradle/caches/transforms-3/b1f8975e95a85a7c0c928f89857c2dcc/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/4f7d816e15914ca1aa51fc20fb13db82/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farhannovan/.gradle/caches/transforms-3/4f7d816e15914ca1aa51fc20fb13db82/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farhannovan/.gradle/caches/transforms-3/3f24c2bd3170a50fa30ca6ece65c5e33/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
