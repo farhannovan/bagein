@@ -4,11 +4,11 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,7 +22,10 @@ public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding 
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnDonasiLagi;
+  public final AppCompatButton btnDonasiLagi;
+
+  @NonNull
+  public final AppCompatButton btnLanjut;
 
   @NonNull
   public final ImageView imageView8;
@@ -34,10 +37,11 @@ public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding 
   public final TextView textView32;
 
   private ActivityDonasiPembayaranSuksesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnDonasiLagi, @NonNull ImageView imageView8, @NonNull TextView textView31,
-      @NonNull TextView textView32) {
+      @NonNull AppCompatButton btnDonasiLagi, @NonNull AppCompatButton btnLanjut,
+      @NonNull ImageView imageView8, @NonNull TextView textView31, @NonNull TextView textView32) {
     this.rootView = rootView;
     this.btnDonasiLagi = btnDonasiLagi;
+    this.btnLanjut = btnLanjut;
     this.imageView8 = imageView8;
     this.textView31 = textView31;
     this.textView32 = textView32;
@@ -71,8 +75,14 @@ public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding 
     int id;
     missingId: {
       id = R.id.btnDonasiLagi;
-      Button btnDonasiLagi = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton btnDonasiLagi = ViewBindings.findChildViewById(rootView, id);
       if (btnDonasiLagi == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLanjut;
+      AppCompatButton btnLanjut = ViewBindings.findChildViewById(rootView, id);
+      if (btnLanjut == null) {
         break missingId;
       }
 
@@ -95,7 +105,7 @@ public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding 
       }
 
       return new ActivityDonasiPembayaranSuksesBinding((ConstraintLayout) rootView, btnDonasiLagi,
-          imageView8, textView31, textView32);
+          btnLanjut, imageView8, textView31, textView32);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -7,7 +7,7 @@
     android:background="@color/neutral_25"
     tools:context=".donasi.DonasiPembayaranGagalActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDonasiLagi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

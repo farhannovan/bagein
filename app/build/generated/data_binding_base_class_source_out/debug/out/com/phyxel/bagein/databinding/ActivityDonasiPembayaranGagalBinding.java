@@ -4,11 +4,11 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,7 +22,7 @@ public final class ActivityDonasiPembayaranGagalBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnDonasiLagi;
+  public final AppCompatButton btnDonasiLagi;
 
   @NonNull
   public final ImageView imageView8;
@@ -34,8 +34,8 @@ public final class ActivityDonasiPembayaranGagalBinding implements ViewBinding {
   public final TextView textView32;
 
   private ActivityDonasiPembayaranGagalBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnDonasiLagi, @NonNull ImageView imageView8, @NonNull TextView textView31,
-      @NonNull TextView textView32) {
+      @NonNull AppCompatButton btnDonasiLagi, @NonNull ImageView imageView8,
+      @NonNull TextView textView31, @NonNull TextView textView32) {
     this.rootView = rootView;
     this.btnDonasiLagi = btnDonasiLagi;
     this.imageView8 = imageView8;
@@ -71,7 +71,7 @@ public final class ActivityDonasiPembayaranGagalBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnDonasiLagi;
-      Button btnDonasiLagi = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton btnDonasiLagi = ViewBindings.findChildViewById(rootView, id);
       if (btnDonasiLagi == null) {
         break missingId;
       }

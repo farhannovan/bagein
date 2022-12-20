@@ -146,9 +146,11 @@ id btnDonasiBayar
 id btnDonasiLagi
 id btnDonasiSekarang
 id btnFormBuatDonasi
+id btnLanjut
 id btnLogin
 id btnLogout
 id btnMisi
+id btnMisiDonasi
 id btnRegis
 id btn_cancel
 id btn_confirm

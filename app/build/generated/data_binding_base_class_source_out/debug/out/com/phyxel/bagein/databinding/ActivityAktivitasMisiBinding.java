@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -29,6 +30,9 @@ public final class ActivityAktivitasMisiBinding implements ViewBinding {
   public final ImageButton btnBack;
 
   @NonNull
+  public final AppCompatButton btnMisiDonasi;
+
+  @NonNull
   public final LinearLayout misiHarian;
 
   @NonNull
@@ -42,11 +46,13 @@ public final class ActivityAktivitasMisiBinding implements ViewBinding {
 
   private ActivityAktivitasMisiBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout aktivitasSignin, @NonNull ImageButton btnBack,
-      @NonNull LinearLayout misiHarian, @NonNull LinearLayout misiKolektif,
-      @NonNull TextView textView2, @NonNull RelativeLayout titleBarAktivitasMisi) {
+      @NonNull AppCompatButton btnMisiDonasi, @NonNull LinearLayout misiHarian,
+      @NonNull LinearLayout misiKolektif, @NonNull TextView textView2,
+      @NonNull RelativeLayout titleBarAktivitasMisi) {
     this.rootView = rootView;
     this.aktivitasSignin = aktivitasSignin;
     this.btnBack = btnBack;
+    this.btnMisiDonasi = btnMisiDonasi;
     this.misiHarian = misiHarian;
     this.misiKolektif = misiKolektif;
     this.textView2 = textView2;
@@ -88,6 +94,12 @@ public final class ActivityAktivitasMisiBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnMisiDonasi;
+      AppCompatButton btnMisiDonasi = ViewBindings.findChildViewById(rootView, id);
+      if (btnMisiDonasi == null) {
+        break missingId;
+      }
+
       id = R.id.misiHarian;
       LinearLayout misiHarian = ViewBindings.findChildViewById(rootView, id);
       if (misiHarian == null) {
@@ -113,7 +125,7 @@ public final class ActivityAktivitasMisiBinding implements ViewBinding {
       }
 
       return new ActivityAktivitasMisiBinding((ConstraintLayout) rootView, aktivitasSignin, btnBack,
-          misiHarian, misiKolektif, textView2, titleBarAktivitasMisi);
+          btnMisiDonasi, misiHarian, misiKolektif, textView2, titleBarAktivitasMisi);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

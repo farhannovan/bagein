@@ -28,10 +28,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_akun.xml"
     },
     {
-        "merged": "com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran_gagal.xml",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_gagal.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran.xml",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran.xml"
     },
@@ -40,8 +36,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_akun_detail.xml"
     },
     {
-        "merged": "com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran_sukses.xml",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
+        "merged": "com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_aktivitas_misi.xml",
+        "source": "com.phyxel.bagein.app-main-43:/layout/activity_aktivitas_misi.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran_gagal.xml",

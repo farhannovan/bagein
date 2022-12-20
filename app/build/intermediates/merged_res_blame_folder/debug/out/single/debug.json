@@ -20,6 +20,10 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_aktivitas.xml"
     },
     {
+        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_aktivitas_misi.xml.flat",
+        "source": "com.phyxel.bagein.app-main-43:/layout/activity_aktivitas_misi.xml"
+    },
+    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_rbtn_text_selector.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/rbtn_text_selector.xml"
     },
@@ -240,10 +244,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi3.jpg"
     },
     {
-        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
     },
@@ -262,10 +262,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_buat_donasi.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_buat_donasi.xml"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_gagal.xml.flat",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_gagal.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_searchview_background.xml.flat",
