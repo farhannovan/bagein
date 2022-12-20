@@ -44,7 +44,7 @@
             android:minWidth="30dp"
             android:minHeight="30dp"
             android:scaleType="center"
-            app:srcCompat="@drawable/ic_notifications" />
+            app:srcCompat="@drawable/ic_bell" />
     </RelativeLayout>
     <!--main frame-->
     <ScrollView

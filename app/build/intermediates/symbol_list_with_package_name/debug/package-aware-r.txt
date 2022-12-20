@@ -2682,6 +2682,7 @@ drawable ic_aktivitas
 drawable ic_aktivitas_active
 drawable ic_akun
 drawable ic_akun_active
+drawable ic_bell
 drawable ic_boost
 drawable ic_buatdonasi
 drawable ic_buatdonasi_active
@@ -2707,7 +2708,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_not_verified
-drawable ic_notifications
 drawable ic_photo
 drawable ic_plus
 drawable ic_search

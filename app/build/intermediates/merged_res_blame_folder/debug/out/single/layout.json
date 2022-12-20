@@ -36,8 +36,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_akun_detail.xml"
     },
     {
-        "merged": "com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran.xml",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran.xml"
+        "merged": "com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_donasi_pembayaran_sukses.xml",
+        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-mergeDebugResources-40:/layout/activity_main.xml",
