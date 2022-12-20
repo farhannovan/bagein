@@ -89,6 +89,7 @@ drawable ic_boost
 drawable ic_buatdonasi
 drawable ic_buatdonasi_active
 drawable ic_cancel
+drawable ic_checkmark
 drawable ic_chevron_backward
 drawable ic_chevron_down
 drawable ic_creditcard
@@ -106,6 +107,7 @@ drawable ic_plus
 drawable ic_search
 drawable ic_verified
 drawable ic_voucher
+drawable ic_xmark
 drawable input_primary_default
 drawable misi_default_background
 drawable misi_kolektif_card_background
@@ -141,6 +143,7 @@ id bottomNavbar
 id btnBack
 id btnChangePass
 id btnDonasiBayar
+id btnDonasiLagi
 id btnDonasiSekarang
 id btnFormBuatDonasi
 id btnLogin
@@ -195,6 +198,7 @@ id frameLayout
 id ibTambah
 id icon_notVerify
 id icon_verify
+id imageView8
 id ivBannerTopDonasi
 id kategori
 id kategoriPilihan
@@ -236,6 +240,8 @@ id tRiwayat
 id tUser
 id targetDonasi
 id textView2
+id textView31
+id textView32
 id textView33
 id textView34
 id textView6
@@ -284,6 +290,7 @@ layout activity_akun_detail
 layout activity_buat_donasi_form
 layout activity_donasi_detail
 layout activity_donasi_pembayaran
+layout activity_donasi_pembayaran_gagal
 layout activity_donasi_pembayaran_sukses
 layout activity_main
 layout activity_onboarding

@@ -32,7 +32,7 @@ class DonasiPembayaranActivity : AppCompatActivity() {
 
     private fun initListener() {
         binding.btnDonasiBayar.setOnClickListener {
-            startActivity(Intent(this, AktivitasMisiActivity::class.java))
+            startActivity(Intent(this, DonasiPembayaranSuksesActivity::class.java))
         }
 
         binding.tv10k.setOnClickListener {

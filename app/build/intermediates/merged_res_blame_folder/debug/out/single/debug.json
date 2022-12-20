@@ -8,10 +8,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/rbtn_background.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -20,32 +16,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_donasi.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsanstext_medium.ttf.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsanstext_medium.ttf"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_list_item_donasi_top.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/list_item_donasi_top.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_aktivitas.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_aktivitas.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_progressbar_background.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/progressbar_background.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_shape_line_primary.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/shape_line_primary.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_rbtn_text_selector.xml.flat",
@@ -56,40 +28,12 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_search.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_verified.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_verified.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_chevron_backward.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_chevron_backward.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi3.jpg.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi3.jpg"
-    },
-    {
-        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
-        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_btn_chip_default_background.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/btn_chip_default_background.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsans_regular.ttf.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsans_regular.ttf"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_buatdonasi.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_buatdonasi.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -104,10 +48,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/misi_kolektif_card_background.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsans_medium.ttf.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsans_medium.ttf"
     },
@@ -120,28 +60,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_buat_donasi.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_buat_donasi.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_searchview_background.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/searchview_background.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/xml_backup_rules.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/xml/backup_rules.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_misi_default_background.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/misi_default_background.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi4.jpg.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi4.jpg"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_color_gradient.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/color_gradient.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_creditcard.xml.flat",
@@ -160,32 +80,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_onboarding.png.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/onboarding.png"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_akun_selector.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_akun_selector.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_aktivitas.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_aktivitas.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_aktivitas_selector.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_aktivitas_selector.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsanstext_bold.ttf.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsanstext_bold.ttf"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_buatdonasi_active.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_buatdonasi_active.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_cancel.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_cancel.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_displaybox_background.xml.flat",
@@ -208,14 +104,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_aktivitas_active.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_not_verified.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_not_verified.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_donasi_active.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_donasi_active.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_plus.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_plus.xml"
     },
@@ -232,10 +120,6 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_akun_active.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_buat_donasi_form.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_buat_donasi_form.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi1.jpg.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi1.jpg"
     },
@@ -248,16 +132,196 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_akun.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_akun.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_sign_up.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_sign_up.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_shape_line_neutral.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/shape_line_neutral.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_shape_rectangle_primary.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/shape_rectangle_primary.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_bell.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_bell.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_font.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/font.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_onboarding.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_xmark.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_xmark.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_btn_topup.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/btn_topup.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_lock.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_gagal.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_gagal.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_history.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_selector.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_selector.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_logout.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_checkmark.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_checkmark.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsanstext_medium.ttf.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsanstext_medium.ttf"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_list_item_donasi_top.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/list_item_donasi_top.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_progressbar_background.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/progressbar_background.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_shape_line_primary.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/shape_line_primary.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_verified.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_verified.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_chevron_backward.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_chevron_backward.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi3.jpg.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi3.jpg"
+    },
+    {
+        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
+        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_sukses.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_sukses.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsans_regular.ttf.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsans_regular.ttf"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_buatdonasi.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_buatdonasi.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_buat_donasi.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_buat_donasi.xml"
+    },
+    {
+        "merged": "com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_pembayaran_gagal.xml.flat",
+        "source": "com.phyxel.bagein.app-main-43:/layout/activity_donasi_pembayaran_gagal.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_searchview_background.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/searchview_background.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/xml_backup_rules.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi4.jpg.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi4.jpg"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_color_gradient.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/color_gradient.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_onboarding.png.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/onboarding.png"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_aktivitas.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_aktivitas.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_aktivitas_selector.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_aktivitas_selector.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsanstext_bold.ttf.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsanstext_bold.ttf"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_buatdonasi_active.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_buatdonasi_active.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_cancel.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_not_verified.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_not_verified.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_donasi_active.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_donasi_active.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_buat_donasi_form.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_buat_donasi_form.xml"
+    },
+    {
+        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_fragment_akun.xml.flat",
+        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/fragment_akun.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_donasi_detail.xml.flat",
@@ -268,52 +332,24 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_boost.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_shape_rectangle_primary.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/shape_rectangle_primary.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_list_item_donasi_rekomendasi.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/list_item_donasi_rekomendasi.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_font.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/font.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_bell.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_bell.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_akun.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_akun.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/layout_activity_onboarding.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/layout/activity_onboarding.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/font_gsans_bold.ttf.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/font/gsans_bold.ttf"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_btn_topup.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/btn_topup.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_donasi2.jpg.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/donasi2.jpg"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_photo.xml.flat",
@@ -322,10 +358,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_donasi_selector.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_donasi_selector.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_lock.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_lock.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_topup_background.png.flat",
@@ -340,16 +372,8 @@
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_voucher.xml"
     },
     {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_history.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_history.xml"
-    },
-    {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_chevron_down.xml.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_chevron_down.xml"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_navbar_selector.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/navbar_selector.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_btn_primary_default.xml.flat",
@@ -366,14 +390,6 @@
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_logout.xml.flat",
-        "source": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-main-43:/drawable/ic_logout.xml"
     },
     {
         "merged": "/Users/farhannovan/.gradle/daemon/7.4/com.phyxel.bagein.app-merged_res-41:/drawable_ic_critical.xml.flat",

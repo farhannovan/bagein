@@ -33,7 +33,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Bagein" >
         <activity
-            android:name="com.phyxel.bagein.DonasiPembayaranSuksesActivity"
+            android:name="com.phyxel.bagein.donasi.DonasiPembayaranGagalActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.phyxel.bagein.donasi.DonasiPembayaranSuksesActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

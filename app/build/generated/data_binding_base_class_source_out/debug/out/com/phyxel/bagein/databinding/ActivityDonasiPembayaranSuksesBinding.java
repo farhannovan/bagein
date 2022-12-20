@@ -4,20 +4,43 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.phyxel.bagein.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityDonasiPembayaranSuksesBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button btnDonasiLagi;
+
+  @NonNull
+  public final ImageView imageView8;
+
+  @NonNull
+  public final TextView textView31;
+
+  @NonNull
+  public final TextView textView32;
+
+  private ActivityDonasiPembayaranSuksesBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnDonasiLagi, @NonNull ImageView imageView8, @NonNull TextView textView31,
+      @NonNull TextView textView32) {
     this.rootView = rootView;
+    this.btnDonasiLagi = btnDonasiLagi;
+    this.imageView8 = imageView8;
+    this.textView31 = textView31;
+    this.textView32 = textView32;
   }
 
   @Override
@@ -43,10 +66,38 @@ public final class ActivityDonasiPembayaranSuksesBinding implements ViewBinding 
 
   @NonNull
   public static ActivityDonasiPembayaranSuksesBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnDonasiLagi;
+      Button btnDonasiLagi = ViewBindings.findChildViewById(rootView, id);
+      if (btnDonasiLagi == null) {
+        break missingId;
+      }
 
-    return new ActivityDonasiPembayaranSuksesBinding((ConstraintLayout) rootView);
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView31;
+      TextView textView31 = ViewBindings.findChildViewById(rootView, id);
+      if (textView31 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView32;
+      TextView textView32 = ViewBindings.findChildViewById(rootView, id);
+      if (textView32 == null) {
+        break missingId;
+      }
+
+      return new ActivityDonasiPembayaranSuksesBinding((ConstraintLayout) rootView, btnDonasiLagi,
+          imageView8, textView31, textView32);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
