@@ -26,6 +26,7 @@ android {
 
     buildFeatures {
         viewBinding true
+        dataBinding true
     }
 
     compileOptions {
@@ -77,5 +78,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
     //animations
+
 
 }

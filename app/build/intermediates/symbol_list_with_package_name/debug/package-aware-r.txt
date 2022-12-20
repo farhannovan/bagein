@@ -2682,6 +2682,7 @@ drawable ic_aktivitas
 drawable ic_aktivitas_active
 drawable ic_akun
 drawable ic_akun_active
+drawable ic_arrow_back_white_24dp
 drawable ic_boost
 drawable ic_buatdonasi
 drawable ic_buatdonasi_active
@@ -2795,6 +2796,9 @@ drawable progressbar_background
 drawable rbtn_background
 drawable rbtn_text_selector
 drawable searchview_background
+drawable shape_line_black
+drawable shape_line_primary
+drawable shape_rectangle_primary
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2919,8 +2923,9 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
-id btnBayar
 id btnChangePass
+id btnDonasiBayar
+id btnDonasiSekarang
 id btnFormBuatDonasi
 id btnLogin
 id btnLogout
@@ -2983,6 +2988,7 @@ id cv_currentPass
 id cv_updatePass
 id cvi_user
 id dark
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3014,7 +3020,6 @@ id donasiDetailMain
 id donasiPilihan
 id donasiRekomendasi
 id donasi_detail
-id donasi_pembayaran
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3041,6 +3046,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etAmount
 id etCerita
 id etEmailLogin
 id etEmailRegis
@@ -3097,6 +3103,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3207,6 +3214,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id onboardImage
 id outline
@@ -3345,8 +3354,14 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView2
+id textView33
+id textView34
+id textView35
 id textView6
+id textView7
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3361,7 +3376,6 @@ id title
 id titleBarAktivitas
 id titleBarAktivitasMisi
 id titleBarDonasi
-id titleBarDonasiBayar
 id titleBarDonasiDetail
 id titleDividerNoCustom
 id titleKategori
@@ -3379,13 +3393,18 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv10k
+id tv20k
+id tv30k
+id tv40k
+id tv50k
+id tv60k
 id tvAktivitas
 id tvAkun
 id tvCerita
 id tvDurasiRekomDonasi
 id tvDurasiTopDonasi
 id tvEmail
-id tvJumlahDonasi
 id tvJumlahRekomDonasi
 id tvJumlahTopDonasi
 id tvKategori
@@ -3560,6 +3579,7 @@ layout activity_akun_detail
 layout activity_buat_donasi_form
 layout activity_donasi_detail
 layout activity_donasi_pembayaran
+layout activity_donasi_pembayaran_sukses
 layout activity_main
 layout activity_onboarding
 layout activity_sign_in

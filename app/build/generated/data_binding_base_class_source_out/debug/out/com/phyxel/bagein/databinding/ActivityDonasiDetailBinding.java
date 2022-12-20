@@ -4,6 +4,7 @@ package com.phyxel.bagein.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -27,6 +28,9 @@ public final class ActivityDonasiDetailBinding implements ViewBinding {
 
   @NonNull
   public final ImageButton btnBack;
+
+  @NonNull
+  public final Button btnDonasiSekarang;
 
   @NonNull
   public final ConstraintLayout donasiDetail;
@@ -59,14 +63,15 @@ public final class ActivityDonasiDetailBinding implements ViewBinding {
   public final RelativeLayout titleBarDonasiDetail;
 
   private ActivityDonasiDetailBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnBack, @NonNull ConstraintLayout donasiDetail,
-      @NonNull LinearLayout donasiDetailButton, @NonNull LinearLayout donasiDetailCerita,
-      @NonNull ImageView donasiDetailImage, @NonNull LinearLayout donasiDetailJumlah,
-      @NonNull LinearLayout donasiDetailMain, @NonNull ScrollView mainframe,
-      @NonNull ProgressBar progressBar, @NonNull TextView tUser,
+      @NonNull ImageButton btnBack, @NonNull Button btnDonasiSekarang,
+      @NonNull ConstraintLayout donasiDetail, @NonNull LinearLayout donasiDetailButton,
+      @NonNull LinearLayout donasiDetailCerita, @NonNull ImageView donasiDetailImage,
+      @NonNull LinearLayout donasiDetailJumlah, @NonNull LinearLayout donasiDetailMain,
+      @NonNull ScrollView mainframe, @NonNull ProgressBar progressBar, @NonNull TextView tUser,
       @NonNull RelativeLayout titleBarDonasiDetail) {
     this.rootView = rootView;
     this.btnBack = btnBack;
+    this.btnDonasiSekarang = btnDonasiSekarang;
     this.donasiDetail = donasiDetail;
     this.donasiDetailButton = donasiDetailButton;
     this.donasiDetailCerita = donasiDetailCerita;
@@ -109,6 +114,12 @@ public final class ActivityDonasiDetailBinding implements ViewBinding {
       id = R.id.btnBack;
       ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.btnDonasiSekarang;
+      Button btnDonasiSekarang = ViewBindings.findChildViewById(rootView, id);
+      if (btnDonasiSekarang == null) {
         break missingId;
       }
 
@@ -168,9 +179,10 @@ public final class ActivityDonasiDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDonasiDetailBinding((ConstraintLayout) rootView, btnBack, donasiDetail,
-          donasiDetailButton, donasiDetailCerita, donasiDetailImage, donasiDetailJumlah,
-          donasiDetailMain, mainframe, progressBar, tUser, titleBarDonasiDetail);
+      return new ActivityDonasiDetailBinding((ConstraintLayout) rootView, btnBack,
+          btnDonasiSekarang, donasiDetail, donasiDetailButton, donasiDetailCerita,
+          donasiDetailImage, donasiDetailJumlah, donasiDetailMain, mainframe, progressBar, tUser,
+          titleBarDonasiDetail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

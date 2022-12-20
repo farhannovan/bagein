@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,30 +23,68 @@ public final class ActivityDonasiPembayaranBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton btnBack;
+  public final Button btnDonasiBayar;
 
   @NonNull
-  public final Button btnBayar;
+  public final EditText etAmount;
 
   @NonNull
-  public final ConstraintLayout donasiPembayaran;
+  public final ImageView imageView3;
 
   @NonNull
-  public final RelativeLayout titleBarDonasiBayar;
+  public final TextView textView;
 
   @NonNull
-  public final EditText tvJumlahDonasi;
+  public final TextView textView33;
+
+  @NonNull
+  public final TextView textView34;
+
+  @NonNull
+  public final TextView textView35;
+
+  @NonNull
+  public final TextView textView7;
+
+  @NonNull
+  public final TextView tv10k;
+
+  @NonNull
+  public final TextView tv20k;
+
+  @NonNull
+  public final TextView tv30k;
+
+  @NonNull
+  public final TextView tv40k;
+
+  @NonNull
+  public final TextView tv50k;
+
+  @NonNull
+  public final TextView tv60k;
 
   private ActivityDonasiPembayaranBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnBack, @NonNull Button btnBayar,
-      @NonNull ConstraintLayout donasiPembayaran, @NonNull RelativeLayout titleBarDonasiBayar,
-      @NonNull EditText tvJumlahDonasi) {
+      @NonNull Button btnDonasiBayar, @NonNull EditText etAmount, @NonNull ImageView imageView3,
+      @NonNull TextView textView, @NonNull TextView textView33, @NonNull TextView textView34,
+      @NonNull TextView textView35, @NonNull TextView textView7, @NonNull TextView tv10k,
+      @NonNull TextView tv20k, @NonNull TextView tv30k, @NonNull TextView tv40k,
+      @NonNull TextView tv50k, @NonNull TextView tv60k) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
-    this.btnBayar = btnBayar;
-    this.donasiPembayaran = donasiPembayaran;
-    this.titleBarDonasiBayar = titleBarDonasiBayar;
-    this.tvJumlahDonasi = tvJumlahDonasi;
+    this.btnDonasiBayar = btnDonasiBayar;
+    this.etAmount = etAmount;
+    this.imageView3 = imageView3;
+    this.textView = textView;
+    this.textView33 = textView33;
+    this.textView34 = textView34;
+    this.textView35 = textView35;
+    this.textView7 = textView7;
+    this.tv10k = tv10k;
+    this.tv20k = tv20k;
+    this.tv30k = tv30k;
+    this.tv40k = tv40k;
+    this.tv50k = tv50k;
+    this.tv60k = tv60k;
   }
 
   @Override
@@ -76,34 +114,93 @@ public final class ActivityDonasiPembayaranBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnBack;
-      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
+      id = R.id.btnDonasiBayar;
+      Button btnDonasiBayar = ViewBindings.findChildViewById(rootView, id);
+      if (btnDonasiBayar == null) {
         break missingId;
       }
 
-      id = R.id.btnBayar;
-      Button btnBayar = ViewBindings.findChildViewById(rootView, id);
-      if (btnBayar == null) {
+      id = R.id.etAmount;
+      EditText etAmount = ViewBindings.findChildViewById(rootView, id);
+      if (etAmount == null) {
         break missingId;
       }
 
-      ConstraintLayout donasiPembayaran = (ConstraintLayout) rootView;
-
-      id = R.id.titleBarDonasiBayar;
-      RelativeLayout titleBarDonasiBayar = ViewBindings.findChildViewById(rootView, id);
-      if (titleBarDonasiBayar == null) {
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
         break missingId;
       }
 
-      id = R.id.tvJumlahDonasi;
-      EditText tvJumlahDonasi = ViewBindings.findChildViewById(rootView, id);
-      if (tvJumlahDonasi == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
-      return new ActivityDonasiPembayaranBinding((ConstraintLayout) rootView, btnBack, btnBayar,
-          donasiPembayaran, titleBarDonasiBayar, tvJumlahDonasi);
+      id = R.id.textView33;
+      TextView textView33 = ViewBindings.findChildViewById(rootView, id);
+      if (textView33 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView34;
+      TextView textView34 = ViewBindings.findChildViewById(rootView, id);
+      if (textView34 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView35;
+      TextView textView35 = ViewBindings.findChildViewById(rootView, id);
+      if (textView35 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.tv10k;
+      TextView tv10k = ViewBindings.findChildViewById(rootView, id);
+      if (tv10k == null) {
+        break missingId;
+      }
+
+      id = R.id.tv20k;
+      TextView tv20k = ViewBindings.findChildViewById(rootView, id);
+      if (tv20k == null) {
+        break missingId;
+      }
+
+      id = R.id.tv30k;
+      TextView tv30k = ViewBindings.findChildViewById(rootView, id);
+      if (tv30k == null) {
+        break missingId;
+      }
+
+      id = R.id.tv40k;
+      TextView tv40k = ViewBindings.findChildViewById(rootView, id);
+      if (tv40k == null) {
+        break missingId;
+      }
+
+      id = R.id.tv50k;
+      TextView tv50k = ViewBindings.findChildViewById(rootView, id);
+      if (tv50k == null) {
+        break missingId;
+      }
+
+      id = R.id.tv60k;
+      TextView tv60k = ViewBindings.findChildViewById(rootView, id);
+      if (tv60k == null) {
+        break missingId;
+      }
+
+      return new ActivityDonasiPembayaranBinding((ConstraintLayout) rootView, btnDonasiBayar,
+          etAmount, imageView3, textView, textView33, textView34, textView35, textView7, tv10k,
+          tv20k, tv30k, tv40k, tv50k, tv60k);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
