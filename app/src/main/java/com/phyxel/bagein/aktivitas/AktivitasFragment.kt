@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import com.google.firebase.auth.FirebaseAuth
 import com.phyxel.bagein.R
 import com.phyxel.bagein.databinding.FragmentAktivitasBinding
+import com.phyxel.bagein.donasi.DonasiDetailActivity
 
 class AktivitasFragment : Fragment() {
     override fun onCreateView(
@@ -20,7 +21,7 @@ class AktivitasFragment : Fragment() {
         val bind = FragmentAktivitasBinding.inflate(layoutInflater)
 
         bind.btnMisi.setOnClickListener {
-            val intent = Intent (this@AktivitasFragment.requireContext(), AktivitasMisiActivity::class.java)
+            val intent = Intent (this@AktivitasFragment.requireContext(), DonasiDetailActivity::class.java)
                 startActivity(intent)
         }
         return bind.root

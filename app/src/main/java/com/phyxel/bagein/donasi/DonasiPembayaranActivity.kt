@@ -8,6 +8,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 import com.phyxel.bagein.databinding.ActivityDonasiPembayaranBinding
 import java.lang.NumberFormatException
 
@@ -21,6 +22,8 @@ class DonasiPembayaranActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDonasiPembayaranBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         initListener()
 

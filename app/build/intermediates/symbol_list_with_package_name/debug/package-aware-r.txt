@@ -2682,7 +2682,6 @@ drawable ic_aktivitas
 drawable ic_aktivitas_active
 drawable ic_akun
 drawable ic_akun_active
-drawable ic_arrow_back_white_24dp
 drawable ic_boost
 drawable ic_buatdonasi
 drawable ic_buatdonasi_active
@@ -2796,7 +2795,7 @@ drawable progressbar_background
 drawable rbtn_background
 drawable rbtn_text_selector
 drawable searchview_background
-drawable shape_line_black
+drawable shape_line_neutral
 drawable shape_line_primary
 drawable shape_rectangle_primary
 drawable test_level_drawable
@@ -3103,7 +3102,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3117,6 +3115,7 @@ id jumpToEnd
 id jumpToStart
 id kategori
 id kategoriPilihan
+id lNominalLain
 id labeled
 id layout
 id left
@@ -3329,6 +3328,8 @@ id tDaftar
 id tDonasiRekomendasi
 id tKategori
 id tMasuk
+id tNominal
+id tNominasiLain
 id tRekomendasi
 id tRiwayat
 id tUser
@@ -3354,13 +3355,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView2
 id textView33
 id textView34
-id textView35
 id textView6
-id textView7
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon

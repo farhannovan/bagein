@@ -2681,7 +2681,6 @@ int drawable ic_aktivitas 0x7f0800a1
 int drawable ic_aktivitas_active 0x7f0800a2
 int drawable ic_akun 0x7f0800a3
 int drawable ic_akun_active 0x7f0800a4
-int drawable ic_arrow_back_white_24dp 0x7f0800a5
 int drawable ic_boost 0x7f0800a6
 int drawable ic_buatdonasi 0x7f0800a7
 int drawable ic_buatdonasi_active 0x7f0800a8
@@ -2795,7 +2794,7 @@ int drawable progressbar_background 0x7f080113
 int drawable rbtn_background 0x7f080114
 int drawable rbtn_text_selector 0x7f080115
 int drawable searchview_background 0x7f080116
-int drawable shape_line_black 0x7f080117
+int drawable shape_line_neutral 0x7f08011e
 int drawable shape_line_primary 0x7f080118
 int drawable shape_rectangle_primary 0x7f080119
 int drawable test_level_drawable 0x7f08011a
@@ -3102,7 +3101,6 @@ int id ifRoom 0x7f0a0121
 int id ignore 0x7f0a0122
 int id ignoreRequest 0x7f0a0123
 int id image 0x7f0a0124
-int id imageView3 0x7f0a0125
 int id immediateStop 0x7f0a0126
 int id included 0x7f0a0127
 int id indeterminate 0x7f0a0128
@@ -3116,6 +3114,7 @@ int id jumpToEnd 0x7f0a012f
 int id jumpToStart 0x7f0a0130
 int id kategori 0x7f0a0131
 int id kategoriPilihan 0x7f0a0132
+int id lNominalLain 0x7f0a0281
 int id labeled 0x7f0a0133
 int id layout 0x7f0a0134
 int id left 0x7f0a0135
@@ -3328,6 +3327,8 @@ int id tDaftar 0x7f0a0203
 int id tDonasiRekomendasi 0x7f0a0204
 int id tKategori 0x7f0a0205
 int id tMasuk 0x7f0a0206
+int id tNominal 0x7f0a0282
+int id tNominasiLain 0x7f0a0283
 int id tRekomendasi 0x7f0a0207
 int id tRiwayat 0x7f0a0208
 int id tUser 0x7f0a0209
@@ -3353,13 +3354,10 @@ int id textSpacerNoButtons 0x7f0a021c
 int id textSpacerNoTitle 0x7f0a021d
 int id textStart 0x7f0a021e
 int id textTop 0x7f0a021f
-int id textView 0x7f0a0220
 int id textView2 0x7f0a0221
 int id textView33 0x7f0a0222
 int id textView34 0x7f0a0223
-int id textView35 0x7f0a0224
 int id textView6 0x7f0a0225
-int id textView7 0x7f0a0226
 int id textWatcher 0x7f0a0227
 int id text_input_end_icon 0x7f0a0228
 int id text_input_error_icon 0x7f0a0229
