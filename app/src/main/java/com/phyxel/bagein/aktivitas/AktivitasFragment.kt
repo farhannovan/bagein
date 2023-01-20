@@ -1,14 +1,11 @@
 package com.phyxel.bagein.aktivitas
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.google.firebase.auth.FirebaseAuth
-import com.phyxel.bagein.R
 import com.phyxel.bagein.databinding.FragmentAktivitasBinding
 import com.phyxel.bagein.donasi.DonasiDetailActivity
 

@@ -3,10 +3,7 @@ package com.phyxel.bagein.donasi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.phyxel.bagein.R
 import com.phyxel.bagein.databinding.ActivityDonasiDetailBinding
-import com.phyxel.bagein.databinding.ActivityDonasiPembayaranBinding
 
 class DonasiDetailActivity : AppCompatActivity() {
 

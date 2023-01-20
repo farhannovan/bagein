@@ -4,15 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import com.google.firebase.auth.FirebaseAuth
 import com.phyxel.bagein.MainActivity
-import com.phyxel.bagein.R
 import com.phyxel.bagein.databinding.ActivitySignInBinding
-import com.phyxel.bagein.databinding.ActivitySignUpBinding
 import com.phyxel.bagein.sign.signup.SignUpActivity
 
 //class SignInActivity : AppCompatActivity() {
